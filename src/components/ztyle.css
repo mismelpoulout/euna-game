@@ -1,0 +1,91 @@
+.announcement-bar {
+    padding: 10px 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .announcement-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-left 50s linear infinite;
+    color: black; /* Color de las letras */
+    font-weight: bold;
+    background-color: transparent; /* Fondo transparente */
+  }
+  
+  @keyframes scroll-left {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  /* src/components/WelcomeScreen.css */
+.welcome-screen {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.welcome-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.welcome-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.welcome-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* navbar 
+/* src/components/NavigationBar.css */
+
+.custom-navbar {
+  background-color: #ff5722; /* Color más vivo */
+  padding: 10px 15px; /* Ajustar el espaciado para hacerla delgada */
+  border-bottom: 2px solid #007bff; /* Agregar un borde inferior con un color de contraste */
+}
+
+.navbar-brand-custom {
+  color: #ffffff; /* Texto en blanco para mayor contraste */
+  font-weight: bold;
+  font-size: 1.5rem; /* Tamaño de fuente más grande para el branding */
+}
+
+.nav-link-custom {
+  color: #ffffff;
+  margin-right: 15px;
+  font-size: 1rem;
+  font-weight: 500; /* Poner en negrita */
+}
+
+.nav-link-custom:hover {
+  color: #ffcc00; /* Cambiar a un color más claro al hacer hover */
+}
+
+/* Hacer que la barra sea delgada y responsiva */
+@media (max-width: 768px) {
+  .custom-navbar {
+    padding: 5px 10px; /* Reducir el padding en pantallas pequeñas */
+  }
+
+  .navbar-brand-custom {
+    font-size: 1.2rem; /* Reducir el tamaño del logo en móviles */
+  }
+
+  .nav-link-custom {
+    font-size: 0.9rem; /* Reducir el tamaño del texto en móviles */
+  }
+}
