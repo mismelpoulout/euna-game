@@ -1,0 +1,29 @@
+.welcome-screen {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.welcome-title {
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.comment-user {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.comment-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.google-button {
+  background-color: #db4437;
+  border: none;
+}
+
+.google-button:hover {
+  background-color: #c33b29;
+}

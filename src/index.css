@@ -1,13 +1,139 @@
-body {
+/* Estilos globales */
+body, html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Fondo claro */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Asegurar que el contenedor ocupe todo el espacio disponible */
+.container {
+  max-width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+/* Encabezados centrados y ajustados para dispositivos móviles */
+h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Tarjetas adaptativas */
+.card {
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  border-radius: 8px;
+}
+
+/* Ajuste de títulos de las tarjetas */
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Formularios responsivos */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form .form-check {
+  margin-bottom: 10px;
+}
+
+/* Imágenes ajustadas a la pantalla */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Botones */
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.primary {
+  background-color: #007bff;
+  color: white;
+}
+
+button.primary:hover {
+  background-color: #0056b3;
+}
+
+button.secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+button.secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Modal centrado en dispositivos móviles */
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-body {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Ajuste del cronómetro */
+.timer {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+/* Alinear elementos en columna para pantallas pequeñas */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .modal-body h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Pequeños ajustes para dispositivos extra pequeños */
+@media (max-width: 480px) {
+  .card-title {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+
+  .timer {
+    font-size: 1.8rem;
+  }
+
+  .modal-body h2 {
+    font-size: 2rem;
+  }
 }

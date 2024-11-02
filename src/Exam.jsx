@@ -1,7 +1,41 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Container, Row, Col, Card, Form, Modal } from 'react-bootstrap';
-import './components/ztyle.css';
+import { addDoc, collection } from 'firebase/firestore';
+import { getAuth } from 'firebase/auth'; // Importamos Firebase Auth para manejar usuarios
+import { db } from './firebase/firebaseConfig'; // Importa tu configuración de Firebase
+import AdComponent from './components/AdComponent';
+import './components/css/ztyle.css';
 
+// Función para guardar el resultado en Firestore o en localStorage
+const saveEvaluationToHistory = async (correctas, incorrectas, totalPreguntas, tipoEvaluacion) => {
+  const auth = getAuth();
+  const user = auth.currentUser; // Obtener el usuario autenticado
+
+  const newEvaluation = {
+    correctas,
+    incorrectas,
+    totalPreguntas,
+    tipoEvaluacion,
+    fecha: new Date(),
+    userId: user ? user.uid : 'anónimo', // Asociar la evaluación al UID del usuario autenticado
+  };
+
+  // Guardar en Firestore (si el usuario está autenticado)
+  if (user) {
+    try {
+      await addDoc(collection(db, 'history'), newEvaluation);
+      console.log('Evaluación guardada en Firestore');
+    } catch (error) {
+      console.error('Error al guardar en Firestore:', error);
+    }
+  }
+
+  // Guardar en localStorage
+  const storedEvaluations = JSON.parse(localStorage.getItem('historyEvaluations')) || [];
+  storedEvaluations.push(newEvaluation);
+  localStorage.setItem('historyEvaluations', JSON.stringify(storedEvaluations));
+  console.log('Evaluación guardada en localStorage');
+};
 
 const Exam = () => {
   const [questions, setQuestions] = useState([]);
@@ -13,29 +47,14 @@ const Exam = () => {
   const [selectedTime, setSelectedTime] = useState(30 * 60); // Tiempo seleccionado (por defecto 30 minutos)
   const [showModal, setShowModal] = useState(false); // Estado para mostrar el modal
   const [showFeedback, setShowFeedback] = useState(false); // Estado para mostrar el feedback
+  const [preguntas, setPreguntas] = useState([]);
 
   useEffect(() => {
-    const loadQuestions = async () => {
-      try {
-        const response = await fetch('/questions.json');
-        const data = await response.json();
-
-        const validQuestions = data.filter((question) => question.options && question.options.length > 0);
-        const shuffledQuestions = validQuestions.sort(() => Math.random() - 0.5);
-        const shuffledOptionsQuestions = shuffledQuestions.map((question) => ({
-          ...question,
-          options: question.options.sort(() => Math.random() - 0.5),
-        }));
-
-        setQuestions(shuffledOptionsQuestions);
-      } catch (error) {
-        console.error("Error al cargar las preguntas:", error);
-      }
-    };
-
-    loadQuestions();
+    fetch("./questions.json")
+      .then((response) => response.json())
+      .then((data) => setPreguntas(data))
+      .catch((error) => console.error("Error al cargar las preguntas:", error));
   }, []);
-
   useEffect(() => {
     if (examStarted && timeRemaining > 0) {
       const timer = setInterval(() => {
@@ -107,6 +126,13 @@ const Exam = () => {
 
   const totalIncorrect = Object.keys(userAnswers).length - totalCorrect;
 
+  // Guardar la evaluación al finalizar el examen
+  useEffect(() => {
+    if (finished) {
+      saveEvaluationToHistory(totalCorrect, totalIncorrect, questions.length, 'examen');
+    }
+  }, [finished, totalCorrect, totalIncorrect, questions.length]);
+
   if (!examStarted) {
     return (
       <Container className="text-center mt-5">
@@ -132,6 +158,9 @@ const Exam = () => {
             Comenzar Examen
           </Button>
         </Form>
+
+        <AdComponent />
+
       </Container>
     );
   }
@@ -142,19 +171,21 @@ const Exam = () => {
 
   return (
     <Container className="mt-5">
-    <Row className="announcement-bar">
-      <div className="announcement-text">
-          <h6>La opcion de 180 min tiene una pausa de 30 min como en el examen real.</h6>
-      </div>
-    </Row>
-    <Row>
+      <Row className="announcement-bar">
+        <div className="announcement-text">
+            <h6>La opcion de 180 min tiene una pausa de 30 min como en el examen real.</h6>
+        </div>
+      </Row>
+      <Row>
         <Col md={{ span: 8, offset: 2 }}>
           <h2>Examen en progreso</h2>
-          <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'black' }}>Tiempo restante: {formatTime(timeRemaining)}</p>
+          <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'black' }}>
+            Tiempo restante: {formatTime(timeRemaining)}
+          </p>
         </Col>
       </Row>
       <Row>
-        {questions.slice(currentQuestionIndex, currentQuestionIndex + 5).map((question, index) => (
+        {questions.slice(currentQuestionIndex, currentQuestionIndex + 10).map((question, index) => (
           <Col md={{ span: 8, offset: 2 }} key={index}>
             <Card className="mb-3">
               <Card.Body>
@@ -230,9 +261,9 @@ const Exam = () => {
           padding: '20px'
         }}>
           <Container>
-          <br/>
-          <br/>
-          <br/>
+            <br />
+            <br />
+            <br />
 
             <h4 className="text-center">Feedback de cada pregunta</h4>
             <ul className="text-left">

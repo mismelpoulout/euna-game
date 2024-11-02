@@ -1,0 +1,39 @@
+.carousel-container {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .comment-slide {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .comment-slide:hover {
+    transform: scale(1.05);
+  }
+  
+  .comment-slide img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .comment-user {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .comment-text {
+    font-size: 0.9rem;
+    color: #777;
+    line-height: 1.4;
+  }

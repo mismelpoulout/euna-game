@@ -1,0 +1,39 @@
+.interactive-background {
+    background: linear-gradient(180deg, #e3f2fd, #ffffff);
+    background-attachment: fixed;
+    transition: background-position 0.5s ease;
+  }
+  
+  .interactive-background:hover {
+    background-position: center bottom;
+  }
+  
+  .card-bg {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100%; /* Asegura que el contenido ocupe todo el espacio */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .same-height {
+    min-height: 400px; /* Tamaño uniforme para todas las tarjetas */
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .same-height {
+      min-height: 300px; /* Ajuste para pantallas más pequeñas */
+    }
+  }

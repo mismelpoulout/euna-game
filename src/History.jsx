@@ -1,22 +1,70 @@
 import React, { useEffect, useState } from 'react';
-import { collection, getDocs } from 'firebase/firestore';
+import { Button, Container, Row, Col, Card } from 'react-bootstrap';
+import { collection, addDoc, query, where, getDocs } from 'firebase/firestore';
+import { getAuth } from 'firebase/auth';
 import { db } from './firebase/firebaseConfig';
-import { Button } from 'react-bootstrap';
-import './App.css'; // Asegúrate de crear este archivo CSS
+import './App.css';
 
+// Función para guardar una evaluación en localStorage y Firestore
+const saveEvaluation = async (correctas, incorrectas, tipoEvaluacion) => {
+  const auth = getAuth();
+  const user = auth.currentUser;
+
+  if (!user) {
+    console.error('No hay usuario autenticado');
+    return;
+  }
+
+  const newEvaluation = {
+    correctas,
+    incorrectas,
+    tipoEvaluacion,
+    fecha: new Date(),
+    userId: user.uid,
+  };
+
+  // Guardar en localStorage
+  const currentEvaluations = JSON.parse(localStorage.getItem('userEvaluations')) || [];
+  currentEvaluations.push(newEvaluation);
+  localStorage.setItem('userEvaluations', JSON.stringify(currentEvaluations));
+  console.log('Evaluación guardada en localStorage');
+
+  // Guardar en Firestore
+  try {
+    await addDoc(collection(db, 'userEvaluations'), newEvaluation);
+    console.log('Evaluación guardada en Firestore');
+  } catch (error) {
+    console.error('Error al guardar la evaluación en Firestore:', error);
+  }
+};
+
+// Componente principal para manejar el historial de evaluaciones
 const History = () => {
   const [evaluations, setEvaluations] = useState([]);
 
-  // Función para obtener el historial de evaluaciones
+  // Función para obtener el historial de evaluaciones desde Firestore y localStorage
   useEffect(() => {
     const fetchEvaluations = async () => {
-      try {
-        const userHistoryRef = collection(db, 'userEvaluations'); // Nombre de la colección en Firestore
-        const snapshot = await getDocs(userHistoryRef);
-        const evaluationsData = snapshot.docs.map(doc => doc.data()); // Obtener los datos de cada documento
-        setEvaluations(evaluationsData); // Actualizar el estado con los datos obtenidos
-      } catch (error) {
-        console.error('Error obteniendo el historial de evaluaciones:', error);
+      const auth = getAuth();
+      const user = auth.currentUser;
+
+      if (user) {
+        const evaluationsRef = collection(db, 'userEvaluations');
+        const q = query(evaluationsRef, where('userId', '==', user.uid));
+        try {
+          const querySnapshot = await getDocs(q);
+          const firestoreEvaluations = querySnapshot.docs.map((doc) => doc.data());
+
+          const localStorageEvaluations = JSON.parse(localStorage.getItem('userEvaluations')) || [];
+
+          const filteredLocalStorageEvaluations = localStorageEvaluations.filter(
+            (evaluation) => evaluation.userId === user.uid
+          );
+
+          setEvaluations([...firestoreEvaluations, ...filteredLocalStorageEvaluations]);
+        } catch (error) {
+          console.error('Error obteniendo evaluaciones de Firestore:', error);
+        }
       }
     };
 
@@ -27,7 +75,7 @@ const History = () => {
   const shareOnWhatsApp = () => {
     let message = 'Historial de Evaluaciones:\n';
     evaluations.forEach((evaluation, index) => {
-      message += `Evaluación ${index + 1}:\n`;
+      message += `Evaluación ${index + 1} (${evaluation.tipoEvaluacion}):\n`;
       message += `Correctas: ${evaluation.correctas}, Incorrectas: ${evaluation.incorrectas}\n`;
     });
 
@@ -35,26 +83,100 @@ const History = () => {
     window.open(whatsappUrl, '_blank');
   };
 
+  // Función para filtrar las evaluaciones por tipo
+  const filterByType = (type) => {
+    return evaluations.filter((evaluation) => evaluation.tipoEvaluacion === type);
+  };
+
   return (
-    <div>
-      <h1>Historial de Evaluaciones</h1>
+    <Container className="mt-5">
+      <Row className="text-center mb-4">
+        <Col>
+          <h1>Historial de Evaluaciones</h1>
+        </Col>
+      </Row>
+
       {evaluations.length === 0 ? (
-        <p>No hay evaluaciones registradas.</p>
+        <Row className="text-center">
+          <Col>
+            <p>No hay evaluaciones registradas.</p>
+          </Col>
+        </Row>
       ) : (
-        evaluations.map((evaluation, index) => (
-          <div key={index}>
-            <h3>Evaluación {index + 1}</h3>
-            <p>Correctas: {evaluation.correctas}</p>
-            <p>Incorrectas: {evaluation.incorrectas}</p>
-          </div>
-        ))
+        <Row className="g-3">
+          <Col xs={12}>
+            <h2>Exámenes</h2>
+            {filterByType('examen').length === 0 ? (
+              <p>No hay exámenes registrados.</p>
+            ) : (
+              filterByType('examen').map((evaluation, index) => (
+                <Card className="mb-3 shadow-sm" key={index}>
+                  <Card.Body>
+                    <Card.Title>Examen {index + 1}</Card.Title>
+                    <Card.Text>
+                      <strong>Correctas:</strong> {evaluation.correctas} <br />
+                      <strong>Incorrectas:</strong> {evaluation.incorrectas}
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              ))
+            )}
+          </Col>
+
+          <Col xs={12}>
+            <h2>Trivias</h2>
+            {filterByType('trivia').length === 0 ? (
+              <p>No hay trivias registradas.</p>
+            ) : (
+              filterByType('trivia').map((evaluation, index) => (
+                <Card className="mb-3 shadow-sm" key={index}>
+                  <Card.Body>
+                    <Card.Title>Trivia {index + 1}</Card.Title>
+                    <Card.Text>
+                      <strong>Correctas:</strong> {evaluation.correctas} <br />
+                      <strong>Incorrectas:</strong> {evaluation.incorrectas}
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              ))
+            )}
+          </Col>
+
+          <Col xs={12}>
+            <h2>Evaluaciones por Especialidad</h2>
+            {['Pediatría', 'Cirugía', 'Oftalmología', 'Salud Pública', 'Otorrinolaringología', 'Psiquiatría', 'Ginecología y Obstetricia', 'Medicina Interna'].map((especialidad) => (
+              <div key={especialidad}>
+                <h3>{especialidad}</h3>
+                {filterByType(especialidad).length === 0 ? (
+                  <p>No hay evaluaciones registradas para {especialidad}.</p>
+                ) : (
+                  filterByType(especialidad).map((evaluation, index) => (
+                    <Card className="mb-3 shadow-sm" key={index}>
+                      <Card.Body>
+                        <Card.Title>{especialidad} - Evaluación {index + 1}</Card.Title>
+                        <Card.Text>
+                          <strong>Correctas:</strong> {evaluation.correctas} <br />
+                          <strong>Incorrectas:</strong> {evaluation.incorrectas}
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  ))
+                )}
+              </div>
+            ))}
+          </Col>
+        </Row>
       )}
-      <div className="button-container">
-        <Button variant="success" onClick={shareOnWhatsApp}>
-          Compartir en WhatsApp
-        </Button>
-      </div>
-    </div>
+
+      {/* Botón para compartir en WhatsApp */}
+      <Row className="mt-4">
+        <Col className="text-center">
+          <Button variant="success" onClick={shareOnWhatsApp} className="shadow-sm">
+            Compartir en WhatsApp
+          </Button>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

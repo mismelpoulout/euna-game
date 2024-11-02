@@ -1,0 +1,116 @@
+/* General Navbar Styling */
+.navbar {
+    transition: background-color 0.5s ease, color 0.5s ease; /* Transiciones suaves entre día y noche */
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: white; /* Color del texto en la barra de navegación cuando es de noche */
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: black; /* Color del texto en la barra de navegación cuando es de día */
+  }
+  
+  .navbar-toggler {
+    border-color: transparent; /* Eliminar el borde del botón del menú desplegable en móviles */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white; /* Color del ícono de hamburguesa en la vista móvil durante la noche */
+  }
+  
+  /* Botones de la Navbar */
+  button.navbar-toggler {
+    outline: none;
+  }
+  
+  button.navbar-toggler:focus {
+    box-shadow: none; /* Evitar el contorno al hacer clic en el botón de la barra */
+  }
+  
+  button.btn-outline-light, button.btn-outline-dark {
+    border-width: 2px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 25px;
+  }
+  
+  button.btn-outline-light:hover, button.btn-outline-dark:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Efecto hover con fondo transparente */
+  }
+  
+  /* Estilos específicos para el día */
+  .daytime-navbar {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  .daytime-navbar .nav-link {
+    color: black !important;
+  }
+  
+  .daytime-navbar .btn-outline-dark {
+    color: black;
+    border-color: black;
+  }
+  
+  /* Estilos específicos para la noche */
+  .nighttime-navbar {
+    background-color: black !important;
+    color: white !important;
+  }
+  
+  .nighttime-navbar .nav-link {
+    color: white !important;
+  }
+  
+  .nighttime-navbar .btn-outline-light {
+    color: white;
+    border-color: white;
+  }
+  
+  /* Modal Styles */
+  .modal-content {
+    border-radius: 10px;
+  }
+  
+  .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+  }
+  
+  .modal-body p {
+    font-size: 1rem;
+  }
+  
+  .modal-footer {
+    border-top: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 767.98px) {
+    .navbar-nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .nav-link {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+  
+    .btn-outline-light, .btn-outline-dark {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }

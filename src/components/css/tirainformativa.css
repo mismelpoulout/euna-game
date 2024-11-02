@@ -1,0 +1,52 @@
+/* Tira Informativa */
+.tira-informativa {
+    position: fixed;
+    bottom: 0; /* Cambia a 'top: 0' si lo prefieres */
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 1rem;
+    z-index: 9999;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  /* Contenedor del mensaje para aplicar la animación */
+  .tira-informativa span {
+    display: inline-block;
+    white-space: nowrap;
+    animation: movimiento 10s linear infinite;
+  }
+  
+  /* Animación para mover el mensaje de izquierda a derecha */
+  @keyframes movimiento {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  /* Botón de cerrar */
+  .tira-informativa button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+  }
+  
+  /* Ajustes para pantallas pequeñas */
+  @media (max-width: 480px) {
+    .tira-informativa {
+      font-size: 0.9rem;
+    }
+  }

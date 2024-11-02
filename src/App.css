@@ -102,3 +102,47 @@ body {
   justify-content: center; /* Centra el botón horizontalmente */
   margin-top: 20px; /* Espaciado opcional arriba del botón */
 }
+/* Estilos para las secciones */
+.seccion {
+  flex: 1; /* Ajusta el tamaño de la sección */
+  margin: 20px; /* Agrega un margen entre secciones */
+  padding: 20px; /* Agrega un padding dentro de la sección */
+  background-color: #f7f7f7; /* Agrega un fondo claro a la sección */
+  border: 1px solid #ddd; /* Agrega un borde a la sección */
+  border-radius: 10px; /* Agrega un borde redondeado a la sección */
+}
+
+/* Estilos para los botones */
+.boton {
+  width: 100%; /* Ajusta el tamaño del botón */
+  height: 50px; /* Ajusta el tamaño del botón */
+  margin: 10px; /* Agrega un margen entre botones */
+  padding: 10px; /* Agrega un padding dentro del botón */
+  font-size: 18px; /* Ajusta el tamaño del texto del botón */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 10px; /* Agrega un borde redondeado al botón */
+  cursor: pointer; /* Agrega un cursor de puntero al botón */
+}
+
+/* Estilos para emailService */
+.modal-body {
+  padding: 30px;
+}
+
+.input-group .form-control {
+  border-radius: 0;
+}
+
+.input-group .btn {
+  border-radius: 0;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
