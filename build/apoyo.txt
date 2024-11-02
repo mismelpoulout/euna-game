@@ -1,0 +1,9 @@
+ {
+        "question": "",
+        "options": [
+            "", "", "", "", ""
+        ],
+        "answer": "",
+        "imgs": "recursos/diciembre 2019/.png",
+        "feedback": ""
+    },

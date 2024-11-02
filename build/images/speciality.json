@@ -1,0 +1,3232 @@
+{
+  "Pediatría": [
+    {
+      "question": "Niño que presenta quemadura en palmas y dedos, con importante eritema y ampollas, en urgencias se encuentra inquieto e irritable, la conducta inicial más adecuada es...",
+      "options": ["Indicar analgesia endovenosa", "Aplicar vendajes estériles", "Administrar antibióticos profilácticos", "Enfriar la zona con agua fría", "Referir a unidad de quemados"],
+      "answer": "Indicar analgesia endovenosa",
+      "feedback": "El manejo del dolor es prioritario en las quemaduras graves, por lo que la analgesia endovenosa debe ser la primera medida."
+    },
+    {
+      "question": "Niño hijo de madre vegana que actualmente no quiere recibir almuerzo sino solo alimentarse del pecho de la madre, en sus exámenes destaca pancitopenia...",
+      "options": ["Realizar seguimiento", "Administrar suplementos vitamínicos", "Derivar a especialista", "Indicar una dieta complementaria", "Realizar un hemograma completo"],
+      "answer": "Administrar suplementos vitamínicos",
+      "feedback": "La pancitopenia en este contexto sugiere deficiencias nutricionales que requieren tratamiento con suplementos vitamínicos."
+    },
+    {
+      "question": "Niña que no quiere comunicarse con los compañeros, cuando alguien le saca de sus rutinas responde agresivo...",
+      "options": ["Seguir observación", "Terapia psicológica", "Medicación", "Cambiar el ambiente escolar", "Derivar a psiquiatra infantil"],
+      "answer": "Terapia psicológica",
+      "feedback": "El comportamiento puede ser indicativo de un trastorno del espectro autista, por lo que la terapia psicológica es una opción adecuada."
+    },
+    {
+      "question": "Niño con antecedentes de resfrío comienza con eritema y edema periocular y secreción ocular...",
+      "options": ["Conjuntivitis bacteriana", "Conjuntivitis viral", "Sinusitis bacteriana", "Neumonía", "Otitis media"],
+      "answer": "Conjuntivitis bacteriana",
+      "feedback": "El enrojecimiento periocular y la secreción ocular sugieren una infección bacteriana, más específicamente una conjuntivitis bacteriana."
+    },
+    {
+      "question": "Niño con cuadro de fiebre, odinofagia, ojo rojo bilateral y conjuntivitis...",
+      "options": ["Iniciar antibióticos", "Terapia sintomática", "Terapia antiviral", "Internación", "Derivación a especialista"],
+      "answer": "Terapia sintomática",
+      "feedback": "Este cuadro clínico es probablemente viral, y la terapia sintomática es el tratamiento inicial más apropiado."
+    },
+    {
+      "Preguntas": [
+        {
+          "question": "Lactante de 1 año, presenta diarrea acuosa, explosiva, asociado a fiebre hasta 38°C. Al examen se observa decaído, llora sin lágrimas. FC:100x’ y PA:90/50. ¿Cuál es el siguiente paso en su manejo?",
+          "options": ["Hidratación oral", "Administración de antibióticos", "Hospitalización inmediata", "Observación en casa", "Transfusión de líquidos intravenosos"],
+          "answer": "Hidratación oral",
+          "feedback": "En casos de diarrea aguda con signos de deshidratación leve a moderada, la hidratación oral es el tratamiento de elección."
+        },
+        {
+          "question": "Niño con antecedentes de fiebre de 5 días y lesiones papulovesiculosas en la piel. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Varicela", "Sarampión", "Rubeola", "Exantema súbito", "Dermatitis atópica"],
+          "answer": "Varicela",
+          "feedback": "La varicela se caracteriza por fiebre y lesiones cutáneas que pasan por varias fases: máculas, pápulas, vesículas y costras."
+        },
+        {
+          "question": "Escolar de 6 años, presenta fatiga, pérdida de peso y hepatomegalia. Se realiza un hemograma que muestra anemia y blastos circulantes. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Leucemia aguda", "Anemia aplásica", "Linfoma", "Mieloma múltiple", "Infección viral"],
+          "answer": "Leucemia aguda",
+          "feedback": "La leucemia aguda en niños suele presentarse con síntomas como fatiga, pérdida de peso, fiebre y presencia de blastos en sangre periférica."
+        },
+        {
+          "question": "Paciente con daño hepático crónico, ingresa en sopor, febril, ictérico, con ascitis a tensión. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Peritonitis bacteriana espontánea", "Hepatitis alcohólica", "Encefalopatía hepática", "Cirrosis avanzada", "Sepsis"],
+          "answer": "Peritonitis bacteriana espontánea",
+          "feedback": "La peritonitis bacteriana espontánea es una complicación común en pacientes con ascitis secundaria a cirrosis."
+        },
+        {
+          "question": "Niño de 6 meses con dolor abdominal intenso de 2 horas de evolución. El dolor cede espontáneamente dando lugar a deposiciones rojo intenso. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Intususcepción", "Apendicitis aguda", "Gastroenteritis", "Enfermedad inflamatoria intestinal", "Divertículo de Meckel"],
+          "answer": "Intususcepción",
+          "feedback": "La intususcepción es una emergencia pediátrica que se caracteriza por episodios intermitentes de dolor abdominal y deposiciones con sangre."
+        },
+        {
+          "question": "Niño de 2 años con tos persistente y dificultad respiratoria de 1 semana. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Asma", "Bronquitis", "Bronquiolitis", "Neumonía", "Fibrosis quística"],
+          "answer": "Bronquiolitis",
+          "feedback": "La bronquiolitis es común en lactantes y se presenta con tos y dificultad respiratoria, usualmente causada por el VRS."
+        },
+        {
+          "question": "Niño de 5 años presenta dificultad respiratoria súbita y cianosis. Se le realizó un examen de tórax que mostró un cuerpo extraño en la vía aérea. ¿Cuál es el siguiente paso?",
+          "options": ["Broncoscopía", "Administración de oxígeno", "Maniobra de Heimlich", "Ventilación mecánica", "Radiografía de tórax"],
+          "answer": "Broncoscopía",
+          "feedback": "La broncoscopía es el tratamiento de elección para la extracción de cuerpos extraños en las vías respiratorias."
+        },
+        {
+          "question": "Lactante de 4 meses, no ha ganado peso y presenta vómitos después de cada comida. ¿Cuál es la causa más probable?",
+          "options": ["Estenosis pilórica", "Reflujo gastroesofágico", "Alergia alimentaria", "Infección gastrointestinal", "Intolerancia a la lactosa"],
+          "answer": "Estenosis pilórica",
+          "feedback": "La estenosis pilórica se presenta en lactantes con vómitos en proyectil y es una causa común de obstrucción en esta edad."
+        },
+        {
+          "question": "Niño de 8 años con antecedentes de infecciones urinarias recurrentes presenta dolor lumbar, fiebre y disuria. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Pielonefritis", "Cistitis", "Glomerulonefritis", "Litiasis renal", "Hidronefrosis"],
+          "answer": "Pielonefritis",
+          "feedback": "La pielonefritis es una infección renal grave que se presenta con fiebre, dolor lumbar y disuria."
+        },
+        {
+          "question": "Niño de 3 años con fiebre alta, faringitis y erupción cutánea de aspecto maculopapular. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Escarlatina", "Rubeola", "Sarampión", "Exantema súbito", "Varicela"],
+          "answer": "Escarlatina",
+          "feedback": "La escarlatina se caracteriza por fiebre, faringitis y una erupción cutánea que se siente como papel de lija."
+        },
+        {
+          "question": "Niña de 12 años presenta menarquia reciente, pero tiene ciclos menstruales irregulares con periodos de amenorrea de 3 meses. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Síndrome de ovario poliquístico", "Amenorrea hipotalámica", "Disfunción tiroidea", "Pubertad normal", "Anemia"],
+          "answer": "Pubertad normal",
+          "feedback": "En la pubertad temprana, los ciclos menstruales irregulares son comunes mientras el cuerpo se ajusta a las fluctuaciones hormonales."
+        },
+        {
+          "question": "Niño de 2 años presenta dolor articular en la cadera izquierda, fiebre y cojea al caminar. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Artritis séptica", "Enfermedad de Perthes", "Sinovitis transitoria", "Fractura oculta", "Osteomielitis"],
+          "answer": "Artritis séptica",
+          "feedback": "La artritis séptica es una emergencia que se presenta con fiebre, dolor y cojera, y requiere drenaje quirúrgico inmediato."
+        },
+        {
+          "question": "Escolar de 10 años que ha tenido sangrados nasales frecuentes y moretones fáciles. Se le realiza un hemograma que muestra trombocitopenia. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Púrpura trombocitopénica idiopática", "Leucemia aguda", "Anemia aplásica", "Hemofilia", "Enfermedad de von Willebrand"],
+          "answer": "Púrpura trombocitopénica idiopática",
+          "feedback": "La PTI es una condición en la que el sistema inmunitario destruye las plaquetas, causando sangrados frecuentes y moretones."
+        },
+        {
+          "question": "Niño de 4 años presenta dificultad para respirar, fiebre y estridor. Se escucha un ruido de inspiración fuerte. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Crup", "Asma", "Neumonía", "Epiglotitis", "Bronquiolitis"],
+          "answer": "Crup",
+          "feedback": "El crup se caracteriza por estridor inspiratorio, tos perruna y dificultad respiratoria, común en niños pequeños."
+        },
+        {
+          "question": "Niño de 2 años presenta fiebre, dolor al orinar y se encuentra irritable. Se le realiza un examen de orina que revela leucocitos en orina. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Infección urinaria", "Cistitis", "Pielonefritis", "Glomerulonefritis", "Litiasis renal"],
+          "answer": "Infección urinaria",
+          "feedback": "La presencia de leucocitos en orina y síntomas de dolor al orinar sugieren una infección urinaria."
+        },
+        {
+          "question": "Niño de 1 año con fiebre alta que desaparece abruptamente seguida de la aparición de un exantema maculopapular generalizado. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Exantema súbito", "Rubeola", "Sarampión", "Escarlatina", "Varicela"],
+          "answer": "Exantema súbito",
+          "feedback": "El exantema súbito, también conocido como roséola, se caracteriza por fiebre alta seguida de un exantema súbito una vez que la fiebre cede."
+        },
+        {
+          "question": "Niño de 3 años con diarrea acuosa, vómitos y deshidratación leve. ¿Cuál es el agente infeccioso más probable?",
+          "options": ["Rotavirus", "Salmonella", "Shigella", "Escherichia coli", "Giardia lamblia"],
+          "answer": "Rotavirus",
+          "feedback": "El rotavirus es la causa más común de gastroenteritis viral en niños menores de 5 años y suele causar diarrea y vómitos."
+        },
+        {
+          "question": "Escolar de 7 años presenta dificultad respiratoria, tos y sibilancias después de realizar actividad física. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Asma inducida por ejercicio", "Bronquitis crónica", "Neumonía", "Fibrosis quística", "Enfermedad pulmonar obstructiva crónica"],
+          "answer": "Asma inducida por ejercicio",
+          "feedback": "El asma inducida por el ejercicio se manifiesta con sibilancias y dificultad respiratoria después de la actividad física."
+        },
+        {
+          "question": "Niño de 8 años presenta pérdida de peso, fatiga y poliuria. Su glucosa plasmática en ayuno es de 250 mg/dL. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Diabetes mellitus tipo 1", "Diabetes mellitus tipo 2", "Cetoacidosis diabética", "Síndrome metabólico", "Hipoglucemia"],
+          "answer": "Diabetes mellitus tipo 1",
+          "feedback": "La diabetes tipo 1 en niños suele presentarse con hiperglucemia, poliuria, pérdida de peso y fatiga."
+        },
+        {
+          "question": "Lactante de 5 meses con antecedentes de resfriados frecuentes presenta sibilancias recurrentes y tos persistente. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Asma", "Bronquiolitis", "Fibrosis quística", "Neumonía", "Alergia respiratoria"],
+          "answer": "Bronquiolitis",
+          "feedback": "La bronquiolitis es una infección viral común en lactantes que provoca sibilancias recurrentes y tos persistente."
+        },
+        {
+          "question": "Niña de 10 años presenta dolor abdominal en la fosa ilíaca derecha y fiebre. El examen físico revela signo de Blumberg positivo. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Apendicitis aguda", "Gastroenteritis", "Colecistitis", "Diverticulitis", "Pancreatitis"],
+          "answer": "Apendicitis aguda",
+          "feedback": "El dolor en la fosa ilíaca derecha y el signo de Blumberg positivo son indicativos de apendicitis aguda."
+        },
+        {
+          "question": "Niño de 4 años presenta erupción en el cuero cabelludo con áreas de alopecia y escamas. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Tinea capitis", "Psoriasis", "Dermatitis seborreica", "Alopecia areata", "Dermatitis atópica"],
+          "answer": "Tinea capitis",
+          "feedback": "La tiña capitis es una infección fúngica que afecta el cuero cabelludo y provoca áreas de alopecia con escamas."
+        },
+        {
+          "question": "Lactante de 6 meses presenta irritabilidad, vómitos en proyectil y distensión abdominal. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Estenosis pilórica", "Gastroenteritis", "Intususcepción", "Malrotación intestinal", "Reflujo gastroesofágico"],
+          "answer": "Estenosis pilórica",
+          "feedback": "La estenosis pilórica se caracteriza por vómitos en proyectil en lactantes y distensión abdominal."
+        },
+        {
+          "question": "Niño de 6 años presenta fiebre, dolor de garganta y una erupción cutánea enrojecida con textura áspera. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Escarlatina", "Rubeola", "Sarampión", "Varicela", "Dermatitis atópica"],
+          "answer": "Escarlatina",
+          "feedback": "La escarlatina se caracteriza por una erupción con textura áspera, fiebre y dolor de garganta causado por la bacteria estreptococo."
+        },
+        {
+          "question": "Escolar de 8 años presenta dolor en el pecho y dificultad respiratoria después de correr. Su madre menciona que ha tenido episodios similares previamente. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Asma", "Neumonía", "Alergia respiratoria", "Insuficiencia cardíaca", "Bronquiolitis"],
+          "answer": "Asma",
+          "feedback": "El asma se presenta comúnmente en escolares con episodios de dificultad respiratoria y dolor torácico después del ejercicio."
+        },
+        {
+          "question": "Niño de 3 años con antecedentes de convulsiones febriles presenta un episodio convulsivo que dura más de 5 minutos. ¿Cuál es el tratamiento inicial más adecuado?",
+          "options": ["Administrar diazepam", "Observación en casa", "Administración de antiepilépticos", "Realizar una punción lumbar", "Referir a un especialista"],
+          "answer": "Administrar diazepam",
+          "feedback": "En convulsiones prolongadas, el diazepam es el tratamiento de elección para interrumpir la crisis."
+        },
+        {
+          "question": "Niño de 7 años presenta fiebre, dolor de garganta y exudado purulento en las amígdalas. Se le realiza un test rápido para estreptococo que resulta positivo. ¿Cuál es el tratamiento de elección?",
+          "options": ["Penicilina", "Ibuprofeno", "Amoxicilina", "Azitromicina", "Cefalexina"],
+          "answer": "Penicilina",
+          "feedback": "La penicilina es el tratamiento de elección para la faringitis estreptocócica en niños."
+        },
+        {
+          "question": "Niña de 5 años presenta un soplo cardíaco sistólico que se escucha mejor en el borde esternal izquierdo. No tiene síntomas. ¿Cuál es la recomendación inicial?",
+          "options": ["Ecocardiograma", "Monitoreo regular", "Cateterismo cardíaco", "Tratamiento con beta bloqueantes", "Derivación a un especialista"],
+          "answer": "Monitoreo regular",
+          "feedback": "En soplos inocentes o funcionales sin síntomas, el monitoreo regular es una recomendación apropiada."
+        },
+        {
+          "question": "Niño de 9 años presenta fiebre, dolor articular y erupción maculopapular después de un viaje reciente. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Fiebre reumática", "Artritis séptica", "Enfermedad de Kawasaki", "Fiebre del dengue", "Sarampión"],
+          "answer": "Fiebre reumática",
+          "feedback": "La fiebre reumática es una complicación postestreptocócica que puede causar artritis, erupciones y fiebre."
+        },
+        {
+          "question": "Niño de 5 años con antecedentes de dermatitis atópica presenta una erupción eccematosa que ha empeorado, con áreas de impétigo. ¿Cuál es el tratamiento más adecuado?",
+          "options": ["Antibióticos tópicos", "Corticosteroides tópicos", "Antihistamínicos orales", "Hidratación intensiva", "Fototerapia"],
+          "answer": "Antibióticos tópicos",
+          "feedback": "Las áreas de impétigo sobre dermatitis atópica se tratan mejor con antibióticos tópicos para controlar la infección."
+        },
+        {
+          "question": "Niño de 3 años con fiebre alta y letargia, se presenta con rigidez de nuca. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Meningitis", "Encefalitis", "Convulsión febril", "Otitis media", "Gastroenteritis"],
+          "answer": "Meningitis",
+          "feedback": "La rigidez de nuca en un niño febril es un signo clásico de meningitis, que requiere intervención urgente."
+        },
+        {
+          "question": "Lactante de 8 meses con antecedentes de bronquiolitis presenta sibilancias recurrentes y tos persistente. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Asma", "Fibrosis quística", "Bronquitis crónica", "Neumonía", "Alergia respiratoria"],
+          "answer": "Asma",
+          "feedback": "El asma es una de las principales causas de sibilancias recurrentes y tos persistente en lactantes con antecedentes de bronquiolitis."
+        },
+        {
+          "question": "Niño de 4 años presenta dolor en la pierna derecha y cojera intermitente. Al examen físico se observa limitación de la rotación interna de la cadera. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Sinovitis transitoria", "Enfermedad de Perthes", "Artritis séptica", "Displasia de cadera", "Fractura femoral"],
+          "answer": "Sinovitis transitoria",
+          "feedback": "La sinovitis transitoria es una causa común de cojera en niños, especialmente después de una infección viral."
+        },
+        {
+          "question": "Niña de 6 años con fiebre, exantema maculopapular y ganglios cervicales inflamados. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Sarampión", "Rubeola", "Exantema súbito", "Varicela", "Kawasaki"],
+          "answer": "Sarampión",
+          "feedback": "El sarampión se presenta con fiebre, exantema maculopapular y linfadenopatía cervical, especialmente en niños no vacunados."
+        },
+        {
+          "question": "Lactante de 7 meses presenta vómitos biliosos y distensión abdominal. Se le realiza una radiografía que muestra un signo de doble burbuja. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Atresia duodenal", "Estenosis pilórica", "Intususcepción", "Hernia diafragmática", "Malrotación intestinal"],
+          "answer": "Atresia duodenal",
+          "feedback": "El signo de doble burbuja en la radiografía es indicativo de atresia duodenal, una causa congénita de obstrucción intestinal."
+        },
+        {
+          "question": "Escolar de 7 años presenta episodios recurrentes de dolor abdominal en el cuadrante inferior derecho, asociados a diarrea y fiebre. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Enfermedad de Crohn", "Apendicitis", "Gastroenteritis", "Síndrome de intestino irritable", "Colitis ulcerosa"],
+          "answer": "Enfermedad de Crohn",
+          "feedback": "La enfermedad de Crohn puede causar dolor abdominal crónico, diarrea y fiebre, especialmente en niños."
+        },
+        {
+          "question": "Niña de 10 años con fiebre, eritema y edema en la rodilla derecha. No tiene antecedentes de trauma. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Artritis séptica", "Artritis reumatoide juvenil", "Bursitis", "Fractura oculta", "Tendinitis"],
+          "answer": "Artritis séptica",
+          "feedback": "La artritis séptica es una emergencia pediátrica que se presenta con fiebre, dolor y edema articular, y requiere tratamiento quirúrgico urgente."
+        },
+        {
+          "question": "Lactante de 2 meses presenta fontanela abombada, irritabilidad y fiebre. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Meningitis", "Hidrocefalia", "Encefalopatía hipóxica", "Hemorragia subdural", "Convulsión febril"],
+          "answer": "Meningitis",
+          "feedback": "Una fontanela abombada en un lactante con fiebre e irritabilidad sugiere meningitis, que requiere tratamiento inmediato."
+        },
+        {
+          "question": "Escolar de 6 años con fiebre y dolor en el oído derecho. Al examen se observa tímpano abombado y enrojecido. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Otitis media aguda", "Otitis externa", "Mastoiditis", "Sinusitis", "Faringitis estreptocócica"],
+          "answer": "Otitis media aguda",
+          "feedback": "La otitis media aguda es una infección del oído medio que se presenta con fiebre, dolor de oído y un tímpano abombado."
+        },
+        {
+          "question": "Niña de 4 años con antecedentes de dermatitis atópica presenta lesiones eccematosas sobreinfectadas en las áreas de flexión. ¿Cuál es el tratamiento más adecuado?",
+          "options": ["Corticosteroides tópicos", "Antibióticos orales", "Antihistamínicos", "Hidratación intensiva", "Fototerapia"],
+          "answer": "Corticosteroides tópicos",
+          "feedback": "La dermatitis atópica se trata con corticosteroides tópicos para reducir la inflamación, y en casos de sobreinfección, se agregan antibióticos."
+        },
+        {
+          "question": "Escolar de 8 años presenta fiebre, dolor abdominal y diarrea con sangre. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Shigelosis", "Gastroenteritis viral", "Enfermedad de Crohn", "Síndrome hemolítico urémico", "Colitis ulcerosa"],
+          "answer": "Shigelosis",
+          "feedback": "La shigelosis es una infección bacteriana que se presenta con fiebre, dolor abdominal y diarrea sanguinolenta."
+        },
+        {
+          "question": "Niño de 5 años presenta dolor de cabeza matutino, vómitos en proyectil y alteraciones visuales. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Tumor cerebral", "Migraña", "Meningitis", "Epilepsia", "Sinusitis"],
+          "answer": "Tumor cerebral",
+          "feedback": "Los dolores de cabeza matutinos con vómitos en proyectil y alteraciones visuales son signos de aumento de presión intracraneal, típicos de un tumor cerebral."
+        },
+        {
+          "question": "Niño de 7 años presenta tos persistente, disnea y sibilancias después de la exposición a ácaros del polvo. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Asma alérgica", "Bronquitis crónica", "Neumonía", "Rinitis alérgica", "Fibrosis quística"],
+          "answer": "Asma alérgica",
+          "feedback": "El asma alérgica se desencadena por la exposición a alérgenos como los ácaros del polvo, causando tos, disnea y sibilancias."
+        },
+        {
+          "question": "Escolar de 9 años presenta fatiga, ictericia y esplenomegalia. Su hemograma muestra anemia hemolítica. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Esferocitosis hereditaria", "Anemia ferropénica", "Leucemia", "Linfoma", "Anemia aplásica"],
+          "answer": "Esferocitosis hereditaria",
+          "feedback": "La esferocitosis hereditaria es una causa de anemia hemolítica que se presenta con fatiga, ictericia y esplenomegalia."
+        },
+        {
+          "question": "Lactante de 1 mes presenta cianosis central que empeora con el llanto. La radiografía de tórax muestra un corazón en forma de bota. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Tetralogía de Fallot", "Transposición de grandes vasos", "Comunicación interventricular", "Atresia tricuspídea", "Ducto arterioso persistente"],
+          "answer": "Tetralogía de Fallot",
+          "feedback": "La tetralogía de Fallot es una cardiopatía congénita cianótica que se presenta con un corazón en forma de bota en la radiografía."
+        },
+        {
+          "question": "Niño de 2 años con antecedentes de múltiples infecciones pulmonares presenta bronquiectasias en la tomografía. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Fibrosis quística", "Asma", "Bronquitis crónica", "Neumonía recurrente", "Alergia respiratoria"],
+          "answer": "Fibrosis quística",
+          "feedback": "La fibrosis quística se caracteriza por infecciones pulmonares recurrentes y bronquiectasias en la tomografía."
+        },
+        {
+          "question": "Escolar de 10 años presenta púrpura palpable en extremidades inferiores, dolor abdominal y artralgia. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Púrpura de Henoch-Schönlein", "Trombocitopenia inmunitaria", "Vasculitis sistémica", "Lupus eritematoso sistémico", "Artritis juvenil"],
+          "answer": "Púrpura de Henoch-Schönlein",
+          "feedback": "La púrpura de Henoch-Schönlein es una vasculitis que se manifiesta con púrpura palpable, dolor abdominal y artralgia."
+        },
+        {
+          "question": "Lactante de 3 meses presenta dificultad respiratoria, sibilancias y fiebre. El examen físico revela un murmullo vesicular disminuido en el pulmón derecho. ¿Cuál es el diagnóstico más probable?",
+          "options": ["Neumonía", "Asma", "Bronquiolitis", "Fibrosis quística", "Alergia respiratoria"],
+          "answer": "Neumonía",
+          "feedback": "La neumonía en lactantes se presenta con dificultad respiratoria, fiebre y hallazgos físicos de consolidación pulmonar."
+        }
+      ]
+    }
+  ],
+  "Cirugía": [
+    {
+      "question": "Paciente que presenta hemorragia digestiva importante, en la colonoscopía se visualiza coágulos por todo el marco colónico...",
+      "options": ["Divertículo de Meckel", "Angiodisplasia", "Enfermedad de Crohn", "Colitis ulcerosa", "Cáncer de colon"],
+      "answer": "Divertículo de Meckel",
+      "feedback": "El divertículo de Meckel es una causa común de hemorragia digestiva baja, especialmente en pacientes jóvenes."
+    },
+    {
+      "question": "Paciente con antecedentes de litiasis a repetición, orina inflamatoria y cristales de fosfato manganeso...",
+      "options": ["Litiasis renal", "Infección urinaria", "Insuficiencia renal", "Pielonefritis", "Urolitiasis"],
+      "answer": "Litiasis renal",
+      "feedback": "Los cristales de fosfato manganeso son indicativos de litiasis renal, que puede generar infecciones urinarias recurrentes."
+    },
+    {
+      "question": "Paciente con fractura expuesta de pierna derecha, sin déficit de cobertura...",
+      "options": ["Inmovilizar", "Administrar antibióticos", "Referir a cirugía", "Reparación quirúrgica urgente", "No intervención"],
+      "answer": "Reparación quirúrgica urgente",
+      "feedback": "Las fracturas expuestas requieren tratamiento quirúrgico urgente para reducir el riesgo de infección y mejorar la recuperación."
+    },
+    {
+      "question": "Paciente con antecedente de sinusitis comienza con proptosis, disminución de agudeza visual...",
+      "options": ["Complicación infecciosa", "Tumor cerebral", "Infección bacteriana", "Absceso retroocular", "Sinusitis crónica"],
+      "answer": "Absceso retroocular",
+      "feedback": "La proptosis y la disminución visual sugieren un absceso retroocular, una complicación grave de la sinusitis que requiere tratamiento urgente."
+    },
+    {
+      "question": "Paciente que recibe impacto de bala en pierna derecha mientras iba a comprar pan...",
+      "options": ["Reparación quirúrgica", "Inmovilización", "Antibióticos y vigilancia", "Cirugía inmediata", "Derivar a especialista"],
+      "answer": "Cirugía inmediata",
+      "feedback": "Las heridas por arma de fuego requieren cirugía inmediata para controlar el daño tisular y vascular."
+    },
+    {
+      "question": "Paciente de 60 años con hemorragia digestiva baja. Se realiza una colonoscopia que revela coágulos a lo largo del marco colónico. Los exámenes de laboratorio muestran una hemoglobina de 8 g/dL. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Divertículo de Meckel", "Angiodisplasia", "Enfermedad de Crohn", "Colitis ulcerosa", "Cáncer de colon"],
+      "answer": "Divertículo de Meckel",
+      "feedback": "El Divertículo de Meckel puede causar hemorragia digestiva baja, especialmente en pacientes más jóvenes, y a menudo se presenta con sangre oculta o hematoquezia."
+    },
+    {
+      "question": "Hombre de 45 años con antecedentes de colelitiasis presenta dolor epigástrico agudo irradiado a la espalda. Los exámenes muestran una lipasa de 5 veces el valor normal y una bilirrubina de 2.5 mg/dL. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Pancreatitis aguda litiásica", "Colecistitis aguda", "Peritonitis", "Diverticulitis", "Apendicitis"],
+      "answer": "Pancreatitis aguda litiásica",
+      "feedback": "La pancreatitis aguda litiásica se asocia con dolor epigástrico irradiado al dorso, niveles elevados de lipasa, y puede estar acompañada de ictericia leve debido a la obstrucción del conducto biliar."
+    },
+    {
+      "question": "Paciente alcohólico de 50 años con episodios recurrentes de dolor abdominal, diarrea esteatorreica y pérdida de peso. Se realiza una tomografía computarizada que muestra calcificaciones pancreáticas. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Pancreatitis aguda", "Pancreatitis crónica", "Colitis", "Cáncer pancreático", "Hepatitis alcohólica"],
+      "answer": "Pancreatitis crónica",
+      "feedback": "La pancreatitis crónica en pacientes alcohólicos se caracteriza por episodios recurrentes de dolor, malabsorción (diarrea esteatorreica) y calcificaciones en las imágenes del páncreas."
+    },
+    {
+      "question": "Paciente de 58 años con antecedentes de cirrosis hepática presenta dolor en hipocondrio derecho y pérdida de peso. Se encuentra hepatomegalia y una masa en el hígado en la ecografía. Los niveles de alfa-fetoproteína están elevados. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Hepatocarcinoma", "Absceso hepático", "Metástasis hepática", "Quiste hepático", "Hemangioma hepático"],
+      "answer": "Hepatocarcinoma",
+      "feedback": "El hepatocarcinoma es una complicación común en pacientes cirróticos, y los niveles elevados de alfa-fetoproteína son un marcador tumoral útil en este contexto."
+    },
+    {
+      "question": "Hombre de 65 años con antecedentes de tabaquismo presenta ictericia progresiva, pérdida de peso y dolor epigástrico. La ecografía abdominal muestra dilatación del conducto biliar. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Cáncer de páncreas", "Colecistitis", "Hepatitis viral", "Cáncer de colon", "Insuficiencia hepática"],
+      "answer": "Cáncer de páncreas",
+      "feedback": "El cáncer de páncreas, especialmente en la cabeza del páncreas, suele presentar ictericia obstructiva, pérdida de peso y dolor epigástrico, y es común en fumadores."
+    },
+    {
+      "question": "Mujer de 70 años con constipación crónica y dolor abdominal en hipocondrio derecho. Se identifican múltiples lesiones hipoecogénicas en el hígado mediante ecografía. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Metástasis hepáticas", "Hepatocarcinoma", "Quiste hepático", "Hemangioma hepático", "Absceso hepático"],
+      "answer": "Metástasis hepáticas",
+      "feedback": "Las metástasis hepáticas son la causa más común de lesiones hepáticas múltiples en pacientes con antecedentes de cáncer colorrectal u otros cánceres digestivos."
+    },
+    {
+      "question": "Niño de 10 años presenta dolor abdominal crónico y hematoquezia recurrente. Una gammagrafía con tecnecio-99m revela acumulación anormal en el intestino delgado. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Divertículo de Meckel", "Pólipo juvenil", "Apendicitis", "Hemangioma", "Colitis ulcerosa"],
+      "answer": "Divertículo de Meckel",
+      "feedback": "El divertículo de Meckel puede causar hemorragia digestiva en niños, y la gammagrafía con tecnecio-99m es útil para identificar tejido ectópico gástrico."
+    },
+    {
+      "question": "Paciente de 35 años presenta dolor perianal severo que persiste después de la defecación. El examen físico revela una úlcera lineal en el borde anal posterior. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Fisura anal aguda", "Hemorroides", "Absceso perianal", "Fístula anal", "Diverticulitis"],
+      "answer": "Fisura anal aguda",
+      "feedback": "La fisura anal aguda se presenta con dolor severo durante y después de la defecación, y una úlcera lineal en el margen anal es un hallazgo típico."
+    },
+    {
+      "question": "Mujer de 69 años con prurito generalizado e ictericia. Los exámenes de laboratorio muestran elevación de fosfatasa alcalina y bilirrubina directa. Una ecografía revela dilatación biliar intrahepática. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Cáncer de vesícula", "Colangitis", "Hepatitis", "Colecistitis", "Cirrosis biliar primaria"],
+      "answer": "Cáncer de vesícula",
+      "feedback": "El cáncer de vesícula puede causar obstrucción biliar con ictericia y prurito. La dilatación biliar intrahepática es un hallazgo típico en estos casos."
+    },
+    {
+      "question": "Paciente de 60 años presenta dolor epigástrico agudo de inicio brusco, con abdomen en tabla y signos de irritación peritoneal. Los estudios de laboratorio muestran leucocitosis y una radiografía abdominal revela aire libre bajo el diafragma. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Úlcera perforada", "Peritonitis", "Apendicitis aguda", "Colecistitis aguda", "Diverticulitis"],
+      "answer": "Úlcera perforada",
+      "feedback": "La úlcera péptica perforada se presenta con un abdomen en tabla, dolor intenso, y la presencia de aire libre bajo el diafragma en la radiografía."
+    },
+    {
+      "question": "Paciente de 55 años con dolor epigástrico irradiado al dorso. Lipasa: 800 U/L (normal: 0-160 U/L), amilasa: 450 U/L (normal: 25-125 U/L). ¿Cuál es el diagnóstico más probable?",
+      "options": ["Pancreatitis aguda", "Colecistitis", "Úlcera gástrica", "Peritonitis"],
+      "answer": "Pancreatitis aguda",
+      "feedback": "El aumento significativo de lipasa y amilasa indica pancreatitis aguda, comúnmente causada por colelitiasis o alcoholismo."
+    },
+    {
+      "question": "Paciente con ictericia progresiva, dolor en hipocondrio derecho. Bilirrubina total: 4.5 mg/dL (normal: 0.1-1.2 mg/dL), fosfatasa alcalina: 350 U/L (normal: 44-147 U/L). ¿Cuál es el diagnóstico más probable?",
+      "options": ["Cáncer de vesícula", "Colangitis", "Pancreatitis aguda", "Colelitiasis"],
+      "answer": "Cáncer de vesícula",
+      "feedback": "La ictericia obstructiva, junto con los niveles elevados de bilirrubina y fosfatasa alcalina, sugiere una obstrucción biliar, lo que es típico en casos de cáncer de vesícula."
+    },
+    {
+      "question": "Paciente con dolor abdominal y fiebre. Hemoglobina: 9.5 g/dL (normal: 13-17 g/dL), leucocitos: 15,000/mm3 (normal: 4,000-11,000/mm3). Se observa aire libre en la radiografía. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Úlcera perforada", "Apendicitis aguda", "Peritonitis", "Colecistitis aguda"],
+      "answer": "Úlcera perforada",
+      "feedback": "La presencia de aire libre bajo el diafragma es un signo característico de perforación gástrica o duodenal, y la leucocitosis indica un proceso inflamatorio agudo."
+    },
+    {
+      "question": "Hombre de 60 años con antecedentes de cirrosis presenta ascitis, fiebre, y dolor abdominal. Leucocitos: 12,000/mm3 (normal: 4,000-11,000/mm3), albúmina sérica: 2.1 g/dL (normal: 3.5-5.0 g/dL). ¿Cuál es el diagnóstico más probable?",
+      "options": ["Peritonitis bacteriana espontánea", "Hepatitis alcohólica", "Cáncer hepático", "Pancreatitis crónica"],
+      "answer": "Peritonitis bacteriana espontánea",
+      "feedback": "La peritonitis bacteriana espontánea es una complicación común en pacientes con cirrosis descompensada y se asocia a ascitis infectada."
+    },
+    {
+      "question": "Paciente de 68 años con dolor abdominal y pérdida de peso. Hemoglobina: 8.7 g/dL (normal: 13-17 g/dL), ferritina: 20 ng/mL (normal: 30-400 ng/mL). Colonoscopia revela una masa en el colon. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Cáncer de colon", "Diverticulitis", "Colitis ulcerosa", "Enfermedad de Crohn"],
+      "answer": "Cáncer de colon",
+      "feedback": "La anemia ferropénica en un paciente de edad avanzada con pérdida de peso debe siempre considerarse un signo de cáncer de colon."
+    },
+    {
+      "question": "Paciente con antecedentes de colelitiasis, presenta dolor en hipocondrio derecho y fiebre. Bilirrubina total: 3.2 mg/dL (normal: 0.1-1.2 mg/dL), fosfatasa alcalina: 300 U/L (normal: 44-147 U/L), amilasa: 120 U/L (normal: 25-125 U/L). ¿Cuál es el diagnóstico más probable?",
+      "options": ["Colecistitis aguda", "Colangitis", "Pancreatitis aguda", "Úlcera péptica"],
+      "answer": "Colecistitis aguda",
+      "feedback": "El dolor en el hipocondrio derecho, asociado a fiebre e ictericia leve, sugiere colecistitis aguda. El aumento moderado de fosfatasa alcalina y bilirrubina confirma la sospecha."
+    },
+    {
+      "question": "Mujer de 45 años, fumadora, presenta disfagia progresiva y pérdida de peso. Hemoglobina: 10 g/dL (normal: 13-17 g/dL), leucocitos: 6,500/mm3 (normal: 4,000-11,000/mm3). Endoscopia muestra una lesión estenosante en el tercio medio del esófago. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Cáncer de esófago", "Esofagitis", "Acalasia", "Úlcera esofágica"],
+      "answer": "Cáncer de esófago",
+      "feedback": "La disfagia progresiva y la pérdida de peso en una paciente fumadora sugiere fuertemente un cáncer de esófago."
+    },
+    {
+      "question": "Paciente de 70 años con antecedentes de hipertensión presenta dolor torácico súbito irradiado a la espalda. Presión arterial: 180/110 mmHg, creatinina: 1.9 mg/dL (normal: 0.6-1.2 mg/dL). ¿Cuál es el diagnóstico más probable?",
+      "options": ["Disección aórtica", "Infarto agudo de miocardio", "Angina de pecho", "Pericarditis"],
+      "answer": "Disección aórtica",
+      "feedback": "El dolor torácico súbito irradiado a la espalda, asociado con hipertensión y posible compromiso renal, es sugestivo de una disección aórtica."
+    },
+    {
+      "question": "Paciente con dolor abdominal severo y hematoquezia. Hemoglobina: 7.8 g/dL (normal: 13-17 g/dL), hematocrito: 25% (normal: 40-50%), leucocitos: 16,000/mm3 (normal: 4,000-11,000/mm3). ¿Cuál es el diagnóstico más probable?",
+      "options": ["Isquemia mesentérica", "Diverticulitis", "Cáncer de colon", "Apendicitis"],
+      "answer": "Isquemia mesentérica",
+      "feedback": "El dolor abdominal severo y la hematoquezia en un paciente con signos de hipoperfusión sugieren fuertemente isquemia mesentérica."
+    },
+    {
+      "question": "Paciente de 30 años con dolor abdominal en fosa ilíaca derecha, fiebre, y anorexia. Hemograma: leucocitos 18,000/mm3 (normal: 4,000-11,000/mm3), proteína C reactiva: 25 mg/L (normal: 0.1-3 mg/L). ¿Cuál es el diagnóstico más probable?",
+      "options": ["Apendicitis aguda", "Colecistitis", "Diverticulitis", "Pancreatitis aguda"],
+      "answer": "Apendicitis aguda",
+      "feedback": "El dolor en fosa ilíaca derecha asociado con leucocitosis y una PCR elevada es altamente sugestivo de apendicitis aguda."
+    },
+    {
+      "question": "¿Cuál es la causa más común de escaras en pacientes postrados?",
+      "options": ["Deshidratación", "Presión por decúbito", "Infección bacteriana", "Desnutrición"],
+      "answer": "Presión por decúbito",
+      "feedback": "Las escaras son causadas por la presión constante en una misma posición, lo que interrumpe el flujo sanguíneo y daña los tejidos."
+    },
+    {
+      "question": "¿Cuál es la causa más frecuente de quemaduras en adultos?",
+      "options": ["Líquidos calientes", "Fuego", "Productos químicos", "Electricidad"],
+      "answer": "Fuego",
+      "feedback": "En adultos, las quemaduras por fuego son las más comunes, seguidas de las causadas por líquidos calientes."
+    },
+    {
+      "question": "¿Cuál es la causa más frecuente de quemaduras en niños?",
+      "options": ["Fuego", "Electricidad", "Líquidos calientes", "Productos químicos"],
+      "answer": "Líquidos calientes",
+      "feedback": "Los líquidos calientes son la principal causa de quemaduras en niños, especialmente durante accidentes domésticos."
+    },
+    {
+      "question": "¿Cuál es la causa más común de fiebre postoperatoria en las primeras 24 horas?",
+      "options": ["Infección de la herida", "Atelectasia", "Trombosis venosa profunda", "Infección urinaria"],
+      "answer": "Atelectasia",
+      "feedback": "La atelectasia, o colapso parcial de los pulmones, es la causa más común de fiebre en las primeras 24 horas tras una cirugía."
+    },
+    {
+      "question": "¿Qué microorganismo se debe cubrir en una infección de herida quirúrgica limpia-contaminada o contaminada?",
+      "options": ["Estafilococo", "Pseudomonas", "G- y anaerobios", "Escherichia coli"],
+      "answer": "G- y anaerobios",
+      "feedback": "En infecciones de heridas contaminadas, especialmente en cirugías digestivas, es crucial cubrir bacterias G- y anaerobios."
+    },
+    {
+      "question": "¿Cuál es el tratamiento inicial para las escaras en pacientes postrados?",
+      "options": ["Antibióticos", "Cambios de posición frecuentes", "Uso de apósitos", "Cirugía"],
+      "answer": "Cambios de posición frecuentes",
+      "feedback": "La prevención de escaras implica cambiar la posición del paciente para evitar la presión prolongada en áreas vulnerables."
+    },
+    {
+      "question": "¿Cuál es el microorganismo más común en infecciones de mordeduras de perro?",
+      "options": ["Estafilococo", "Pseudomonas", "Pasteurella multocida", "Escherichia coli"],
+      "answer": "Pasteurella multocida",
+      "feedback": "Pasteurella multocida es el patógeno más frecuente en infecciones de mordeduras de perro y requiere cobertura antibiótica específica."
+    },
+    {
+      "question": "¿Cuál es el microorganismo más común en infecciones de mordeduras de gato?",
+      "options": ["Estafilococo", "Pseudomonas", "Pasteurella multocida", "Escherichia coli"],
+      "answer": "Pasteurella multocida",
+      "feedback": "En mordeduras de gato, la Pasteurella multocida es el patógeno más común y debe ser tratado adecuadamente."
+    },
+    {
+      "question": "¿Qué tipo de hernia es más frecuente en hombres?",
+      "options": ["Inguinal directa", "Crural", "Inguinal indirecta", "Umbilical"],
+      "answer": "Inguinal indirecta",
+      "feedback": "La hernia inguinal indirecta es la más frecuente en hombres, debido a la persistencia del conducto peritoneo-vaginal."
+    },
+    {
+      "question": "¿Qué tipo de hernia es más frecuente en mujeres?",
+      "options": ["Crural", "Inguinal directa", "Inguinal indirecta", "Umbilical"],
+      "answer": "Crural",
+      "feedback": "Aunque las hernias inguinales indirectas son frecuentes, la hernia crural es más común en mujeres debido a la anatomía del canal femoral."
+    },
+      {
+    "question": "¿Cuál es la causa más común de pancreatitis aguda?",
+    "options": ["Alcoholismo", "Litiasis biliar", "Hipertrigliceridemia", "Infecciones virales"],
+    "answer": "Litiasis biliar",
+    "feedback": "La causa más común de pancreatitis aguda es la litiasis biliar, especialmente en mujeres."
+  },
+  {
+    "question": "¿Cuál es la causa más común de pancreatitis crónica?",
+    "options": ["Alcoholismo", "Litiasis biliar", "Hipercalcemia", "Infecciones virales"],
+    "answer": "Alcoholismo",
+    "feedback": "El alcoholismo es la principal causa de pancreatitis crónica, que puede llevar a fibrosis pancreática progresiva."
+  },
+  {
+    "question": "¿Cuál es la causa más frecuente de hemorragia digestiva alta?",
+    "options": ["Úlcera gastroduodenal", "Varices esofágicas", "Gastropatías erosivas", "Cáncer gástrico"],
+    "answer": "Úlcera gastroduodenal",
+    "feedback": "Las úlceras gastroduodenales son la principal causa de hemorragia digestiva alta, aunque las varices esofágicas son más graves."
+  },
+  {
+    "question": "¿Cuál es la causa más frecuente de hemorragia digestiva baja en ancianos?",
+    "options": ["Divertículos", "Angiodisplasia", "Cáncer de colon", "Fisuras anales"],
+    "answer": "Angiodisplasia",
+    "feedback": "La angiodisplasia es la causa más frecuente de hemorragia digestiva baja en ancianos, debido a cambios degenerativos en los vasos sanguíneos."
+  },
+  {
+    "question": "¿Cuál es el tratamiento de elección para una fisura anal crónica?",
+    "options": ["Cirugía", "Dilatación anal", "Dieta alta en fibra", "Nitroglicerina tópica"],
+    "answer": "Nitroglicerina tópica",
+    "feedback": "La nitroglicerina tópica es el tratamiento de primera línea para la fisura anal crónica, ayudando a relajar el esfínter anal."
+  },
+  {
+    "question": "¿Cuál es el tumor hepático benigno más frecuente?",
+    "options": ["Quiste hepático", "Hemangioma", "Adenoma hepático", "Hepatocarcinoma"],
+    "answer": "Hemangioma",
+    "feedback": "El hemangioma es el tumor hepático benigno más frecuente y se caracteriza por ser hiperecogénico en ecografía."
+  },
+  {
+    "question": "¿Cuál es el tratamiento inicial de la pancreatitis aguda?",
+    "options": ["Antibióticos", "Dieta líquida", "Reposo intestinal", "Cirugía"],
+    "answer": "Reposo intestinal",
+    "feedback": "El reposo intestinal es clave en el manejo inicial de la pancreatitis aguda para reducir la estimulación del páncreas."
+  },
+  {
+    "question": "¿Cuál es la causa más común de hemorragia digestiva baja en pacientes pediátricos?",
+    "options": ["Fisuras anales", "Divertículo de Meckel", "Pólipos rectales", "Enfermedad inflamatoria intestinal"],
+    "answer": "Pólipos rectales",
+    "feedback": "En niños, los pólipos rectales son una causa frecuente de hemorragia digestiva baja."
+  },
+  {
+    "question": "¿Cuál es la principal complicación de una colangitis aguda no tratada?",
+    "options": ["Pancreatitis", "Insuficiencia hepática", "Absceso hepático", "Sepsis"],
+    "answer": "Sepsis",
+    "feedback": "La colangitis aguda no tratada puede progresar rápidamente a sepsis debido a la infección biliar."
+  },
+  {
+    "question": "¿Cuál es el microorganismo más común en la colangitis aguda?",
+    "options": ["Escherichia coli", "Klebsiella", "Pseudomonas", "Enterococcus"],
+    "answer": "Escherichia coli",
+    "feedback": "Escherichia coli es el microorganismo más común en las infecciones del tracto biliar, como la colangitis aguda."
+  },
+  {
+    "question": "¿Cuál es la causa más común de hernia inguinal en hombres?",
+    "options": ["Hernia directa", "Hernia indirecta", "Hernia femoral", "Hernia umbilical"],
+    "answer": "Hernia indirecta",
+    "feedback": "La hernia inguinal indirecta es más frecuente en hombres debido a la persistencia del conducto peritoneo-vaginal."
+  },
+  {
+    "question": "¿Cuál es la causa más frecuente de hemorragia digestiva baja en adultos jóvenes?",
+    "options": ["Fisuras anales", "Enfermedad inflamatoria intestinal", "Divertículos", "Pólipos"],
+    "answer": "Enfermedad inflamatoria intestinal",
+    "feedback": "En adultos jóvenes, la enfermedad inflamatoria intestinal, como la colitis ulcerosa, es una causa común de hemorragia digestiva baja."
+  },
+  {
+    "question": "¿Qué tumor maligno hepático está más frecuentemente asociado a la cirrosis?",
+    "options": ["Hepatocarcinoma", "Colangiocarcinoma", "Metástasis hepáticas", "Hemangioma"],
+    "answer": "Hepatocarcinoma",
+    "feedback": "El hepatocarcinoma es el tumor maligno más comúnmente asociado con la cirrosis, especialmente en pacientes con hepatitis B o C."
+  },
+  {
+    "question": "¿Cuál es la complicación más grave de la pancreatitis crónica?",
+    "options": ["Pseudocisto", "Absceso pancreático", "Pancreatitis aguda recurrente", "Insuficiencia pancreática"],
+    "answer": "Insuficiencia pancreática",
+    "feedback": "La insuficiencia pancreática es una complicación grave de la pancreatitis crónica, que puede llevar a malabsorción y diabetes."
+  },
+  {
+    "question": "¿Cuál es el tratamiento de elección para el cáncer de colon localizado?",
+    "options": ["Radioterapia", "Quimioterapia", "Cirugía", "Inmunoterapia"],
+    "answer": "Cirugía",
+    "feedback": "El tratamiento de elección para el cáncer de colon localizado es la cirugía, con la resección del tumor primario."
+  }
+  ],
+  "Ginecología y Obstetricia": [
+    {
+      "question": "Embarazada sobre 20 semanas que presenta cuadro de dolor epigástrico e hipocondrio derecho...",
+      "options": ["Preeclampsia", "Colestasis del embarazo", "Hepatitis", "Colecistitis", "Pancreatitis"],
+      "answer": "Preeclampsia",
+      "feedback": "El dolor epigástrico e hipocondrio derecho, junto con la gestación avanzada, sugiere preeclampsia."
+    },
+    {
+      "question": "Mujer con antecedente de múltiples cesáreas, consulta por inicio de dismenorrea e hipermenorrea...",
+      "options": ["Adenomiosis", "Endometriosis", "Fibromas uterinos", "Cáncer de útero", "Infección pélvica"],
+      "answer": "Adenomiosis",
+      "feedback": "El dolor menstrual intenso y sangrado abundante en mujeres con antecedentes de cesáreas sugiere adenomiosis."
+    },
+    {
+      "question": "Mujer cursando embarazo de 35 semanas, tiene cultivo para Estreptococo grupo B positivo...",
+      "options": ["Antibióticos profilácticos", "Seguimiento cercano", "Parto inducido", "Cesárea", "No intervención"],
+      "answer": "Antibióticos profilácticos",
+      "feedback": "El tratamiento con antibióticos profilácticos es necesario para prevenir la transmisión vertical del Estreptococo grupo B durante el parto."
+    },
+    {
+      "question": "Paciente en puerperio refiere querer un método anticonceptivo natural...",
+      "options": ["Método Billings", "Método sintotérmico", "Lactancia materna", "Abstinencia periódica", "Condón"],
+      "answer": "Método Billings",
+      "feedback": "El Método Billings es un método anticonceptivo natural basado en el moco cervical, adecuado para el puerperio."
+    },
+    {
+      "question": "Paciente embarazada con PA 170/110 y cefalea...",
+      "options": ["Preeclampsia", "Eclampsia", "Hipertensión crónica", "Síndrome HELLP", "Toxemia del embarazo"],
+      "answer": "Preeclampsia",
+      "feedback": "Los síntomas de hipertensión severa durante el embarazo son indicativos de preeclampsia, una complicación seria."
+    },
+    {
+      "question": "Paciente de 35 semanas se presenta con salida de líquido claro por genitales sin contracciones. El examen de pH del líquido amniótico es 6.8.",
+      "options": [
+        "Monitorización fetal",
+        "Inducir parto",
+        "Realizar cesárea",
+        "Esperar evolución",
+        "Administrar antibióticos"
+      ],
+      "answer": "Monitorización fetal",
+      "feedback": "La monitorización es clave en casos de ruptura prematura de membranas sin trabajo de parto."
+    },
+    {
+      "question": "Embarazada con hipertensión arterial de 170/110 y proteinuria de 400 mg en orina de 24 horas. ¿Cuál es el siguiente paso?",
+      "options": [
+        "Iniciar sulfato de magnesio",
+        "Inducir parto",
+        "Vigilar",
+        "Esperar a evolución natural"
+      ],
+      "answer": "Iniciar sulfato de magnesio",
+      "feedback": "El sulfato de magnesio es esencial para prevenir eclampsia en casos de preeclampsia severa."
+    },
+    {
+      "question": "Embarazada de 39 semanas con cefalea intensa, escotomas, presión arterial de 160/100 mmHg y plaquetas de 70,000/µL.",
+      "options": [
+        "Iniciar tratamiento antihipertensivo",
+        "Inducir parto de emergencia",
+        "Realizar cesárea",
+        "Administrar esteroides"
+      ],
+      "answer": "Inducir parto de emergencia",
+      "feedback": "La preeclampsia severa requiere la interrupción del embarazo para evitar complicaciones maternas y fetales."
+    },
+    {
+      "question": "Embarazada con diabetes gestacional, presenta polihidramnios con índice de líquido amniótico de 25 cm y glicemia en ayunas de 140 mg/dL.",
+      "options": [
+        "Inducir parto",
+        "Control estricto de glicemia",
+        "Vigilar crecimiento fetal",
+        "Iniciar insulina"
+      ],
+      "answer": "Control estricto de glicemia",
+      "feedback": "El control glicémico es esencial para evitar complicaciones en el embarazo con polihidramnios y diabetes gestacional."
+    },
+    {
+      "question": "Paciente con 40 semanas de gestación acude con contracciones dolorosas cada 5 minutos. La frecuencia cardíaca fetal es de 140 lpm y el líquido amniótico es claro.",
+      "options": [
+        "Esperar evolución del trabajo de parto",
+        "Inducir parto con oxitocina",
+        "Realizar cesárea de emergencia",
+        "Administrar sedantes"
+      ],
+      "answer": "Esperar evolución del trabajo de parto",
+      "feedback": "El trabajo de parto en una gestante a término con signos estables se debe monitorizar sin intervenciones invasivas si no hay complicaciones."
+    },
+    {
+      "question": "Embarazada de 26 semanas con polihidramnios y hemoglobina de 9 g/dL, presenta fatiga y mareos.",
+      "options": [
+        "Administrar hierro",
+        "Inducir parto prematuro",
+        "Realizar cesárea de emergencia",
+        "Administrar transfusión sanguínea"
+      ],
+      "answer": "Administrar hierro",
+      "feedback": "La anemia en el embarazo se trata inicialmente con suplementación de hierro, especialmente si no hay signos de sangrado activo."
+    },
+    {
+      "question": "Paciente de 28 semanas con sangrado vaginal, dolor abdominal y frecuencia cardíaca fetal de 120 lpm. El nivel de hemoglobina es de 10 g/dL.",
+      "options": [
+        "Desprendimiento prematuro de placenta",
+        "Placenta previa",
+        "Trabajo de parto prematuro",
+        "Infección urinaria"
+      ],
+      "answer": "Desprendimiento prematuro de placenta",
+      "feedback": "El dolor abdominal con sangrado en el tercer trimestre es típico de un desprendimiento prematuro de placenta."
+    },
+    {
+      "question": "Embarazada de 35 semanas con cefalea intensa, escotomas y proteinuria. Presión arterial de 160/100 mmHg, y niveles de plaquetas en 70,000/µL.",
+      "options": [
+        "Inducir parto de emergencia",
+        "Iniciar tratamiento antihipertensivo",
+        "Administrar sulfato de magnesio",
+        "Realizar cesárea"
+      ],
+      "answer": "Inducir parto de emergencia",
+      "feedback": "La preeclampsia severa con signos de afectación del sistema nervioso central requiere la interrupción del embarazo para evitar complicaciones maternas y fetales."
+    },
+    {
+      "question": "Paciente con 39 semanas de embarazo y salida de líquido claro. El examen de pH del líquido amniótico es 7.2. No se evidencian contracciones.",
+      "options": [
+        "Monitorización fetal",
+        "Inducir el parto",
+        "Esperar evolución",
+        "Realizar cesárea"
+      ],
+      "answer": "Monitorización fetal",
+      "feedback": "La ruptura de membranas sin actividad uterina requiere monitorización cercana del estado fetal y materno."
+    },
+    {
+      "question": "Paciente con embarazo de 30 semanas que presenta polihidramnios. Índice de líquido amniótico de 28 cm y glicemia en ayunas de 145 mg/dL.",
+      "options": [
+        "Vigilar crecimiento fetal",
+        "Inducir el parto",
+        "Control estricto de la glicemia",
+        "Administrar insulina"
+      ],
+      "answer": "Control estricto de la glicemia",
+      "feedback": "El control glicémico adecuado es esencial para evitar complicaciones en embarazadas con diabetes gestacional."
+    },
+    {
+      "question": "Mujer de 36 semanas con dolor abdominal y sangrado vaginal. Ecografía muestra placenta cubriendo el OCI.",
+      "options": [
+        "Placenta previa",
+        "Desprendimiento de placenta",
+        "Trabajo de parto prematuro",
+        "Infección urinaria"
+      ],
+      "answer": "Placenta previa",
+      "feedback": "La placenta previa es una causa común de sangrado en el tercer trimestre y se debe confirmar mediante ecografía."
+    },
+    {
+      "question": "Paciente de 24 semanas con dolor abdominal y sangrado vaginal. Hemoglobina de 11 g/dL y frecuencia cardíaca fetal de 140 lpm.",
+      "options": [
+        "Desprendimiento prematuro de placenta",
+        "Placenta previa",
+        "Trabajo de parto prematuro",
+        "Infección urinaria"
+      ],
+      "answer": "Desprendimiento prematuro de placenta",
+      "feedback": "El desprendimiento prematuro de placenta es una emergencia obstétrica que requiere manejo inmediato."
+    },
+    {
+      "question": "Embarazada de 28 semanas con hipertensión de 180/110 mmHg y proteinuria de 400 mg en 24 horas.",
+      "options": [
+        "Inducir parto",
+        "Administrar antihipertensivos",
+        "Administrar sulfato de magnesio",
+        "Esperar a evolución"
+      ],
+      "answer": "Administrar sulfato de magnesio",
+      "feedback": "El sulfato de magnesio es el tratamiento de elección para prevenir convulsiones en preeclampsia severa."
+    },
+    {
+      "question": "Paciente de 40 semanas con contracciones cada 5 minutos. Frecuencia cardíaca fetal de 140 lpm, líquido amniótico claro.",
+      "options": [
+        "Esperar evolución del trabajo de parto",
+        "Inducir parto con oxitocina",
+        "Realizar cesárea",
+        "Administrar sedantes"
+      ],
+      "answer": "Esperar evolución del trabajo de parto",
+      "feedback": "En un embarazo a término con contracciones regulares y condiciones normales, lo adecuado es esperar la evolución del trabajo de parto."
+    },
+    {
+      "question": "Paciente de 32 semanas con sangrado vaginal. La ecografía muestra placenta previa.",
+      "options": [
+        "Realizar cesárea",
+        "Esperar evolución",
+        "Administrar esteroides",
+        "Monitorización fetal"
+      ],
+      "answer": "Realizar cesárea",
+      "feedback": "La placenta previa completa generalmente requiere cesárea para evitar complicaciones graves en el parto."
+    },
+    {
+      "question": "Embarazada de 36 semanas con antecedentes de diabetes gestacional presenta polihidramnios. El índice de líquido amniótico es de 30 cm.",
+      "options": [
+        "Monitorización fetal",
+        "Control estricto de la glicemia",
+        "Inducir el parto",
+        "Administrar insulina"
+      ],
+      "answer": "Control estricto de la glicemia",
+      "feedback": "El polihidramnios asociado a diabetes gestacional se maneja principalmente con un control estricto de la glicemia."
+    },
+    {
+      "question": "Mujer de 28 años con dolor en fosa ilíaca derecha, sin fiebre y con dolor a la palpación anexial derecha. La ecografía transvaginal revela un quiste ovárico simple de 3 cm.",
+      "options": [
+        "Observación y control ecográfico",
+        "Laparoscopía",
+        "Iniciar anticonceptivos",
+        "Realizar cesárea"
+      ],
+      "answer": "Observación y control ecográfico",
+      "feedback": "Los quistes ováricos simples pequeños en mujeres premenopáusicas suelen resolverse espontáneamente y pueden ser controlados con ecografía periódica."
+    },
+    {
+      "question": "Paciente de 50 años con reglas irregulares y episodios de calor y enrojecimiento facial. Los niveles de FSH son de 50 mUI/mL.",
+      "options": [
+        "Menopausia",
+        "Hipotiroidismo",
+        "SOP",
+        "Insuficiencia ovárica primaria"
+      ],
+      "answer": "Menopausia",
+      "feedback": "La menopausia se caracteriza por la ausencia de menstruación por 12 meses consecutivos y niveles elevados de FSH, generalmente mayores de 40 mUI/mL."
+    },
+    {
+      "question": "Mujer de 24 años, en el día 20 del ciclo menstrual, con tumor anexial derecho palpable. La ecografía transvaginal muestra una tumoración sólido-quística de 4 cm en ovario derecho.",
+      "options": [
+        "Quiste ovárico benigno",
+        "Cáncer de ovario",
+        "Endometrioma",
+        "Embarazo ectópico"
+      ],
+      "answer": "Quiste ovárico benigno",
+      "feedback": "Las tumoraciones sólido-quísticas pequeñas suelen ser benignas, especialmente en mujeres jóvenes. Se recomienda seguimiento y observación."
+    },
+    {
+      "question": "Paciente de 40 años con sangrado vaginal irregular. La ecografía transvaginal muestra un engrosamiento endometrial de 15 mm.",
+      "options": [
+        "Cáncer de endometrio",
+        "Pólipo endometrial",
+        "Hiperplasia endometrial",
+        "Endometritis"
+      ],
+      "answer": "Hiperplasia endometrial",
+      "feedback": "Un engrosamiento endometrial mayor de 10 mm en mujeres premenopáusicas con sangrado irregular sugiere hiperplasia endometrial y debe investigarse con biopsia."
+    },
+    {
+      "question": "Mujer de 50 años consulta por pérdida de orina al toser y hacer ejercicio. Al examen físico, se evidencia un descenso de la vejiga en la pared vaginal anterior.",
+      "options": [
+        "Cistocele",
+        "Prolapso uterino",
+        "Incontinencia por urgencia",
+        "Endometriosis"
+      ],
+      "answer": "Cistocele",
+      "feedback": "El cistocele es un prolapso de la vejiga que se produce por debilidad en la pared vaginal anterior, a menudo asociado a incontinencia urinaria de esfuerzo."
+    },
+    {
+      "question": "Paciente de 30 años, con antecedentes de múltiples parejas sexuales, presenta dolor hipogástrico y fiebre. Al examen físico, dolor a la movilización del cuello uterino.",
+      "options": [
+        "Enfermedad inflamatoria pélvica (EIP)",
+        "Endometriosis",
+        "Cáncer de cuello uterino",
+        "Quiste ovárico"
+      ],
+      "answer": "Enfermedad inflamatoria pélvica (EIP)",
+      "feedback": "El dolor pélvico, fiebre y sensibilidad a la movilización cervical sugieren enfermedad inflamatoria pélvica, especialmente en mujeres con antecedentes de promiscuidad sexual."
+    },
+    {
+      "question": "Paciente con sangrado vaginal anormal durante la menopausia. El examen físico es normal y se realiza una biopsia endometrial.",
+      "options": [
+        "Hiperplasia endometrial",
+        "Cáncer de endometrio",
+        "Atrofia endometrial",
+        "Pólipo endometrial"
+      ],
+      "answer": "Atrofia endometrial",
+      "feedback": "En mujeres postmenopáusicas, la atrofia endometrial es una causa común de sangrado vaginal. La biopsia endometrial es crucial para descartar malignidad."
+    },
+    {
+      "question": "Mujer de 35 años con dolor pélvico crónico, dismenorrea severa y dolor durante las relaciones sexuales. La ecografía muestra quistes ováricos bilaterales.",
+      "options": [
+        "Endometriosis",
+        "Enfermedad inflamatoria pélvica",
+        "SOP",
+        "Quiste funcional"
+      ],
+      "answer": "Endometriosis",
+      "feedback": "El dolor pélvico crónico y la dismenorrea en combinación con quistes ováricos son característicos de la endometriosis, una enfermedad ginecológica común."
+    },
+    {
+      "question": "Paciente de 18 años con acné, hirsutismo y menstruaciones irregulares desde la menarquia. Los niveles de testosterona están elevados.",
+      "options": [
+        "Síndrome de ovario poliquístico (SOP)",
+        "Hiperplasia suprarrenal congénita",
+        "Insuficiencia ovárica",
+        "Cáncer de ovario"
+      ],
+      "answer": "Síndrome de ovario poliquístico (SOP)",
+      "feedback": "El SOP es la causa más frecuente de hiperandrogenismo en mujeres jóvenes, caracterizado por acné, hirsutismo y disfunción ovulatoria."
+    },
+    {
+      "question": "Mujer de 45 años con dispareunia, sequedad vaginal y sofocos. Los niveles de estradiol son bajos.",
+      "options": [
+        "Menopausia",
+        "SOP",
+        "Hipotiroidismo",
+        "Endometriosis"
+      ],
+      "answer": "Menopausia",
+      "feedback": "Los síntomas vasomotores y la dispareunia, junto con niveles bajos de estradiol, son típicos de la menopausia."
+    },
+    {
+      "question": "Paciente de 45 años con sangrado vaginal irregular. La ecografía transvaginal muestra un engrosamiento endometrial de 20 mm.",
+      "options": [
+        "Cáncer de endometrio",
+        "Pólipo endometrial",
+        "Hiperplasia endometrial",
+        "Endometritis"
+      ],
+      "answer": "Cáncer de endometrio",
+      "feedback": "El engrosamiento endometrial en una paciente perimenopáusica con sangrado vaginal irregular debe hacer sospechar cáncer de endometrio."
+    },
+    {
+      "question": "Paciente de 32 años con dolor pélvico crónico, dismenorrea severa y dolor en las relaciones sexuales. La ecografía muestra quistes ováricos bilaterales.",
+      "options": [
+        "Endometriosis",
+        "Enfermedad inflamatoria pélvica",
+        "SOP",
+        "Quiste funcional"
+      ],
+      "answer": "Endometriosis",
+      "feedback": "El dolor pélvico crónico, dismenorrea y quistes ováricos son típicos de la endometriosis, una enfermedad frecuente en mujeres jóvenes."
+    },
+    {
+      "question": "Mujer de 25 años con metrorragia postcoital y secreción vaginal amarillenta. En la citología, se observan células escamosas anormales.",
+      "options": [
+        "Neoplasia intraepitelial cervical",
+        "Enfermedad inflamatoria pélvica",
+        "Cáncer de ovario",
+        "Vaginosis bacteriana"
+      ],
+      "answer": "Neoplasia intraepitelial cervical",
+      "feedback": "La metrorragia postcoital y el hallazgo de células escamosas atípicas son signos de neoplasia cervical, que requiere una evaluación colposcópica."
+    },
+    {
+      "question": "Paciente de 18 años con hirsutismo, acné y oligomenorrea. Los niveles de testosterona están elevados.",
+      "options": [
+        "Síndrome de ovario poliquístico (SOP)",
+        "Hiperplasia suprarrenal congénita",
+        "Insuficiencia ovárica",
+        "Cáncer de ovario"
+      ],
+      "answer": "Síndrome de ovario poliquístico (SOP)",
+      "feedback": "El SOP es la causa más frecuente de hiperandrogenismo en mujeres jóvenes, con síntomas de acné, hirsutismo y alteraciones menstruales."
+    },
+    {
+      "question": "Paciente de 55 años con reglas irregulares y episodios de calor. Los niveles de FSH son de 55 mUI/mL.",
+      "options": [
+        "Menopausia",
+        "Hipotiroidismo",
+        "SOP",
+        "Insuficiencia ovárica primaria"
+      ],
+      "answer": "Menopausia",
+      "feedback": "La menopausia se caracteriza por la elevación de los niveles de FSH debido a la falta de retroalimentación hormonal de los ovarios."
+    },
+    {
+      "question": "Paciente de 50 años con pérdida de orina al toser. Al examen se evidencia un descenso de la vejiga.",
+      "options": [
+        "Cistocele",
+        "Prolapso uterino",
+        "Incontinencia por urgencia",
+        "Endometriosis"
+      ],
+      "answer": "Cistocele",
+      "feedback": "El cistocele es un prolapso de la vejiga hacia la vagina, asociado a incontinencia urinaria de esfuerzo."
+    },
+    {
+      "question": "Paciente con sangrado vaginal postmenopáusico. Se realiza biopsia endometrial que revela atrofia endometrial.",
+      "options": [
+        "Atrofia endometrial",
+        "Cáncer de endometrio",
+        "Hiperplasia endometrial",
+        "Pólipo endometrial"
+      ],
+      "answer": "Atrofia endometrial",
+      "feedback": "La atrofia endometrial es una causa común de sangrado vaginal en mujeres postmenopáusicas."
+    },
+    {
+      "question": "Paciente de 38 años con sangrado vaginal anormal. La ecografía muestra un mioma submucoso de 5 cm.",
+      "options": [
+        "Miomectomía",
+        "Histerectomía",
+        "Terapia hormonal",
+        "Embolización de arterias uterinas"
+      ],
+      "answer": "Miomectomía",
+      "feedback": "La miomectomía es el tratamiento de elección para los miomas submucosos que causan síntomas significativos."
+    },
+    {
+      "question": "Mujer de 30 años que consulta por infertilidad primaria. Su pareja tiene un espermiograma normal.",
+      "options": [
+        "Evaluación de la ovulación",
+        "Histerosalpingografía",
+        "Tratamiento hormonal",
+        "Inseminación artificial"
+      ],
+      "answer": "Histerosalpingografía",
+      "feedback": "La histerosalpingografía es útil para evaluar la permeabilidad tubárica en mujeres con infertilidad de causa desconocida."
+    },
+    {
+      "question": "Paciente de 40 años con diagnóstico de SOP que busca embarazo. Su índice de masa corporal es de 30 kg/m2.",
+      "options": [
+        "Pérdida de peso y metformina",
+        "Terapia hormonal combinada",
+        "Inseminación intrauterina",
+        "Cirugía laparoscópica"
+      ],
+      "answer": "Pérdida de peso y metformina",
+      "feedback": "La pérdida de peso y el uso de metformina pueden mejorar la ovulación en mujeres con SOP que buscan embarazo."
+    }
+  ],
+  "Medicina Interna": [
+    {
+      "question": "Paciente con daño hepático crónico, ingresa en sopor, febril, ictérico, con ascitis a tensión...",
+      "options": ["Peritonitis bacteriana espontánea", "Hepatitis alcohólica", "Encefalopatía hepática", "Cirrosis avanzada", "Sepsis"],
+      "answer": "Peritonitis bacteriana espontánea",
+      "feedback": "La ascitis con fiebre e ictericia en un paciente cirrótico es sugestiva de peritonitis bacteriana espontánea, una complicación infecciosa."
+    },
+    {
+      "question": "Paciente con cirrosis hepática, presenta dos lesiones hepáticas hipoecogénicas de 2 cm...",
+      "options": ["Carcinoma hepatocelular", "Absceso hepático", "Quiste hepático", "Metástasis hepáticas", "Hemangioma hepático"],
+      "answer": "Carcinoma hepatocelular",
+      "feedback": "En pacientes cirróticos, las lesiones hepáticas hipoecogénicas deben hacer sospechar carcinoma hepatocelular."
+    },
+    {
+      "question": "Paciente adulto mayor con dolor en extremidades inferiores después de caminar 200 metros...",
+      "options": ["Claudicación intermitente", "Insuficiencia venosa crónica", "Arteriosclerosis", "Neuropatía diabética", "Trombosis venosa profunda"],
+      "answer": "Claudicación intermitente",
+      "feedback": "El dolor en las piernas que aparece tras caminar una corta distancia sugiere claudicación intermitente, un síntoma de enfermedad arterial periférica."
+    },
+    {
+      "question": "Paciente con antecedente de tabaquismo, ictericia, coluria, prurito y acolia...",
+      "options": ["Cáncer de páncreas", "Hepatitis viral", "Colecistitis aguda", "Hepatocarcinoma", "Cirrosis biliar primaria"],
+      "answer": "Cáncer de páncreas",
+      "feedback": "Los antecedentes de tabaquismo y los síntomas de ictericia obstructiva sugieren cáncer de páncreas."
+    },
+    {
+      "question": "Paciente con flutter auricular hemodinámicamente inestable...",
+      "options": ["Cardioversión eléctrica", "Amiodarona", "Betabloqueantes", "Anticoagulación", "Monitorización continua"],
+      "answer": "Cardioversión eléctrica",
+      "feedback": "La cardioversión eléctrica es el tratamiento de elección en pacientes con flutter auricular hemodinámicamente inestables."
+    },
+    {
+      "question": "Paciente de 60 años con linfadenopatías cervicales y síntomas B (fiebre, sudoración nocturna, pérdida de peso). El hemograma muestra leucocitosis y la biopsia revela células de Reed-Sternberg. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Linfoma de Hodgkin",
+        "Linfoma no Hodgkin",
+        "Leucemia mieloide aguda",
+        "Mieloma múltiple"
+      ],
+      "answer": "Linfoma de Hodgkin",
+      "feedback": "El hallazgo de células de Reed-Sternberg en una biopsia de ganglio es diagnóstico de linfoma de Hodgkin. Los síntomas B también son característicos.",
+      "imagen": "reed_sternberg.jpg"
+    },
+    {
+      "question": "Paciente masculino de 65 años con anemia, hipercalcemia, dolor óseo y proteínas monoclonales en sangre y orina. El hemograma muestra anemia normocítica normocrómica. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Mieloma múltiple",
+        "Linfoma no Hodgkin",
+        "Leucemia linfocítica crónica",
+        "Síndrome mielodisplásico"
+      ],
+      "answer": "Mieloma múltiple",
+      "feedback": "El mieloma múltiple se presenta con anemia, hipercalcemia y presencia de proteínas monoclonales en sangre y orina, acompañadas de dolor óseo.",
+      "imagen": "mieloma.jpg"
+    },
+    {
+      "question": "Paciente con fiebre persistente, esplenomegalia, pancitopenia, y un hemograma que muestra leucocitosis. Se realiza una biopsia de médula ósea que confirma la presencia de fibrosis. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Leucemia mieloide crónica",
+        "Síndrome mielodisplásico",
+        "Mielofibrosis primaria",
+        "Linfoma"
+      ],
+      "answer": "Mielofibrosis primaria",
+      "feedback": "La mielofibrosis primaria se caracteriza por fibrosis en la médula ósea, pancitopenia, esplenomegalia y leucocitosis.",
+      "imagen": "mielofibrosis.jpg"
+    },
+    {
+      "question": "Paciente de 50 años con diagnóstico de trombocitemia esencial. El recuento de plaquetas es de 800.000/mm3. ¿Cuál es el tratamiento inicial más indicado?",
+      "options": [
+        "Hidroxiurea",
+        "Aspirina",
+        "Quimioterapia",
+        "Trasplante de médula ósea"
+      ],
+      "answer": "Hidroxiurea",
+      "feedback": "El tratamiento de primera línea para la trombocitemia esencial es hidroxiurea para reducir el recuento de plaquetas y prevenir complicaciones trombóticas.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 45 años con episodios de trombosis venosa profunda. Los niveles de proteína C y proteína S están disminuidos. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Trombofilia congénita",
+        "Coagulación intravascular diseminada",
+        "Síndrome antifosfolípido",
+        "Púrpura trombocitopénica inmune"
+      ],
+      "answer": "Trombofilia congénita",
+      "feedback": "La deficiencia de proteína C y S es una causa de trombofilia congénita, que predispone a episodios recurrentes de trombosis.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente con diagnóstico de leucemia mieloide aguda presenta fiebre, leucocitosis y blastos circulantes en sangre periférica. ¿Cuál es el tratamiento de elección?",
+      "options": [
+        "Quimioterapia intensiva",
+        "Radioterapia",
+        "Trasplante de médula ósea",
+        "Inmunoterapia"
+      ],
+      "answer": "Quimioterapia intensiva",
+      "feedback": "La leucemia mieloide aguda se trata principalmente con quimioterapia intensiva para eliminar las células leucémicas de la médula ósea.",
+      "imagen": "leucemia_aguda.jpg"
+    },
+    {
+      "question": "Paciente de 70 años con cáncer de próstata metastásico presenta niveles elevados de antígeno prostático específico (APE) y dolor óseo. ¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        "Hormonoterapia",
+        "Quimioterapia",
+        "Cirugía radical",
+        "Inmunoterapia"
+      ],
+      "answer": "Hormonoterapia",
+      "feedback": "La hormonoterapia es el tratamiento estándar para el cáncer de próstata metastásico para reducir los niveles de testosterona que alimentan el tumor.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 60 años con antecedentes de tabaquismo, presenta expectoración hemoptoica y pérdida de peso. La radiografía de tórax muestra una masa pulmonar. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Cáncer de pulmón",
+        "Tuberculosis",
+        "Neumonía",
+        "Bronquitis crónica"
+      ],
+      "answer": "Cáncer de pulmón",
+      "feedback": "El cáncer de pulmón es común en pacientes con antecedentes de tabaquismo y se presenta con síntomas como expectoración hemoptoica y pérdida de peso.",
+      "imagen": "cancer_pulmon.jpg"
+    },
+    {
+      "question": "Paciente de 45 años con linfadenopatías cervicales dolorosas después del consumo de alcohol. La biopsia revela células grandes multinucleadas (células de Reed-Sternberg). ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Linfoma de Hodgkin",
+        "Leucemia mieloide crónica",
+        "Linfoma no Hodgkin",
+        "Mieloma múltiple"
+      ],
+      "answer": "Linfoma de Hodgkin",
+      "feedback": "El linfoma de Hodgkin se caracteriza por la presencia de células de Reed-Sternberg y puede causar linfadenopatías dolorosas tras el consumo de alcohol.",
+      "imagen": "reed_sternberg.jpg"
+    },
+    {
+      "question": "Paciente masculino de 70 años con anemia y fatiga. La electroforesis de proteínas muestra un pico monoclonal y el hemograma revela anemia normocítica. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Mieloma múltiple",
+        "Leucemia linfocítica crónica",
+        "Síndrome mielodisplásico",
+        "Anemia ferropénica"
+      ],
+      "answer": "Mieloma múltiple",
+      "feedback": "El mieloma múltiple es característico por la presencia de un pico monoclonal en la electroforesis de proteínas, anemia y síntomas como fatiga.",
+      "imagen": "mieloma.jpg"
+    },
+    {
+      "question": "Paciente de 24 años con fatiga crónica. El hemograma muestra Hb: 8.5 g/dl, VCM: 110 fl, leucocitos: 3.500, plaquetas: 100.000. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Anemia megaloblástica",
+        "Anemia ferropénica",
+        "Anemia de enfermedad crónica",
+        "Leucemia mieloide crónica"
+      ],
+      "answer": "Anemia megaloblástica",
+      "feedback": "El VCM elevado sugiere anemia megaloblástica, posiblemente por déficit de vitamina B12 o ácido fólico. Se requieren más estudios de vitamina B12 y ácido fólico.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 65 años con anemia, creatinina elevada (2.1 mg/dL), y proteinuria. El examen muestra hipercalcemia (11.5 mg/dL). ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Mieloma múltiple",
+        "Linfoma no Hodgkin",
+        "Síndrome nefrótico",
+        "Leucemia linfocítica crónica"
+      ],
+      "answer": "Mieloma múltiple",
+      "feedback": "El mieloma múltiple se caracteriza por insuficiencia renal, hipercalcemia y presencia de proteínas monoclonales en sangre. La anemia y la proteinuria también son signos clave.",
+      "imagen": "mieloma.jpg"
+    },
+    {
+      "question": "Paciente masculino de 40 años con diagnóstico de púrpura trombocitopénico inmunitario presenta plaquetas de 10.000/mm3. El examen muestra equimosis y petequias. ¿Cuál es el tratamiento inicial más adecuado?",
+      "options": [
+        "Transfusión de plaquetas",
+        "Prednisona",
+        "Inmunoglobulina",
+        "Esplenectomía"
+      ],
+      "answer": "Prednisona",
+      "feedback": "En pacientes con púrpura trombocitopénico inmunitario, el tratamiento inicial es con esteroides como prednisona para controlar la respuesta inmune.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 70 años con antecedentes de tabaquismo y pérdida de peso. El TAC muestra una masa pulmonar y el hemograma revela leucocitosis. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Cáncer de pulmón",
+        "Tuberculosis",
+        "Sarcoidosis",
+        "Neumonía bacteriana"
+      ],
+      "answer": "Cáncer de pulmón",
+      "feedback": "El cáncer de pulmón es altamente probable en pacientes fumadores con pérdida de peso y masa pulmonar en las imágenes. La leucocitosis puede estar asociada a una respuesta inflamatoria.",
+      "imagen": "cancer_pulmon.jpg"
+    },
+    {
+      "question": "Paciente con diagnóstico de linfoma de Hodgkin presenta fiebre, sudoración nocturna y pérdida de peso. El hemograma muestra anemia y linfocitosis. ¿Qué examen confirmaría el diagnóstico?",
+      "options": [
+        "Biopsia de ganglio linfático",
+        "TAC abdominal",
+        "Resonancia magnética",
+        "Ecografía"
+      ],
+      "answer": "Biopsia de ganglio linfático",
+      "feedback": "El diagnóstico de linfoma de Hodgkin se confirma con una biopsia de ganglio linfático, identificando células de Reed-Sternberg.",
+      "imagen": "reed_sternberg.jpg"
+    },
+    {
+      "question": "Paciente de 50 años con policitemia vera presenta hematocrito de 60%, Hb: 19.8 g/dl, y leucocitosis. ¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        "Sangrías periódicas",
+        "Hidroxiurea",
+        "Quimioterapia",
+        "Aspirina"
+      ],
+      "answer": "Sangrías periódicas",
+      "feedback": "El tratamiento de elección para la policitemia vera es la flebotomía (sangrías) para reducir el hematocrito y prevenir complicaciones trombóticas.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente con antecedente de mieloma múltiple presenta fractura patológica en el fémur. ¿Cuál es el mecanismo más probable?",
+      "options": [
+        "Invasión tumoral ósea",
+        "Osteomalacia",
+        "Deficiencia de calcio",
+        "Osteoporosis senil"
+      ],
+      "answer": "Invasión tumoral ósea",
+      "feedback": "En el mieloma múltiple, las fracturas patológicas son comunes debido a la invasión tumoral y destrucción ósea causada por el crecimiento de células plasmáticas anormales.",
+      "imagen": "fractura_mieloma.jpg"
+    },
+    {
+      "question": "Paciente con fiebre, sudoración nocturna, pérdida de peso y adenopatías generalizadas. El hemograma revela linfocitosis y trombocitopenia. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Linfoma no Hodgkin",
+        "Leucemia linfocítica crónica",
+        "Tuberculosis diseminada",
+        "Sarcoidosis"
+      ],
+      "answer": "Linfoma no Hodgkin",
+      "feedback": "El linfoma no Hodgkin suele presentarse con síntomas B (fiebre, sudoración nocturna, pérdida de peso) y linfocitosis, junto con adenopatías generalizadas.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 40 años con trombosis venosa profunda recurrente. El estudio muestra deficiencia de proteína C. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Trombofilia congénita",
+        "Síndrome antifosfolípido",
+        "Coagulación intravascular diseminada",
+        "Trombocitopenia inmune"
+      ],
+      "answer": "Trombofilia congénita",
+      "feedback": "La deficiencia de proteína C es una causa de trombofilia congénita, que predispone a trombosis recurrentes debido a la falta de regulación de la coagulación.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente con leucemia mieloide aguda presenta fiebre, pancitopenia y blastos circulantes en sangre. ¿Cuál es el tratamiento de primera línea?",
+      "options": [
+        "Quimioterapia intensiva",
+        "Radioterapia",
+        "Transfusión de plaquetas",
+        "Inmunoterapia"
+      ],
+      "answer": "Quimioterapia intensiva",
+      "feedback": "El tratamiento de primera línea para la leucemia mieloide aguda es la quimioterapia intensiva para eliminar las células leucémicas.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 20 años con odinofagia, tos de 8 días, malestar y disnea. Fiebre de 38°C, crepitos y sibilancias bilaterales. RxTx muestra un patrón alveolointersticial. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Neumonía bacteriana",
+        "Neumonía viral",
+        "Neumonía atípica por Mycoplasma",
+        "Bronquitis aguda"
+      ],
+      "answer": "Neumonía atípica por Mycoplasma",
+      "feedback": "La neumonía atípica se asocia a Mycoplasma, especialmente en jóvenes y escolares. El tratamiento incluye macrólidos o levofloxacino.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Niño de 8 años con tos, expectoración y rinorrea de 12 días, fiebre de 38,2°C y sibilancias. RxTx muestra infiltrado intersticial. ¿Cuál es el tratamiento adecuado?",
+      "options": [
+        "Ceftriaxona",
+        "Amoxicilina",
+        "Macrólidos",
+        "Antivirales"
+      ],
+      "answer": "Macrólidos",
+      "feedback": "La neumonía atípica en niños suele tratarse con macrólidos para cubrir Mycoplasma y Chlamydia pneumoniae.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 57 años con EPOC presenta disnea, aumento de expectoración y fiebre de 38°C. RxTx con infiltrado pulmonar. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Neumonía comunitaria",
+        "Descompensación de EPOC",
+        "Neumonía intrahospitalaria",
+        "Bronquiectasias"
+      ],
+      "answer": "Descompensación de EPOC",
+      "feedback": "La descompensación de EPOC suele ser causada por infecciones respiratorias, y requiere tratamiento con broncodilatadores, corticoides y antibióticos.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 69 años diabético con tos, fiebre y confusión mental. Satura 91%. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Neumonía comunitaria",
+        "Neumonía ATS III",
+        "Bronquitis crónica",
+        "Absceso pulmonar"
+      ],
+      "answer": "Neumonía ATS III",
+      "feedback": "La clasificación ATS indica la necesidad de oxígeno y hospitalización en pacientes con neumonía ATS III debido a su compromiso respiratorio.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 45 años con influenza de 8 días presenta neumonía grave bilateral y abscesos pulmonares. ¿Cuál es el tratamiento adecuado?",
+      "options": [
+        "Macrólidos",
+        "Amoxicilina",
+        "Cloxacilina + Ceftriaxona",
+        "Antivirales"
+      ],
+      "answer": "Cloxacilina + Ceftriaxona",
+      "feedback": "La neumonía estafilocócica secundaria a influenza se trata con antibióticos que cubran estafilococos, como cloxacilina y ceftriaxona.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente con dolor torácico súbito, disnea leve, y leve asimetría en el murmullo pulmonar. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Neumotórax espontáneo",
+        "Taponamiento cardíaco",
+        "Neumonía",
+        "Derrame pleural"
+      ],
+      "answer": "Neumotórax espontáneo",
+      "feedback": "El neumotórax espontáneo se manifiesta con dolor torácico súbito y asimetría en el examen físico. La RxTx confirmará la presencia de aire libre en la cavidad pleural.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 24 años, usuaria de ACO, presenta dolor torácico con disnea súbita. Examen muestra crepitos bilaterales. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Neumonía",
+        "Embolia pulmonar",
+        "Bronquitis aguda",
+        "Neumotórax"
+      ],
+      "answer": "Embolia pulmonar",
+      "feedback": "El uso de anticonceptivos orales aumenta el riesgo de embolia pulmonar, que se presenta con dolor torácico súbito y disnea.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Recién nacido de 40 semanas, hijo de madre diabética, nacido por cesárea, presenta taquipnea y desaturación arterial que responde a O2. ¿Cuál es el diagnóstico?",
+      "options": [
+        "Taquipnea transitoria del recién nacido",
+        "Enfermedad de membrana hialina",
+        "Distrés respiratorio",
+        "Aspiración meconial"
+      ],
+      "answer": "Taquipnea transitoria del recién nacido",
+      "feedback": "La taquipnea transitoria es común en recién nacidos de cesárea e hijos de madres diabéticas. Responde bien a oxígeno.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 20 años presenta dolor torácico súbito con tope inspiratorio. Examen revela disminución del murmullo pulmonar a la izquierda. ¿Qué examen confirmatorio se debe solicitar?",
+      "options": [
+        "TAC de tórax",
+        "Rx de tórax",
+        "Ecografía torácica",
+        "Gases arteriales"
+      ],
+      "answer": "Rx de tórax",
+      "feedback": "El neumotórax debe ser confirmado con radiografía de tórax antes de realizar intervenciones como la colocación de un tubo pleural.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Recién nacido de 37 semanas presenta quejido, taquipnea y crepitos difusos. La RxTx muestra aumento de líquido en cisuras. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Enfermedad de membrana hialina",
+        "Taquipnea transitoria",
+        "Distrés respiratorio",
+        "Síndrome de aspiración meconial"
+      ],
+      "answer": "Taquipnea transitoria",
+      "feedback": "El diagnóstico de taquipnea transitoria se confirma con hallazgos radiográficos de cisuras prominentes y distribución vascular.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 65 años, fumador de 40 paquetes-año, consulta por disnea progresiva y tos crónica productiva. Examen físico con hipoventilación y murmullo vesicular disminuido. ¿Qué examen confirmaría el diagnóstico?",
+      "options": [
+        "Espirometría",
+        "TAC de tórax",
+        "Ecocardiografía",
+        "Biopsia pulmonar"
+      ],
+      "answer": "Espirometría",
+      "feedback": "La espirometría es clave para diagnosticar EPOC, mostrando un patrón obstructivo (VEF1/CVF < 70%).",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 50 años, obeso, con historia de ronquidos nocturnos y somnolencia diurna. Se realiza polisomnografía. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Síndrome de apnea obstructiva del sueño",
+        "EPOC",
+        "Asma",
+        "Enfermedad pulmonar intersticial"
+      ],
+      "answer": "Síndrome de apnea obstructiva del sueño",
+      "feedback": "El síndrome de apnea obstructiva del sueño se caracteriza por episodios de apnea durante el sueño, especialmente en pacientes obesos con ronquidos.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Recién nacido prematuro de 32 semanas presenta dificultad respiratoria. La radiografía de tórax muestra un patrón de vidrio esmerilado. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Enfermedad de membrana hialina",
+        "Taquipnea transitoria",
+        "Síndrome de aspiración meconial",
+        "Bronquiolitis"
+      ],
+      "answer": "Enfermedad de membrana hialina",
+      "feedback": "La enfermedad de membrana hialina ocurre en recién nacidos prematuros debido a la deficiencia de surfactante, causando un patrón radiológico característico de vidrio esmerilado.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 45 años, con historia de tuberculosis pulmonar, presenta hemoptisis recurrente y pérdida de peso. La radiografía muestra cavitaciones. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Bronquiectasias",
+        "Cáncer de pulmón",
+        "Fibrosis pulmonar",
+        "Neumonía"
+      ],
+      "answer": "Bronquiectasias",
+      "feedback": "Las bronquiectasias son dilataciones anormales de los bronquios que pueden ser consecuencia de infecciones pulmonares como la tuberculosis.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 30 años, VIH positivo, presenta disnea progresiva y tos seca. Radiografía de tórax muestra infiltrados intersticiales bilaterales. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Neumonía por Pneumocystis jirovecii",
+        "Neumonía bacteriana",
+        "Tuberculosis miliar",
+        "Asma"
+      ],
+      "answer": "Neumonía por Pneumocystis jirovecii",
+      "feedback": "La neumonía por Pneumocystis jirovecii es una infección oportunista frecuente en pacientes con VIH avanzado, causando infiltrados intersticiales bilaterales.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 60 años con antecedente de insuficiencia cardíaca presenta disnea súbita y dolor torácico. El electrocardiograma muestra taquicardia sinusal. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Embolia pulmonar",
+        "Infarto de miocardio",
+        "Neumonía",
+        "Derrame pleural"
+      ],
+      "answer": "Embolia pulmonar",
+      "feedback": "La embolia pulmonar es una complicación frecuente en pacientes con insuficiencia cardíaca, presentándose con disnea súbita y taquicardia.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 28 años, no fumador, con tos seca y disnea. La TAC de tórax muestra adenopatías hiliares bilaterales. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Sarcoidosis",
+        "Neumonía atípica",
+        "Asma",
+        "Fibrosis pulmonar"
+      ],
+      "answer": "Sarcoidosis",
+      "feedback": "La sarcoidosis se caracteriza por la presencia de adenopatías hiliares bilaterales y es más frecuente en adultos jóvenes.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente con antecedentes de tabaquismo presenta tos persistente y pérdida de peso. La TAC de tórax muestra una masa en el lóbulo superior derecho. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Cáncer de pulmón",
+        "Bronquitis crónica",
+        "Tuberculosis",
+        "Neumonía"
+      ],
+      "answer": "Cáncer de pulmón",
+      "feedback": "El cáncer de pulmón es altamente probable en pacientes fumadores con síntomas como tos persistente y pérdida de peso.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 55 años con fiebre, tos productiva y dolor torácico pleurítico. La radiografía muestra consolidación en el lóbulo inferior derecho. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Neumonía bacteriana",
+        "Tuberculosis",
+        "Asma",
+        "Derrame pleural"
+      ],
+      "answer": "Neumonía bacteriana",
+      "feedback": "La neumonía bacteriana se presenta con fiebre, tos productiva y consolidación en la radiografía.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 65 años con disnea, ortopnea y edema periférico. La radiografía muestra cardiomegalia y líneas de Kerley B. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Edema pulmonar cardiogénico",
+        "Neumonía",
+        "Fibrosis pulmonar",
+        "Embolia pulmonar"
+      ],
+      "answer": "Edema pulmonar cardiogénico",
+      "feedback": "El edema pulmonar cardiogénico es una complicación de la insuficiencia cardíaca, manifestada por disnea, ortopnea y signos radiológicos como cardiomegalia y líneas de Kerley B.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 44 años, del sur, con dolor abdominal e ictericia. Examen revela hepatomegalia sensible y eosinofilia importante en el hemograma. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Hepatitis A",
+        "Fasciolasis",
+        "Leptospirosis",
+        "Colecistitis"
+      ],
+      "answer": "Fasciolasis",
+      "feedback": "La fasciolasis produce una importante eosinofilia y puede causar ictericia y dolor abdominal. Se diagnostica con ecografía o coproparasitoscópico."
+    },
+    {
+      "question": "Paciente de 16 años con fiebre, adenopatías inguinales bilaterales y ulceraciones dolorosas en la vulva. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Herpes genital",
+        "Sífilis",
+        "Linfogranuloma venéreo",
+        "Candidiasis"
+      ],
+      "answer": "Herpes genital",
+      "feedback": "El herpes genital se caracteriza por lesiones ulceradas dolorosas y adenopatías inguinales. El cultivo viral o PCR confirman el diagnóstico."
+    },
+    {
+      "question": "Hombre de 22 años con disuria y secreción uretral, días después de relación sexual sin protección. El Gram de secreción no muestra bacterias. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Uretritis gonocócica",
+        "Uretritis no gonocócica",
+        "Prostatitis",
+        "Infección urinaria"
+      ],
+      "answer": "Uretritis no gonocócica",
+      "feedback": "La uretritis no gonocócica es causada comúnmente por Clamydia o Mycoplasma, y se trata con doxiciclina o azitromicina."
+    },
+    {
+      "question": "Niño de 4 años con fiebre, dolor en las extremidades y exantema en mejillas. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Escarlatina",
+        "Eritema infeccioso",
+        "Sarampión",
+        "Rubéola"
+      ],
+      "answer": "Eritema infeccioso",
+      "feedback": "El eritema infeccioso, conocido como la Quinta Enfermedad, presenta eritema en mejillas (signo de la cachetada) y fiebre leve."
+    },
+    {
+      "question": "Paciente de 56 años consulta por dolor intenso en la rodilla, fiebre y aumento de volumen. Examen muestra rodilla eritematosa, caliente y aumentada de volumen. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Gota",
+        "Artritis séptica",
+        "Osteoartritis",
+        "Lupus"
+      ],
+      "answer": "Artritis séptica",
+      "feedback": "La artritis séptica cursa con fiebre, dolor articular y eritema. El diagnóstico se confirma con artrocentesis y cultivo del líquido articular."
+    },
+    {
+      "question": "Niño de 7 meses con fiebre alta que cede espontáneamente, seguido de un exantema maculopapular en tronco. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Exantema súbito",
+        "Escarlatina",
+        "Rubéola",
+        "Varicela"
+      ],
+      "answer": "Exantema súbito",
+      "feedback": "El exantema súbito afecta a niños entre 6 y 18 meses, caracterizado por fiebre alta seguida de un exantema no pruriginoso."
+    },
+    {
+      "question": "Niño de 8 años con dolor de garganta, fiebre y vesículas en las manos, pies y boca. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Herpangina",
+        "Síndrome pie-mano-boca",
+        "Estomatitis herpética",
+        "Mononucleosis infecciosa"
+      ],
+      "answer": "Síndrome pie-mano-boca",
+      "feedback": "El síndrome pie-mano-boca, causado por el virus Coxsackie, se presenta con fiebre y vesículas en las extremidades y cavidad oral."
+    },
+    {
+      "question": "Mujer de 25 años consulta por disuria y dolor pélvico. Al examen se observa flujo vaginal purulento. ¿Cuál es el tratamiento inicial?",
+      "options": [
+        "Ciprofloxacino",
+        "Ceftriaxona y doxiciclina",
+        "Azitromicina",
+        "Metronidazol"
+      ],
+      "answer": "Ceftriaxona y doxiciclina",
+      "feedback": "El tratamiento inicial para enfermedad inflamatoria pélvica incluye ceftriaxona para cubrir gonorrea y doxiciclina para Clamydia."
+    },
+    {
+      "question": "Paciente de 45 años con fiebre, sudoración nocturna y pérdida de peso. La radiografía de tórax muestra cavitaciones pulmonares. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Tuberculosis",
+        "Neumonía",
+        "Bronquiectasias",
+        "Cáncer de pulmón"
+      ],
+      "answer": "Tuberculosis",
+      "feedback": "La tuberculosis pulmonar se caracteriza por fiebre, sudoración nocturna, pérdida de peso y cavitaciones en la radiografía."
+    },
+    {
+      "question": "Paciente de 35 años consulta por disuria intensa y secreción uretral purulenta. Al examen se confirma secreción purulenta. ¿Cuál es el tratamiento de elección?",
+      "options": [
+        "Penicilina",
+        "Ceftriaxona y azitromicina",
+        "Doxiciclina",
+        "Metronidazol"
+      ],
+      "answer": "Ceftriaxona y azitromicina",
+      "feedback": "La gonorrea se trata con ceftriaxona y azitromicina para cubrir también posibles infecciones concomitantes por Clamydia."
+    },
+    {
+      "question": "Paciente de 60 años con antecedentes de contacto con personas con tuberculosis activa, presenta tos productiva de 3 semanas, fiebre, sudoración nocturna y pérdida de peso. La radiografía de tórax muestra cavitaciones en los lóbulos superiores. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Tuberculosis pulmonar",
+        "Neumonía bacteriana",
+        "Sarcoidosis",
+        "Neumonía por Pneumocystis jirovecii"
+      ],
+      "answer": "Tuberculosis pulmonar",
+      "feedback": "La tuberculosis pulmonar presenta tos crónica, fiebre y sudoración nocturna, con cavitaciones en los lóbulos superiores en la radiografía.",
+      "imagen": "cavitaciones_tuberculosis.jpg"
+    },
+    {
+      "question": "Paciente de 32 años VIH positivo, con fiebre persistente y tos no productiva. La radiografía muestra infiltrados intersticiales bilaterales. Se realiza baciloscopía con resultado positivo. ¿Cuál es el tratamiento inicial más adecuado?",
+      "options": [
+        "Rifampicina, Isoniazida, Pirazinamida, Etambutol",
+        "Amoxicilina y Clavulánico",
+        "Claritromicina y Azitromicina",
+        "Doxiciclina"
+      ],
+      "answer": "Rifampicina, Isoniazida, Pirazinamida, Etambutol",
+      "feedback": "El tratamiento estándar para tuberculosis es el régimen de cuatro fármacos: Rifampicina, Isoniazida, Pirazinamida y Etambutol.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 40 años con fiebre, pérdida de peso, y linfadenopatías cervicales. Baciloscopía negativa, pero la biopsia ganglionar revela granulomas necrosantes. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Tuberculosis ganglionar",
+        "Linfoma",
+        "Toxoplasmosis",
+        "Sífilis"
+      ],
+      "answer": "Tuberculosis ganglionar",
+      "feedback": "La tuberculosis ganglionar se diagnostica por la presencia de granulomas necrosantes en biopsia y puede ser negativa en la baciloscopía.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente con antecedentes de tratamiento incompleto para tuberculosis presenta nuevamente tos, fiebre y pérdida de peso. La baciloscopía es positiva. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Recaída de tuberculosis",
+        "Neumonía bacteriana",
+        "Neumonía viral",
+        "Bronquitis crónica"
+      ],
+      "answer": "Recaída de tuberculosis",
+      "feedback": "El tratamiento incompleto de la tuberculosis predispone a recaídas, por lo que es esencial completar el tratamiento estándar.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente con dolor torácico pleurítico, fiebre, y sudoración nocturna. La radiografía de tórax muestra un derrame pleural. El líquido pleural tiene un ADA mayor de 50 U/L. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Tuberculosis pleural",
+        "Empiema pleural",
+        "Neumonía bacteriana",
+        "Insuficiencia cardíaca"
+      ],
+      "answer": "Tuberculosis pleural",
+      "feedback": "El ADA elevado en líquido pleural es un indicador de tuberculosis pleural. Se confirma con cultivo o biopsia pleural.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente con fiebre, cefalea, y rigidez de nuca. El LCR muestra glucosa baja, proteínas elevadas, y linfocitos. El ADA en LCR es mayor de 30 U/L. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Meningitis tuberculosa",
+        "Meningitis bacteriana",
+        "Meningitis viral",
+        "Encefalitis herpética"
+      ],
+      "answer": "Meningitis tuberculosa",
+      "feedback": "La meningitis tuberculosa se caracteriza por glucosa baja y proteínas elevadas en LCR, con ADA elevado como marcador adicional.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente de 60 años con sudoración nocturna, fiebre, tos, y hemoptisis. La baciloscopía es positiva para bacilos ácido-alcohol resistentes. ¿Cuál es el siguiente paso en el manejo?",
+      "options": [
+        "Iniciar tratamiento antituberculoso",
+        "Tomar TAC de tórax",
+        "Repetir baciloscopía en una semana",
+        "Iniciar tratamiento antibiótico empírico"
+      ],
+      "answer": "Iniciar tratamiento antituberculoso",
+      "feedback": "Una baciloscopía positiva para tuberculosis requiere inicio inmediato de tratamiento con el esquema estándar.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente con diagnóstico de tuberculosis presenta empeoramiento clínico tras dos meses de tratamiento. Se sospecha resistencia a fármacos. ¿Qué examen es más adecuado para evaluar la resistencia?",
+      "options": [
+        "Cultivo y prueba de sensibilidad",
+        "Radiografía de tórax",
+        "Biopsia pulmonar",
+        "TAC de tórax"
+      ],
+      "answer": "Cultivo y prueba de sensibilidad",
+      "feedback": "El cultivo de micobacterias y la prueba de sensibilidad son esenciales para identificar resistencia a fármacos en tuberculosis.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente con diagnóstico de tuberculosis extrapulmonar en tratamiento presenta diplopía, ataxia y confusión. Se sospecha neurotoxicidad por uno de los fármacos antituberculosos. ¿Cuál es el más probable?",
+      "options": [
+        "Isoniazida",
+        "Rifampicina",
+        "Pirazinamida",
+        "Etambutol"
+      ],
+      "answer": "Isoniazida",
+      "feedback": "La neurotoxicidad es un efecto adverso bien conocido de la isoniazida, especialmente en pacientes con deficiencia de vitamina B6.",
+      "imagen": ".jpg"
+    },
+    {
+      "question": "Paciente en tratamiento para tuberculosis presenta fiebre, hepatitis y erupción cutánea. Se sospecha reacción adversa a los fármacos. ¿Cuál es el fármaco más comúnmente implicado en la hepatotoxicidad?",
+      "options": [
+        "Rifampicina",
+        "Isoniazida",
+        "Pirazinamida",
+        "Etambutol"
+      ],
+      "answer": "Isoniazida",
+      "feedback": "La isoniazida es el fármaco más comúnmente implicado en la hepatotoxicidad en pacientes bajo tratamiento para tuberculosis.",
+      "imagen": ".jpg"
+    }
+  ],
+  "Psiquiatria": [
+    {
+      "question": "Paciente con antecedentes de depresión mayor, presenta llanto espontáneo, pérdida de interés por las actividades diarias, fatiga y dificultades para concentrarse en el trabajo. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno depresivo mayor", "Distimia", "Trastorno bipolar", "Esquizofrenia", "Ciclotimia"],
+      "answer": "Trastorno depresivo mayor",
+      "feedback": "La presentación clásica de la depresión mayor incluye tristeza, pérdida de interés en actividades y síntomas de fatiga y concentración reducida."
+    },
+    {
+      "question": "Un paciente refiere episodios de ansiedad intensa y temor a morir de manera repentina, acompañado de palpitaciones y sudoración. Los episodios ocurren sin un desencadenante específico. ¿Cuál es el diagnóstico probable?",
+      "options": ["Trastorno de pánico", "Fobia específica", "Trastorno de estrés postraumático", "Trastorno obsesivo-compulsivo", "Trastorno de ansiedad generalizada"],
+      "answer": "Trastorno de pánico",
+      "feedback": "Los episodios de ansiedad súbita con síntomas físicos intensos son característicos del trastorno de pánico."
+    },
+    {
+      "question": "Paciente con antecedentes de bipolaridad, actualmente en un episodio de manía, presenta conducta impulsiva, aumento de la actividad motora, y disminución de la necesidad de dormir. ¿Cuál es el tratamiento recomendado?",
+      "options": ["Antidepresivos", "Benzodiacepinas", "Antipsicóticos", "Litio", "Psicoterapia cognitivo-conductual"],
+      "answer": "Litio",
+      "feedback": "El litio es un estabilizador del ánimo que se utiliza para el tratamiento de los episodios maníacos en el trastorno bipolar."
+    },
+    {
+      "question": "Un paciente se presenta con alucinaciones auditivas, discurso incoherente y comportamiento desorganizado. Informa que los síntomas han persistido durante los últimos 6 meses. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno esquizoafectivo", "Esquizofrenia", "Trastorno delirante", "Depresión psicótica", "Trastorno bipolar"],
+      "answer": "Esquizofrenia",
+      "feedback": "Los síntomas de alucinaciones, discurso incoherente y comportamiento desorganizado que persisten por más de seis meses son característicos de la esquizofrenia."
+    },
+    {
+      "question": "Paciente de 22 años con episodios de preocupación excesiva e incontrolable sobre varios aspectos de su vida diaria, acompañado de insomnio y tensión muscular. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno de pánico", "Trastorno de ansiedad generalizada", "Fobia social", "Trastorno obsesivo-compulsivo", "Trastorno de estrés agudo"],
+      "answer": "Trastorno de ansiedad generalizada",
+      "feedback": "La ansiedad crónica e incontrolable que afecta múltiples aspectos de la vida es indicativa de un trastorno de ansiedad generalizada."
+    },
+    {
+      "question": "Un hombre de 34 años acude a la consulta refiriendo que experimenta temor excesivo e irracional a situaciones sociales por miedo a ser juzgado o humillado. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Fobia específica", "Trastorno de pánico", "Fobia social", "Trastorno de ansiedad generalizada", "Trastorno obsesivo-compulsivo"],
+      "answer": "Fobia social",
+      "feedback": "El temor irracional a situaciones sociales por miedo al juicio negativo caracteriza a la fobia social."
+    },
+    {
+      "question": "Paciente con antecedentes de múltiples episodios depresivos y maníacos, en el último mes ha experimentado irritabilidad, grandiosidad y disminución de la necesidad de dormir. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno bipolar tipo I", "Trastorno depresivo mayor", "Ciclotimia", "Trastorno de personalidad borderline", "Esquizofrenia"],
+      "answer": "Trastorno bipolar tipo I",
+      "feedback": "El trastorno bipolar tipo I se caracteriza por la presencia de episodios maníacos y depresivos. El episodio descrito es de manía."
+    },
+    {
+      "question": "Una mujer de 30 años presenta compulsiones relacionadas con el lavado de manos excesivo y repetitivo, que le generan malestar y afectan su vida diaria. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno de ansiedad generalizada", "Trastorno obsesivo-compulsivo", "Trastorno de pánico", "Fobia específica", "Trastorno de estrés postraumático"],
+      "answer": "Trastorno obsesivo-compulsivo",
+      "feedback": "El TOC se caracteriza por la presencia de obsesiones y compulsiones que interfieren con la vida diaria del paciente."
+    },
+    {
+      "question": "Paciente con historia de trauma severo durante la infancia, actualmente presenta pesadillas recurrentes, pensamientos intrusivos y evita situaciones que le recuerdan el trauma. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno de estrés postraumático", "Trastorno de ansiedad generalizada", "Depresión mayor", "Trastorno obsesivo-compulsivo", "Trastorno de estrés agudo"],
+      "answer": "Trastorno de estrés postraumático",
+      "feedback": "El TEPT se caracteriza por la presencia de síntomas como pesadillas, pensamientos intrusivos y evitación de estímulos relacionados con el trauma."
+    },
+    {
+      "question": "Un paciente consulta debido a la aparición de creencias delirantes de persecución que han estado presentes por los últimos 3 meses. Niega alucinaciones. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Esquizofrenia", "Trastorno delirante", "Trastorno esquizoafectivo", "Depresión psicótica", "Trastorno bipolar con síntomas psicóticos"],
+      "answer": "Trastorno delirante",
+      "feedback": "El trastorno delirante se caracteriza por la presencia de delirios persistentes sin otras características psicóticas, como las alucinaciones."
+    },
+    {
+      "question": "Paciente de 28 años acude a consulta por episodios de insomnio, agitación y pensamientos acelerados. Refirió haber tenido previamente un episodio de depresión profunda. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno bipolar tipo I", "Trastorno de pánico", "Trastorno de ansiedad generalizada", "Esquizofrenia"],
+      "answer": "Trastorno bipolar tipo I",
+      "feedback": "El trastorno bipolar tipo I se caracteriza por episodios de manía e hipomanía alternados con episodios de depresión mayor."
+    },
+    {
+      "question": "Paciente de 35 años con antecedentes de episodios de ansiedad intensa, acompañada de sudoración y taquicardia, sin un desencadenante claro. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno de pánico", "Fobia social", "Trastorno de estrés postraumático", "Esquizofrenia"],
+      "answer": "Trastorno de pánico",
+      "feedback": "El trastorno de pánico presenta episodios repentinos de ansiedad intensa sin una causa identificable, acompañados de síntomas físicos como taquicardia."
+    },
+    {
+      "question": "Paciente de 45 años, presenta episodios de tristeza, disminución de la energía y pérdida de interés en actividades cotidianas. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno depresivo mayor", "Distimia", "Trastorno de personalidad", "Trastorno bipolar tipo II"],
+      "answer": "Trastorno depresivo mayor",
+      "feedback": "El trastorno depresivo mayor incluye síntomas persistentes de tristeza y pérdida de interés en actividades cotidianas."
+    },
+    {
+      "question": "Paciente de 29 años, refiere una persistente preocupación por ser evaluado negativamente en situaciones sociales, lo que evita por completo. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Fobia social", "Trastorno de pánico", "Esquizofrenia", "Trastorno de ansiedad generalizada"],
+      "answer": "Fobia social",
+      "feedback": "La fobia social se caracteriza por un miedo intenso a ser evaluado negativamente en situaciones sociales."
+    },
+    {
+      "question": "Paciente de 40 años que presenta pensamientos intrusivos y compulsiones como lavado de manos excesivo para disminuir la ansiedad. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno obsesivo-compulsivo", "Trastorno de ansiedad generalizada", "Trastorno de pánico", "Esquizofrenia"],
+      "answer": "Trastorno obsesivo-compulsivo",
+      "feedback": "El TOC se caracteriza por la presencia de obsesiones y compulsiones que interfieren con la vida diaria."
+    },
+    {
+      "question": "Paciente refiere haber presenciado un accidente automovilístico hace 3 meses. Desde entonces tiene pesadillas recurrentes y evita hablar del evento. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno de estrés postraumático", "Trastorno de ansiedad generalizada", "Trastorno de pánico", "Depresión mayor"],
+      "answer": "Trastorno de estrés postraumático",
+      "feedback": "El TEPT se presenta con recuerdos intrusivos y evitación de estímulos asociados al trauma tras haber experimentado un evento traumático."
+    },
+    {
+      "question": "Paciente de 18 años consulta por miedo extremo a presentar un examen en público. A pesar de haber estudiado, teme fallar debido al nerviosismo. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Fobia social", "Trastorno de ansiedad generalizada", "Trastorno de pánico", "Esquizofrenia"],
+      "answer": "Fobia social",
+      "feedback": "La fobia social se caracteriza por un temor excesivo a situaciones de evaluación pública o social."
+    },
+    {
+      "question": "Paciente de 26 años refiere episodios recurrentes de miedo intenso y palpitaciones, que surgen de manera repentina. Ha dejado de conducir por miedo a tener uno de estos episodios mientras maneja. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno de pánico", "Fobia específica", "Trastorno de ansiedad generalizada", "Esquizofrenia"],
+      "answer": "Trastorno de pánico",
+      "feedback": "Los ataques de pánico se presentan de manera repentina y están acompañados de miedo intenso y síntomas físicos como palpitaciones."
+    },
+    {
+      "question": "Un hombre de 50 años, sin antecedentes psiquiátricos, consulta por falta de motivación y tristeza persistente. Los síntomas iniciaron hace 6 meses tras perder a su esposa. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno depresivo mayor", "Duelo complicado", "Trastorno de ansiedad generalizada", "Trastorno bipolar tipo II"],
+      "answer": "Duelo complicado",
+      "feedback": "El duelo complicado es una reacción prolongada y desadaptativa tras una pérdida significativa."
+    },
+    {
+      "question": "Paciente de 30 años con antecedentes de múltiples relaciones afectivas inestables, alterna entre idealización y devaluación de sus parejas. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno de personalidad límite", "Trastorno de ansiedad generalizada", "Trastorno bipolar tipo II", "Trastorno esquizoafectivo"],
+      "answer": "Trastorno de personalidad límite",
+      "feedback": "El trastorno de personalidad límite se caracteriza por relaciones interpersonales inestables y una autoimagen fluctuante."
+    },
+    {
+      "question": "Paciente de 42 años acude con episodios de tristeza profunda, desesperanza, insomnio, y pérdida de peso sin motivo aparente. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno depresivo mayor", "Distimia", "Trastorno bipolar", "Esquizofrenia"],
+      "answer": "Trastorno depresivo mayor",
+      "feedback": "El trastorno depresivo mayor se caracteriza por episodios de tristeza profunda, pérdida de peso e insomnio persistente."
+    },
+    {
+      "question": "Un paciente se presenta con episodios de ansiedad extrema, acompañados de palpitaciones, sudoración y miedo a morir de forma repentina. Los episodios ocurren inesperadamente. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno de pánico", "Fobia específica", "Trastorno de estrés postraumático", "Trastorno de ansiedad generalizada"],
+      "answer": "Trastorno de pánico",
+      "feedback": "Los episodios de pánico incluyen ansiedad súbita con síntomas físicos intensos, y ocurren de manera inesperada."
+    },
+    {
+      "question": "Paciente de 60 años con antecedentes de psicosis, presenta alucinaciones visuales y auditivas. Se muestra desorientado y agitado. ¿Cuál es el tratamiento más adecuado?",
+      "options": ["Haloperidol", "Fluoxetina", "Diazepam", "Litio"],
+      "answer": "Haloperidol",
+      "feedback": "Haloperidol es un antipsicótico típico usado en el tratamiento de los síntomas psicóticos como las alucinaciones."
+    },
+    {
+      "question": "Una mujer de 28 años, diagnosticada con trastorno bipolar, presenta episodios de euforia, irritabilidad, y disminución del sueño. ¿Qué tratamiento es más adecuado?",
+      "options": ["Litio", "Sertralina", "Clonazepam", "Venlafaxina"],
+      "answer": "Litio",
+      "feedback": "El litio es el tratamiento de elección para los episodios maníacos del trastorno bipolar."
+    },
+    {
+      "question": "Paciente de 35 años refiere pensamientos intrusivos sobre contaminación y tiene la compulsión de lavar sus manos repetidamente durante el día. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno obsesivo-compulsivo", "Fobia social", "Trastorno de ansiedad generalizada", "Esquizofrenia"],
+      "answer": "Trastorno obsesivo-compulsivo",
+      "feedback": "El TOC se caracteriza por la presencia de pensamientos intrusivos (obsesiones) y comportamientos repetitivos (compulsiones)."
+    },
+    {
+      "question": "Paciente de 22 años, que recientemente presenció un accidente automovilístico, experimenta pesadillas recurrentes y evita hablar del evento. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno de estrés postraumático", "Trastorno de ansiedad generalizada", "Trastorno de pánico", "Trastorno obsesivo-compulsivo"],
+      "answer": "Trastorno de estrés postraumático",
+      "feedback": "El TEPT se presenta tras un evento traumático, con síntomas como pesadillas recurrentes y evitación de recuerdos."
+    },
+    {
+      "question": "Paciente de 40 años, refiere episodios de miedo intenso a situaciones sociales, como hablar en público, por temor a ser juzgado negativamente. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Fobia social", "Trastorno de ansiedad generalizada", "Trastorno de pánico", "Esquizofrenia"],
+      "answer": "Fobia social",
+      "feedback": "La fobia social implica un miedo extremo a las situaciones sociales por miedo al juicio negativo o la vergüenza."
+    },
+    {
+      "question": "Paciente de 27 años con historia de abuso de sustancias, refiere sentirse continuamente vacío, con cambios bruscos de humor y episodios de ira intensa. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno límite de la personalidad", "Trastorno bipolar", "Esquizofrenia", "Depresión mayor"],
+      "answer": "Trastorno límite de la personalidad",
+      "feedback": "El trastorno límite de la personalidad se caracteriza por inestabilidad emocional, relaciones interpersonales caóticas y sentimientos de vacío."
+    },
+    {
+      "question": "Paciente de 45 años con antecedentes de insomnio, fatiga crónica, e irritabilidad por más de 6 meses. Presenta dificultad para relajarse incluso en situaciones tranquilas. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno de ansiedad generalizada", "Trastorno de pánico", "Fobia social", "Esquizofrenia"],
+      "answer": "Trastorno de ansiedad generalizada",
+      "feedback": "El trastorno de ansiedad generalizada se caracteriza por una preocupación excesiva y continua sobre eventos cotidianos."
+    },
+    {
+      "question": "Paciente de 30 años, diagnosticada con trastorno bipolar tipo II, presenta actualmente un episodio depresivo. ¿Cuál es el tratamiento más adecuado?",
+      "options": ["Litio", "Lamotrigina", "Clonazepam", "Haloperidol"],
+      "answer": "Lamotrigina",
+      "feedback": "Lamotrigina es un estabilizador del ánimo útil en el tratamiento de los episodios depresivos en el trastorno bipolar tipo II."
+    },
+    {
+      "question": "Paciente de 20 años, universitario, ha desarrollado un temor irracional a los exámenes orales, presentando ansiedad intensa, temblores y sudoración excesiva cada vez que enfrenta estas situaciones. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Fobia social", "Trastorno de pánico", "Trastorno obsesivo-compulsivo", "Trastorno de ansiedad generalizada"],
+      "answer": "Fobia social",
+      "feedback": "La fobia social se caracteriza por un temor excesivo a situaciones sociales donde el individuo teme ser evaluado o humillado."
+    },
+    {
+      "question": "Paciente de 25 años consulta por episodios de angustia repentina, acompañado de taquicardia, sudoración y sensación de muerte inminente. Los episodios ocurren de forma inesperada sin un factor desencadenante claro. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno de pánico", "Trastorno de ansiedad generalizada", "Esquizofrenia", "Fobia específica"],
+      "answer": "Trastorno de pánico",
+      "feedback": "Los ataques de pánico son caracterizados por episodios súbitos de miedo intenso, junto con síntomas físicos como taquicardia y sudoración."
+    },
+    {
+      "question": "Una mujer de 32 años describe episodios de tristeza profunda, pérdida de interés en actividades diarias, fatiga constante y dificultades para dormir. Estos episodios han durado al menos 2 semanas. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno depresivo mayor", "Distimia", "Trastorno bipolar", "Ciclotimia"],
+      "answer": "Trastorno depresivo mayor",
+      "feedback": "El trastorno depresivo mayor incluye una combinación de tristeza persistente, pérdida de interés y fatiga durante al menos dos semanas."
+    },
+    {
+      "question": "Paciente de 40 años, con antecedentes de episodios depresivos, presenta actualmente ideas de grandiosidad, energía inusual, menor necesidad de sueño, y ha gastado grandes sumas de dinero en proyectos imprudentes. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno bipolar tipo I", "Trastorno de ansiedad generalizada", "Esquizofrenia", "Depresión mayor"],
+      "answer": "Trastorno bipolar tipo I",
+      "feedback": "El trastorno bipolar tipo I se caracteriza por episodios maníacos, que incluyen energía elevada, grandiosidad, e imprudencia."
+    },
+    {
+      "question": "Paciente de 45 años, refiere que desde hace varios meses, siente que sus vecinos lo están vigilando y que están conspirando para perjudicarlo, a pesar de no tener pruebas de esto. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno delirante", "Esquizofrenia", "Trastorno bipolar", "Depresión con síntomas psicóticos"],
+      "answer": "Trastorno delirante",
+      "feedback": "El trastorno delirante se caracteriza por la presencia de creencias falsas (delirios) que son persistentes, pero sin alucinaciones."
+    },
+    {
+      "question": "Paciente de 50 años presenta episodios de insomnio, pérdida de peso y sentimientos de inutilidad desde hace varios meses. Refiere no encontrar placer en ninguna actividad. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno depresivo mayor", "Esquizofrenia", "Trastorno bipolar", "Ciclotimia"],
+      "answer": "Trastorno depresivo mayor",
+      "feedback": "La anhedonia (incapacidad para sentir placer) y los sentimientos de inutilidad son signos característicos del trastorno depresivo mayor."
+    },
+    {
+      "question": "Paciente de 30 años consulta por episodios recurrentes de temor a perder el control, con taquicardia, sensación de ahogo y mareos. Los episodios ocurren varias veces al mes. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno de pánico", "Trastorno de ansiedad generalizada", "Esquizofrenia", "Fobia específica"],
+      "answer": "Trastorno de pánico",
+      "feedback": "El trastorno de pánico incluye episodios de ansiedad extrema acompañados de síntomas físicos que pueden ser incapacitantes."
+    },
+    {
+      "question": "Un hombre de 65 años consulta por la aparición de alucinaciones auditivas y visuales, con un comportamiento desorganizado. Refiere escuchar voces que le ordenan hacer cosas. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Esquizofrenia", "Trastorno delirante", "Depresión mayor", "Trastorno de pánico"],
+      "answer": "Esquizofrenia",
+      "feedback": "La esquizofrenia incluye síntomas psicóticos como alucinaciones auditivas y visuales, junto con un comportamiento desorganizado."
+    },
+    {
+      "question": "Paciente de 22 años refiere episodios de compulsiones, donde debe revisar varias veces que las puertas estén cerradas, lo que le genera ansiedad intensa si no lo hace. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Trastorno obsesivo-compulsivo", "Trastorno de ansiedad generalizada", "Fobia social", "Esquizofrenia"],
+      "answer": "Trastorno obsesivo-compulsivo",
+      "feedback": "El TOC se caracteriza por la presencia de compulsiones (comportamientos repetitivos) para reducir la ansiedad causada por obsesiones."
+    },
+    {
+      "question": "Un paciente se presenta con episodios de intenso miedo a estar en espacios cerrados, evitando el uso de ascensores y habitaciones pequeñas. ¿Cuál es el diagnóstico más probable?",
+      "options": ["Fobia específica", "Trastorno de pánico", "Trastorno obsesivo-compulsivo", "Fobia social"],
+      "answer": "Fobia específica",
+      "feedback": "La fobia específica se caracteriza por un miedo desproporcionado y persistente a un objeto o situación particular, como los espacios cerrados."
+    }
+  ],
+  "Salud Pública":[
+    {
+      "question": "¿Cuál es el principal objetivo de la atención primaria de salud?",
+      "options": [
+        "Promoción de la salud",
+        "Tratamiento de enfermedades agudas",
+        "Atención especializada",
+        "Rehabilitación de pacientes"
+      ],
+      "answer": "Promoción de la salud",
+      "feedback": "La atención primaria busca prevenir enfermedades mediante la promoción de hábitos saludables, educación, y prevención."
+      
+    },
+    {
+      "question": "Un municipio realiza una campaña para aumentar el uso de métodos anticonceptivos. ¿Qué tipo de intervención es esta?",
+      "options": [
+        "Promoción de salud",
+        "Prevención secundaria",
+        "Prevención terciaria",
+        "Diagnóstico temprano"
+      ],
+      "answer": "Promoción de salud",
+      "feedback": "Esta campaña es una intervención de promoción de la salud, ya que fomenta el uso de métodos preventivos."
+      
+    },
+    {
+      "question": "¿Qué tipo de tasa refleja el número de muertes en una población por cada 1000 personas?",
+      "options": [
+        "Tasa de mortalidad bruta",
+        "Tasa de incidencia",
+        "Tasa de prevalencia",
+        "Tasa de morbilidad"
+      ],
+      "answer": "Tasa de mortalidad bruta",
+      "feedback": "La tasa de mortalidad bruta mide las muertes en una población por cada 1000 personas."
+      
+    },
+    {
+      "question": "Un estudio que selecciona a un grupo de personas expuestas y no expuestas para medir la incidencia de una enfermedad se denomina:",
+      "options": [
+        "Estudio de cohorte",
+        "Estudio de casos y controles",
+        "Ensayo clínico",
+        "Estudio transversal"
+      ],
+      "answer": "Estudio de cohorte",
+      "feedback": "En un estudio de cohorte, se compara la incidencia de una enfermedad en dos grupos: expuestos y no expuestos."
+      
+    },
+    {
+      "question": "Una campaña de vacunación es un ejemplo de:",
+      "options": [
+        "Prevención primaria",
+        "Prevención secundaria",
+        "Prevención terciaria",
+        "Tratamiento"
+      ],
+      "answer": "Prevención primaria",
+      "feedback": "Las vacunas son una medida de prevención primaria, que busca evitar la aparición de enfermedades."
+      
+    },
+    {
+      "question": "¿Qué indicador mide la capacidad de un hospital para utilizar sus camas de manera efectiva?",
+      "options": [
+        "Índice de ocupación de camas",
+        "Promedio de días de estadía",
+        "Tasa de mortalidad",
+        "Tasa de admisión hospitalaria"
+      ],
+      "answer": "Índice de ocupación de camas",
+      "feedback": "El índice de ocupación de camas mide cuántos días las camas del hospital estuvieron ocupadas en relación a los días disponibles."
+      
+    },
+    {
+      "question": "¿Cuál es el objetivo de la prevención secundaria?",
+      "options": [
+        "Diagnóstico precoz y tratamiento oportuno",
+        "Prevención de complicaciones",
+        "Rehabilitación de pacientes",
+        "Promoción de hábitos saludables"
+      ],
+      "answer": "Diagnóstico precoz y tratamiento oportuno",
+      "feedback": "La prevención secundaria se enfoca en la detección temprana de enfermedades para proporcionar tratamiento oportuno."
+      
+    },
+    {
+      "question": "Un paciente con hipertensión controlada acude a consultas periódicas. ¿Qué tipo de prevención es esta?",
+      "options": [
+        "Prevención terciaria",
+        "Prevención primaria",
+        "Prevención secundaria",
+        "Diagnóstico temprano"
+      ],
+      "answer": "Prevención terciaria",
+      "feedback": "La prevención terciaria busca evitar complicaciones en personas que ya padecen una enfermedad crónica."
+      
+    },
+    {
+      "question": "¿Qué mide el número necesario para tratar (NNT)?",
+      "options": [
+        "El número de pacientes que deben tratarse para evitar un caso adverso",
+        "El número de pacientes que deben tratarse para obtener un beneficio",
+        "La eficacia de un tratamiento",
+        "El costo de un tratamiento"
+      ],
+      "answer": "El número de pacientes que deben tratarse para obtener un beneficio",
+      "feedback": "El NNT mide cuántos pacientes deben tratarse para prevenir un evento negativo en uno de ellos."
+      
+    },
+    {
+      "question": "Un estudio de casos y controles se utiliza para:",
+      "options": [
+        "Comparar la exposición previa en casos y controles",
+        "Estimar la prevalencia de una enfermedad",
+        "Determinar la tasa de incidencia",
+        "Medir la efectividad de un tratamiento"
+      ],
+      "answer": "Comparar la exposición previa en casos y controles",
+      "feedback": "En los estudios de casos y controles, se compara la exposición previa a un factor de riesgo entre los que tienen la enfermedad (casos) y los que no (controles)."
+      
+    },
+    {
+      "question": "Un país lanza una campaña de vacunación masiva contra la influenza. ¿Qué tipo de prevención representa esta medida?",
+      "options": [
+        "Prevención primaria",
+        "Prevención secundaria",
+        "Prevención terciaria",
+        "Rehabilitación"
+      ],
+      "answer": "Prevención primaria",
+      "feedback": "La prevención primaria incluye medidas destinadas a evitar el desarrollo de enfermedades, como la vacunación."
+      
+    },
+    {
+      "question": "Un estudio evalúa el impacto de un nuevo tratamiento en pacientes con diabetes tipo 2. ¿Qué tipo de estudio es este?",
+      "options": [
+        "Ensayo clínico controlado",
+        "Estudio de cohorte",
+        "Estudio de casos y controles",
+        "Estudio transversal"
+      ],
+      "answer": "Ensayo clínico controlado",
+      "feedback": "Un ensayo clínico controlado evalúa la eficacia de un tratamiento interviniendo directamente en un grupo de pacientes."
+      
+    },
+    {
+      "question": "El municipio A tiene una tasa de mortalidad infantil de 35 por cada 1000 nacidos vivos, mientras que el municipio B tiene una tasa de 8 por cada 1000. ¿Qué indicador de salud estamos observando?",
+      "options": [
+        "Tasa de mortalidad infantil",
+        "Tasa de mortalidad bruta",
+        "Tasa de morbilidad",
+        "Esperanza de vida"
+      ],
+      "answer": "Tasa de mortalidad infantil",
+      "feedback": "La tasa de mortalidad infantil mide el número de muertes de niños menores de un año por cada 1000 nacidos vivos."
+      
+    },
+    {
+      "question": "Un centro de salud implementa una campaña para realizar mamografías gratuitas a mujeres mayores de 50 años. ¿Qué tipo de prevención es esta?",
+      "options": [
+        "Prevención secundaria",
+        "Prevención primaria",
+        "Prevención terciaria",
+        "Promoción de la salud"
+      ],
+      "answer": "Prevención secundaria",
+      "feedback": "La prevención secundaria incluye el diagnóstico precoz de enfermedades, como el uso de mamografías para detectar cáncer de mama."
+      
+    },
+    {
+      "question": "Un hospital mide el porcentaje de camas ocupadas durante el mes de julio. ¿Qué indicador está evaluando?",
+      "options": [
+        "Índice de ocupación de camas",
+        "Tasa de hospitalización",
+        "Promedio de días de estancia",
+        "Tasa de mortalidad hospitalaria"
+      ],
+      "answer": "Índice de ocupación de camas",
+      "feedback": "El índice de ocupación de camas mide el uso efectivo de los recursos hospitalarios en un período determinado."
+      
+    },
+    {
+      "question": "En una ciudad, se lleva a cabo una campaña de detección temprana de cáncer colorrectal mediante pruebas de sangre oculta en heces. ¿Qué tipo de intervención es esta?",
+      "options": [
+        "Prevención secundaria",
+        "Prevención primaria",
+        "Prevención terciaria",
+        "Rehabilitación"
+      ],
+      "answer": "Prevención secundaria",
+      "feedback": "La prevención secundaria busca detectar tempranamente enfermedades en sus etapas iniciales para proporcionar tratamiento oportuno."
+      
+    },
+    {
+      "question": "El Ministerio de Salud realiza un estudio para evaluar la prevalencia de hipertensión en una comunidad. ¿Qué tipo de estudio es este?",
+      "options": [
+        "Estudio transversal",
+        "Estudio de cohorte",
+        "Estudio de casos y controles",
+        "Ensayo clínico controlado"
+      ],
+      "answer": "Estudio transversal",
+      "feedback": "Un estudio transversal mide la prevalencia de una enfermedad en una población en un momento específico."
+      
+    },
+    {
+      "question": "Una empresa implementa un programa para mejorar las condiciones de seguridad laboral, reduciendo el riesgo de accidentes. ¿Qué tipo de prevención es esta?",
+      "options": [
+        "Prevención primaria",
+        "Prevención secundaria",
+        "Prevención terciaria",
+        "Rehabilitación"
+      ],
+      "answer": "Prevención primaria",
+      "feedback": "La prevención primaria se centra en la promoción de entornos saludables y la reducción de riesgos antes de que ocurra una enfermedad o lesión."
+      
+    },
+    {
+      "question": "Un estudio compara la tasa de diabetes entre personas que siguen una dieta baja en carbohidratos y personas que siguen una dieta estándar. ¿Qué tipo de estudio es este?",
+      "options": [
+        "Estudio de cohorte",
+        "Estudio de casos y controles",
+        "Ensayo clínico controlado",
+        "Estudio transversal"
+      ],
+      "answer": "Estudio de cohorte",
+      "feedback": "Un estudio de cohorte sigue a dos grupos de personas a lo largo del tiempo para comparar la incidencia de una enfermedad."
+      
+    },
+    {
+      "question": "En una ciudad, se realiza un programa de rehabilitación para personas que han sufrido un accidente cerebrovascular. ¿Qué tipo de prevención es esta?",
+      "options": [
+        "Prevención terciaria",
+        "Prevención primaria",
+        "Prevención secundaria",
+        "Diagnóstico temprano"
+      ],
+      "answer": "Prevención terciaria",
+      "feedback": "La prevención terciaria incluye la rehabilitación y la prevención de complicaciones en personas que ya padecen una enfermedad crónica."
+      
+    }
+  ],
+  "Oftalmologia":[
+    {
+      "question": "Un paciente presenta un ojo rojo superficial con secreción purulenta. Se encuentra pegajoso al despertar. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Conjuntivitis bacteriana",
+        "Conjuntivitis viral",
+        "Blefaritis",
+        "Uveítis aguda"
+      ],
+      "answer": "Conjuntivitis bacteriana",
+      "feedback": "La conjuntivitis bacteriana suele producir secreción purulenta y ojos pegajosos al despertar."
+      
+    },
+    {
+      "question": "Un paciente con ojo rojo profundo, dolor y midriasis media fija acude a urgencias. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Glaucoma agudo de ángulo estrecho",
+        "Uveítis aguda",
+        "Conjuntivitis alérgica",
+        "Blefaritis"
+      ],
+      "answer": "Glaucoma agudo de ángulo estrecho",
+      "feedback": "El glaucoma agudo presenta un ojo rojo doloroso con midriasis fija y presión intraocular elevada."
+      
+    },
+    {
+      "question": "Un paciente acude con fotofobia, visión borrosa y un defecto epitelial corneal teñido con fluoresceína. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Úlcera corneal",
+        "Conjuntivitis viral",
+        "Blefaritis",
+        "Orzuelo"
+      ],
+      "answer": "Úlcera corneal",
+      "feedback": "La úlcera corneal se caracteriza por defectos epiteliales en la córnea que se tiñen con fluoresceína."
+      
+    },
+    {
+      "question": "Un paciente con antecedentes de diabetes presenta disminución visual súbita. En el fondo de ojo se observan neovasos. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Retinopatía diabética proliferativa",
+        "Retinopatía hipertensiva",
+        "Oclusión de vena central de la retina",
+        "Degeneración macular relacionada con la edad"
+      ],
+      "answer": "Retinopatía diabética proliferativa",
+      "feedback": "La presencia de neovasos es un signo clásico de retinopatía diabética proliferativa."
+      
+    },
+    {
+      "question": "Paciente con antecedente de hipertensión, presenta visión borrosa y exudados algodonosos en el fondo de ojo. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Retinopatía hipertensiva",
+        "Retinopatía diabética",
+        "Glaucoma crónico",
+        "Desprendimiento de retina"
+      ],
+      "answer": "Retinopatía hipertensiva",
+      "feedback": "Los exudados algodonosos son característicos de la retinopatía hipertensiva avanzada."
+      
+    },
+    {
+      "question": "Un recién nacido con epífora y secreción purulenta persistente. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Dacriocistitis",
+        "Conjuntivitis neonatal",
+        "Glaucoma congénito",
+        "Blefaritis"
+      ],
+      "answer": "Dacriocistitis",
+      "feedback": "La dacriocistitis es una infección del saco lagrimal, común en neonatos debido a la obstrucción del conducto nasolagrimal."
+      
+    },
+    {
+      "question": "Paciente con pérdida visual súbita en un ojo, con fondo de ojo mostrando retina pálida y mácula en forma de 'mancha rojo cereza'. ¿Cuál es el diagnóstico?",
+      "options": [
+        "Oclusión de arteria central de la retina",
+        "Oclusión de vena central de la retina",
+        "Desprendimiento de retina",
+        "Degeneración macular relacionada con la edad"
+      ],
+      "answer": "Oclusión de arteria central de la retina",
+      "feedback": "La mancha rojo cereza en la mácula es patognomónica de una oclusión de arteria central de la retina."
+      
+    },
+    {
+      "question": "Paciente con dolor ocular, epífora, y fotofobia. Al examen se observa un infiltrado corneal con secreción purulenta. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Úlcera corneal bacteriana",
+        "Conjuntivitis bacteriana",
+        "Blefaritis",
+        "Orzuelo"
+      ],
+      "answer": "Úlcera corneal bacteriana",
+      "feedback": "Las úlceras corneales bacterianas suelen ser dolorosas y producen infiltrados con secreción purulenta."
+      
+    },
+    {
+      "question": "Paciente con antecedentes de hipermetropía severa, presenta dolor ocular intenso y disminución visual súbita. Al examen tiene una PIO elevada. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Glaucoma agudo de ángulo estrecho",
+        "Conjuntivitis viral",
+        "Uveítis anterior",
+        "Blefaritis"
+      ],
+      "answer": "Glaucoma agudo de ángulo estrecho",
+      "feedback": "El glaucoma agudo es más común en pacientes con hipermetropía y se caracteriza por PIO elevada y dolor ocular intenso."
+      
+    },
+    {
+      "question": "Paciente presenta visión borrosa progresiva y sensibilidad a la luz, sin dolor. En el examen, se observa opacidad del cristalino. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Catarata",
+        "Glaucoma crónico",
+        "Degeneración macular",
+        "Retinopatía diabética"
+      ],
+      "answer": "Catarata",
+      "feedback": "La opacidad del cristalino y la visión borrosa sin dolor son característicos de una catarata."
+      
+    },
+    {
+      "question": "Paciente de 60 años presenta pérdida progresiva de la visión central en ambos ojos. El examen muestra drusas en la mácula. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Degeneración macular relacionada con la edad",
+        "Retinopatía diabética",
+        "Oclusión de vena central de la retina",
+        "Glaucoma crónico"
+      ],
+      "answer": "Degeneración macular relacionada con la edad",
+      "feedback": "La degeneración macular relacionada con la edad (DMRE) es la causa más común de pérdida de visión central en adultos mayores."
+    },
+    {
+      "question": "Paciente con dolor ocular, lagrimeo y fotofobia. El examen con fluoresceína revela una lesión dendrítica en la córnea. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Queratitis herpética",
+        "Úlcera corneal",
+        "Conjuntivitis viral",
+        "Blefaritis"
+      ],
+      "answer": "Queratitis herpética",
+      "feedback": "La queratitis herpética se caracteriza por lesiones dendríticas en la córnea visibles con fluoresceína."
+    },
+    {
+      "question": "Un niño de 5 años presenta esotropía intermitente. El examen oftalmológico muestra una agudeza visual reducida en un ojo. ¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        "Oclusión del ojo dominante",
+        "Corticosteroides tópicos",
+        "Antibióticos",
+        "Corrección con lentes de contacto"
+      ],
+      "answer": "Oclusión del ojo dominante",
+      "feedback": "La oclusión del ojo dominante es un tratamiento común para la ambliopía (ojo perezoso) en niños con estrabismo."
+    },
+    {
+      "question": "Paciente con dolor ocular severo y visión borrosa tras un traumatismo ocular. El examen revela hifema (sangre en la cámara anterior). ¿Cuál es el tratamiento inicial?",
+      "options": [
+        "Reposo en cama y protección ocular",
+        "Cirugía inmediata",
+        "Antibióticos tópicos",
+        "Corticosteroides orales"
+      ],
+      "answer": "Reposo en cama y protección ocular",
+      "feedback": "El manejo inicial del hifema incluye reposo en cama y protección ocular para evitar mayores complicaciones."
+    },
+    {
+      "question": "Paciente con visión borrosa y halos alrededor de las luces, especialmente por la noche. El examen revela una córnea adelgazada y en forma de cono. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Queratocono",
+        "Glaucoma de ángulo cerrado",
+        "Degeneración macular",
+        "Cataratas"
+      ],
+      "answer": "Queratocono",
+      "feedback": "El queratocono es una enfermedad progresiva donde la córnea se adelgaza y adopta una forma cónica, causando visión borrosa y distorsionada."
+    },
+    {
+      "question": "Paciente de 70 años con dolor ocular y disminución visual rápida. El examen muestra midriasis media fija y presión intraocular elevada. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Glaucoma agudo de ángulo estrecho",
+        "Uveítis aguda",
+        "Conjuntivitis viral",
+        "Catarata avanzada"
+      ],
+      "answer": "Glaucoma agudo de ángulo estrecho",
+      "feedback": "El glaucoma agudo de ángulo estrecho se presenta con dolor ocular, midriasis fija y presión intraocular elevada."
+    },
+    {
+      "question": "Paciente con antecedentes de cirugía de cataratas hace 2 semanas presenta dolor ocular, disminución visual y edema corneal. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Endoftalmitis",
+        "Uveítis anterior",
+        "Desprendimiento de retina",
+        "Blefaritis"
+      ],
+      "answer": "Endoftalmitis",
+      "feedback": "La endoftalmitis es una infección intraocular que puede ocurrir después de una cirugía de cataratas y requiere tratamiento urgente."
+    },
+    {
+      "question": "Paciente con pérdida de visión progresiva en un ojo. El examen revela una opacidad grisácea en el cristalino. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Catarata",
+        "Degeneración macular",
+        "Desprendimiento de retina",
+        "Glaucoma crónico"
+      ],
+      "answer": "Catarata",
+      "feedback": "Las cataratas se caracterizan por la opacidad del cristalino, que causa visión borrosa y pérdida de la agudeza visual."
+    },
+    {
+      "question": "Paciente de 45 años con visión doble y ptosis palpebral en un ojo. Al examen, el ojo afectado no puede moverse hacia arriba ni hacia adentro. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Parálisis del tercer par craneal",
+        "Glaucoma de ángulo cerrado",
+        "Desprendimiento de retina",
+        "Blefaritis"
+      ],
+      "answer": "Parálisis del tercer par craneal",
+      "feedback": "La parálisis del tercer par craneal causa ptosis, diplopía y dificultad para mover el ojo hacia arriba y adentro."
+    },
+    {
+      "question": "Paciente con antecedentes de miopía alta presenta una cortina oscura en el campo visual inferior de su ojo derecho. El examen revela un desprendimiento de retina. ¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        "Cirugía inmediata",
+        "Oclusión del ojo afectado",
+        "Corticosteroides tópicos",
+        "Antibióticos orales"
+      ],
+      "answer": "Cirugía inmediata",
+      "feedback": "El desprendimiento de retina es una urgencia oftalmológica que requiere cirugía para prevenir la pérdida permanente de la visión."
+    },
+    {
+      "question": "Paciente de 55 años presenta sensación de cuerpo extraño, lagrimeo y enrojecimiento en ambos ojos. El examen revela inflamación de los márgenes palpebrales. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Blefaritis",
+        "Conjuntivitis viral",
+        "Úlcera corneal",
+        "Uveítis anterior"
+      ],
+      "answer": "Blefaritis",
+      "feedback": "La blefaritis es una inflamación crónica de los márgenes palpebrales, que causa irritación, enrojecimiento y sensación de cuerpo extraño."
+    },
+    {
+      "question": "Paciente de 30 años presenta visión borrosa y pérdida del color en su ojo derecho, acompañada de dolor al mover el ojo. El examen revela inflamación del nervio óptico. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Neuritis óptica",
+        "Glaucoma agudo",
+        "Degeneración macular",
+        "Desprendimiento de retina"
+      ],
+      "answer": "Neuritis óptica",
+      "feedback": "La neuritis óptica se caracteriza por pérdida visual y dolor con el movimiento ocular, y suele estar asociada a la esclerosis múltiple."
+    },
+    {
+      "question": "Paciente con antecedente de conjuntivitis crónica presenta cicatrices conjuntivales, ojo seco y opacidad corneal. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Tracoma",
+        "Uveítis crónica",
+        "Blefaritis",
+        "Conjuntivitis bacteriana"
+      ],
+      "answer": "Tracoma",
+      "feedback": "El tracoma es una infección crónica que causa cicatrices conjuntivales y puede llevar a ceguera si no se trata adecuadamente."
+    },
+    {
+      "question": "Paciente de 50 años con diabetes de larga data, presenta disminución visual progresiva. El examen revela microaneurismas y exudados duros en la retina. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Retinopatía diabética no proliferativa",
+        "Degeneración macular",
+        "Glaucoma crónico",
+        "Desprendimiento de retina"
+      ],
+      "answer": "Retinopatía diabética no proliferativa",
+      "feedback": "La retinopatía diabética no proliferativa se caracteriza por microaneurismas y exudados duros, que pueden progresar a pérdida visual significativa."
+    },
+    {
+      "question": "Paciente con glaucoma crónico presenta visión en túnel y mide una presión intraocular de 25 mmHg. ¿Qué tratamiento debe considerarse?",
+      "options": [
+        "Betabloqueadores tópicos",
+        "Cirugía de trabeculectomía",
+        "Antibióticos",
+        "Corticosteroides tópicos"
+      ],
+      "answer": "Betabloqueadores tópicos",
+      "feedback": "Los betabloqueadores tópicos como el timolol son tratamientos comunes para el glaucoma crónico para reducir la presión intraocular."
+    },
+    {
+      "question": "Paciente de 70 años con catarata senil avanzada presenta dificultad para ver de noche. ¿Cuál es el tratamiento definitivo?",
+      "options": [
+        "Cirugía de facoemulsificación",
+        "Gotas de corticosteroides",
+        "Lentes de contacto",
+        "Oclusión del ojo afectado"
+      ],
+      "answer": "Cirugía de facoemulsificación",
+      "feedback": "La facoemulsificación es el tratamiento definitivo para cataratas avanzadas, removiendo el cristalino opaco y colocando un lente intraocular."
+    },
+    {
+      "question": "Paciente con antecedentes de diabetes mellitus presenta neovasos en la retina. ¿Qué intervención es la más adecuada?",
+      "options": [
+        "Fotocoagulación con láser",
+        "Uso de antibióticos tópicos",
+        "Corticosteroides tópicos",
+        "Gotas para reducir la presión ocular"
+      ],
+      "answer": "Fotocoagulación con láser",
+      "feedback": "La fotocoagulación con láser es la intervención estándar para reducir la progresión de la retinopatía diabética proliferativa al destruir los neovasos."
+    },
+    {
+      "question": "Paciente con historia de uso prolongado de esteroides presenta opacidad en el cristalino. ¿Cuál es el diagnóstico probable?",
+      "options": [
+        "Catarata inducida por esteroides",
+        "Glaucoma crónico",
+        "Degeneración macular",
+        "Retinopatía diabética"
+      ],
+      "answer": "Catarata inducida por esteroides",
+      "feedback": "El uso prolongado de esteroides es una causa conocida de cataratas, particularmente posterior subcapsular."
+    },
+    {
+      "question": "Un paciente con escleritis recurrente está siendo tratado por artritis reumatoide. ¿Cuál es el tratamiento más adecuado para controlar la escleritis?",
+      "options": [
+        "Corticosteroides sistémicos",
+        "Antibióticos tópicos",
+        "Colirios de antialérgicos",
+        "Cirugía ocular"
+      ],
+      "answer": "Corticosteroides sistémicos",
+      "feedback": "La escleritis, especialmente cuando es severa o recurrente, a menudo requiere tratamiento con corticosteroides sistémicos."
+    },
+    {
+      "question": "Un niño de 3 años es traído a consulta por tener los ojos constantemente desviados hacia afuera. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Estrabismo divergente",
+        "Ambliopía",
+        "Glaucoma congénito",
+        "Catarata congénita"
+      ],
+      "answer": "Estrabismo divergente",
+      "feedback": "El estrabismo divergente es una condición en la que los ojos se desvían hacia afuera, y debe ser tratado para evitar la ambliopía."
+    },
+    {
+      "question": "Paciente de 25 años acude con dolor ocular, fotofobia y secreción purulenta en el ojo derecho. El examen con fluoresceína revela una úlcera corneal. ¿Cuál es el tratamiento inicial más adecuado?",
+      "options": [
+        "Antibióticos tópicos",
+        "Corticosteroides tópicos",
+        "Antihistamínicos orales",
+        "Lágrimas artificiales"
+      ],
+      "answer": "Antibióticos tópicos",
+      "feedback": "Las úlceras corneales bacterianas requieren tratamiento con antibióticos tópicos para prevenir la perforación y otras complicaciones."
+    },
+    {
+      "question": "Paciente con trauma ocular presenta hifema. ¿Cuál es la conducta inicial más adecuada?",
+      "options": [
+        "Reposo en cama y elevación de la cabeza",
+        "Parche ocular",
+        "Administración de antibióticos sistémicos",
+        "Corticosteroides tópicos"
+      ],
+      "answer": "Reposo en cama y elevación de la cabeza",
+      "feedback": "El hifema debe ser tratado con reposo y elevación de la cabeza para evitar complicaciones como la tinción corneal."
+    },
+    {
+      "question": "Paciente con pérdida visual súbita presenta edema y hemorragias en llama en la retina. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Oclusión de la vena central de la retina",
+        "Oclusión de la arteria central de la retina",
+        "Desprendimiento de retina",
+        "Degeneración macular"
+      ],
+      "answer": "Oclusión de la vena central de la retina",
+      "feedback": "La oclusión de la vena central de la retina se presenta con hemorragias en llama y edema macular."
+    },
+    {
+      "question": "Paciente con escleritis presenta dolor ocular severo y se asocia a una enfermedad autoinmune. ¿Qué tratamiento se debe considerar?",
+      "options": [
+        "Corticosteroides sistémicos",
+        "Antibióticos tópicos",
+        "Lágrimas artificiales",
+        "Colirios de corticosteroides"
+      ],
+      "answer": "Corticosteroides sistémicos",
+      "feedback": "La escleritis severa generalmente requiere tratamiento con corticosteroides sistémicos, especialmente en pacientes con enfermedades autoinmunes subyacentes."
+    },
+    {
+      "question": "Paciente con antecedentes de miopía alta presenta cortina oscura en el campo visual derecho. El examen revela desprendimiento de retina. ¿Cuál es la intervención más adecuada?",
+      "options": [
+        "Vitrectomía y retinopexia",
+        "Corticosteroides tópicos",
+        "Antibióticos sistémicos",
+        "Uso de parche ocular"
+      ],
+      "answer": "Vitrectomía y retinopexia",
+      "feedback": "El desprendimiento de retina es una urgencia oftalmológica y requiere intervención quirúrgica inmediata para prevenir la pérdida de la visión."
+    },
+    {
+      "question": "Paciente con hipertensión arterial presenta microaneurismas y exudados algodonosos en el fondo de ojo. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Retinopatía hipertensiva",
+        "Glaucoma crónico",
+        "Desprendimiento de retina",
+        "Degeneración macular"
+      ],
+      "answer": "Retinopatía hipertensiva",
+      "feedback": "La retinopatía hipertensiva se caracteriza por microaneurismas y exudados algodonosos asociados a hipertensión arterial no controlada."
+    },
+    {
+      "question": "Paciente de 25 años con antecedente de miopía severa acude por pérdida súbita de visión. Al examen se encuentra un desprendimiento de retina. ¿Cuál es el tratamiento indicado?",
+      "options": [
+        "Cirugía inmediata",
+        "Tratamiento con corticosteroides",
+        "Rehabilitación visual",
+        "Antibióticos tópicos"
+      ],
+      "answer": "Cirugía inmediata",
+      "feedback": "El desprendimiento de retina es una emergencia oftalmológica que requiere cirugía para evitar la pérdida permanente de la visión."
+    },
+    {
+      "question": "Un recién nacido con opacidad corneal, buftalmos y fotofobia es diagnosticado con glaucoma congénito. ¿Cuál es el manejo inicial?",
+      "options": [
+        "Cirugía",
+        "Corticosteroides tópicos",
+        "Parche ocular",
+        "Antibióticos orales"
+      ],
+      "answer": "Cirugía",
+      "feedback": "El glaucoma congénito se maneja con cirugía para aliviar la presión intraocular y prevenir el daño visual."
+    },
+    {
+      "question": "Un paciente presenta dolor ocular y disminución visual después de un trauma ocular. El examen revela un hifema. ¿Cuál es el siguiente paso en el manejo?",
+      "options": [
+        "Reposo y protección ocular",
+        "Cirugía inmediata",
+        "Uso de corticosteroides tópicos",
+        "Lavado ocular con solución salina"
+      ],
+      "answer": "Reposo y protección ocular",
+      "feedback": "El tratamiento inicial del hifema incluye reposo y protección ocular para evitar complicaciones."
+    },
+    {
+      "question": "Paciente de 50 años con dolor ocular severo, ojo rojo, y disminución visual súbita. La presión intraocular está elevada. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Glaucoma agudo de ángulo cerrado",
+        "Conjuntivitis alérgica",
+        "Uveítis anterior",
+        "Catarata avanzada"
+      ],
+      "answer": "Glaucoma agudo de ángulo cerrado",
+      "feedback": "El glaucoma agudo de ángulo cerrado se presenta con dolor ocular, presión intraocular elevada y visión borrosa."
+    },
+    {
+      "question": "Un paciente con retinopatía diabética avanzada presenta pérdida visual súbita. El fondo de ojo revela hemorragias en llama y neovasos. ¿Cuál es el tratamiento más indicado?",
+      "options": [
+        "Fotocoagulación con láser",
+        "Cirugía",
+        "Antibióticos tópicos",
+        "Gotas para bajar la presión intraocular"
+      ],
+      "answer": "Fotocoagulación con láser",
+      "feedback": "La fotocoagulación con láser es el tratamiento estándar para prevenir la progresión de la retinopatía diabética proliferativa."
+    },
+    {
+      "question": "Un paciente con antecedentes de hipermetropía severa acude con visión borrosa y halos alrededor de las luces. La presión intraocular es elevada. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Glaucoma agudo de ángulo estrecho",
+        "Glaucoma crónico",
+        "Uveítis aguda",
+        "Catarata"
+      ],
+      "answer": "Glaucoma agudo de ángulo estrecho",
+      "feedback": "El glaucoma agudo de ángulo estrecho es más común en pacientes hipermétropes y se caracteriza por la obstrucción del ángulo iridocorneal."
+    },
+    {
+      "question": "Un paciente diabético acude por visión borrosa progresiva. Al examen se observan exudados algodonosos y microaneurismas. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Retinopatía diabética no proliferativa",
+        "Desprendimiento de retina",
+        "Catarata",
+        "Glaucoma"
+      ],
+      "answer": "Retinopatía diabética no proliferativa",
+      "feedback": "Los microaneurismas y exudados algodonosos son signos característicos de la retinopatía diabética no proliferativa."
+    },
+    {
+      "question": "Un paciente de 65 años acude por pérdida visual progresiva en ambos ojos. El examen muestra opacidades en los cristalinos. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Catarata",
+        "Glaucoma",
+        "Degeneración macular",
+        "Retinopatía diabética"
+      ],
+      "answer": "Catarata",
+      "feedback": "La catarata es una opacidad del cristalino que provoca visión borrosa y es más común en personas mayores."
+    },
+    {
+      "question": "Un paciente con antecedentes de trauma ocular presenta sangre en la cámara anterior. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Hifema",
+        "Uveítis",
+        "Conjuntivitis hemorrágica",
+        "Desprendimiento de retina"
+      ],
+      "answer": "Hifema",
+      "feedback": "El hifema es la presencia de sangre en la cámara anterior, comúnmente causado por trauma ocular."
+    },
+    {
+      "question": "Un paciente con antecedentes de glaucoma presenta pérdida visual periférica progresiva. ¿Cuál es el examen más útil para evaluar el campo visual?",
+      "options": [
+        "Campimetría",
+        "Fondo de ojo",
+        "Tonometría",
+        "Refracción"
+      ],
+      "answer": "Campimetría",
+      "feedback": "La campimetría evalúa el campo visual y es útil en la detección de pérdida visual periférica causada por glaucoma."
+    },
+    {
+      "question": "Paciente presenta ojo rojo, fotofobia y dolor ocular. El examen con fluoresceína muestra un defecto corneal. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Úlcera corneal",
+        "Conjuntivitis bacteriana",
+        "Blefaritis",
+        "Glaucoma agudo"
+      ],
+      "answer": "Úlcera corneal",
+      "feedback": "La úlcera corneal se caracteriza por un defecto corneal visible con tinción de fluoresceína y síntomas de dolor ocular y fotofobia."
+    },
+    {
+      "question": "Un paciente joven presenta diplopía y ptosis. Al examen se observa limitación del movimiento ocular hacia arriba y adentro. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Parálisis del nervio oculomotor (III)",
+        "Glaucoma",
+        "Blefaritis",
+        "Desprendimiento de retina"
+      ],
+      "answer": "Parálisis del nervio oculomotor (III)",
+      "feedback": "La parálisis del nervio oculomotor provoca ptosis, diplopía y limitación del movimiento ocular."
+    },
+    {
+      "question": "Un paciente con antecedentes de miopía presenta destellos de luz y visión de sombras. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Desprendimiento de retina",
+        "Retinopatía diabética",
+        "Glaucoma",
+        "Catarata"
+      ],
+      "answer": "Desprendimiento de retina",
+      "feedback": "Los destellos de luz y sombras en el campo visual son signos de desprendimiento de retina, una emergencia oftalmológica."
+    },
+    {
+      "question": "Paciente de 70 años presenta visión borrosa progresiva, sin dolor. Al examen se observa opacidad del cristalino. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Catarata",
+        "Glaucoma crónico",
+        "Degeneración macular",
+        "Desprendimiento de retina"
+      ],
+      "answer": "Catarata",
+      "feedback": "La catarata es una causa común de visión borrosa en personas mayores y se caracteriza por la opacidad del cristalino."
+    },
+    {
+      "question": "Paciente de 40 años con dolor ocular, lagrimeo y fotofobia. Al examen se observa una lesión dendrítica en la córnea. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Queratitis herpética",
+        "Conjuntivitis viral",
+        "Uveítis anterior",
+        "Glaucoma agudo"
+      ],
+      "answer": "Queratitis herpética",
+      "feedback": "La queratitis herpética se presenta con una lesión dendrítica en la córnea y es causada por el virus del herpes."
+    },
+    {
+      "question": "Paciente con antecedentes de VIH presenta disminución visual. El examen revela retinitis con exudados algodonosos. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Retinitis por citomegalovirus",
+        "Retinopatía diabética",
+        "Uveítis",
+        "Desprendimiento de retina"
+      ],
+      "answer": "Retinitis por citomegalovirus",
+      "feedback": "La retinitis por citomegalovirus es común en pacientes inmunocomprometidos y se caracteriza por exudados algodonosos."
+    }
+  ],
+  "Otorrinolaringologia": [
+    {
+      "question": "Un niño presenta otalgia intensa y secreción purulenta del oído, con eritema y edema en el canal auditivo externo. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Otitis externa",
+        "Otitis media aguda",
+        "Otitis media crónica",
+        "Mastoiditis"
+      ],
+      "answer": "Otitis externa",
+      "feedback": "La otitis externa se presenta con inflamación del canal auditivo externo, eritema y otorrea, y es frecuente en nadadores."
+    },
+    {
+      "question": "Un paciente diabético de 78 años consulta por otalgia intensa, fiebre y eritema en la zona preauricular. Se observa secreción purulenta del oído. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Otitis externa maligna",
+        "Otitis media aguda",
+        "Mastoiditis",
+        "Celulitis"
+      ],
+      "answer": "Otitis externa maligna",
+      "feedback": "La otitis externa maligna es una infección grave en pacientes inmunocomprometidos, causada comúnmente por Pseudomonas."
+    },
+    {
+      "question": "Paciente de 8 años presenta ronquidos, respiración bucal y apnea del sueño. Al examen, se detecta hipertrofia de adenoides. ¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        "Adenoidectomía",
+        "Terapia con corticosteroides",
+        "Observación",
+        "Antibióticos"
+      ],
+      "answer": "Adenoidectomía",
+      "feedback": "La hipertrofia adenoidea que causa apnea del sueño y respiración bucal suele tratarse con adenoidectomía."
+    },
+    {
+      "question": "Un paciente con fiebre alta y odinofagia intensa, además de trismus, presenta un pilar amigdalino abombado. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Absceso periamigdalino",
+        "Faringoamigdalitis viral",
+        "Epiglotitis",
+        "Laringitis"
+      ],
+      "answer": "Absceso periamigdalino",
+      "feedback": "El absceso periamigdalino suele causar fiebre alta, trismus y odinofagia, y se presenta con abombamiento de un pilar amigdalino."
+    },
+    {
+      "question": "Paciente con disfonía crónica y antecedentes de tabaquismo. Al examen se observa una lesión blanquecina en las cuerdas vocales. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Leucoplaquia",
+        "Nódulos vocales",
+        "Pólipo laríngeo",
+        "Laringitis crónica"
+      ],
+      "answer": "Leucoplaquia",
+      "feedback": "La leucoplaquia es una lesión blanquecina que aparece en las cuerdas vocales, especialmente en fumadores, y es una lesión precancerosa."
+    },
+    {
+      "question": "Paciente de 65 años con fiebre, rinorrea purulenta unilateral y dolor facial. Al examen se detecta sensibilidad en los senos paranasales. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Sinusitis aguda",
+        "Rinitis alérgica",
+        "Rinitis vasomotora",
+        "Epistaxis"
+      ],
+      "answer": "Sinusitis aguda",
+      "feedback": "La sinusitis aguda se caracteriza por dolor facial, rinorrea purulenta y fiebre, con sensibilidad en los senos paranasales."
+    },
+    {
+      "question": "Un niño presenta una rinorrea purulenta unilateral persistente durante varios días. ¿Qué diagnóstico se debe considerar?",
+      "options": [
+        "Cuerpo extraño nasal",
+        "Rinitis alérgica",
+        "Sinusitis aguda",
+        "Rinofaringitis"
+      ],
+      "answer": "Cuerpo extraño nasal",
+      "feedback": "La rinorrea purulenta unilateral persistente en un niño sugiere la presencia de un cuerpo extraño nasal."
+    },
+    {
+      "question": "Paciente con rinitis alérgica presenta síntomas persistentes de obstrucción nasal y rinorrea acuosa. ¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        "Corticosteroides tópicos nasales",
+        "Antibióticos",
+        "Cirugía",
+        "Antivirales"
+      ],
+      "answer": "Corticosteroides tópicos nasales",
+      "feedback": "Los corticosteroides tópicos nasales son el tratamiento de elección para controlar los síntomas persistentes de la rinitis alérgica."
+    },
+    {
+      "question": "Paciente con antecedentes de sinusitis crónica, presenta fiebre, dolor periorbitario y proptosis. ¿Qué complicación debe sospecharse?",
+      "options": [
+        "Celulitis orbitaria",
+        "Meningitis",
+        "Absceso subdural",
+        "Otitis media"
+      ],
+      "answer": "Celulitis orbitaria",
+      "feedback": "La celulitis orbitaria es una complicación grave de la sinusitis crónica, caracterizada por proptosis y dolor periorbitario."
+    },
+    {
+      "question": "Un niño de 3 años presenta fiebre alta, aspecto tóxico y dificultad respiratoria, con estridor inspiratorio. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Epiglotitis",
+        "Laringitis",
+        "Asma",
+        "Cuerpo extraño laríngeo"
+      ],
+      "answer": "Epiglotitis",
+      "feedback": "La epiglotitis es una emergencia médica caracterizada por fiebre alta, estridor y dificultad respiratoria, y requiere tratamiento inmediato."
+    },
+    {
+      "question": "Paciente fumador de 45 años presenta disfonía persistente. Al examen se observa una masa en la cuerda vocal. ¿Qué diagnóstico se debe sospechar?",
+      "options": [
+        "Cáncer de laringe",
+        "Leucoplaquia",
+        "Nódulos vocales",
+        "Laringitis crónica"
+      ],
+      "answer": "Cáncer de laringe",
+      "feedback": "El cáncer de laringe es más común en fumadores y se manifiesta con disfonía persistente y lesiones en las cuerdas vocales."
+    },
+    {
+      "question": "Un niño presenta fiebre, rinorrea purulenta y edema palpebral. Al examen tiene proptosis y limitación de los movimientos oculares. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Celulitis orbitaria",
+        "Sinusitis aguda",
+        "Rinitis alérgica",
+        "Absceso retrofaríngeo"
+      ],
+      "answer": "Celulitis orbitaria",
+      "feedback": "La celulitis orbitaria es una complicación de la sinusitis aguda que se presenta con proptosis, fiebre y edema periorbitario."
+    },
+    {
+      "question": "Un paciente con antecedente de trauma nasal presenta deformidad del tabique nasal y dificultad para respirar. ¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        "Septoplastía",
+        "Corticosteroides tópicos",
+        "Antibióticos",
+        "Observación"
+      ],
+      "answer": "Septoplastía",
+      "feedback": "La septoplastía es el tratamiento indicado para corregir deformidades del tabique nasal que causan obstrucción respiratoria."
+    },
+    {
+      "question": "Paciente con antecedentes de otitis media presenta dolor y otorrea. Al examen, se observa una perforación timpánica con secreción purulenta. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Otitis media crónica",
+        "Otitis externa",
+        "Otitis media aguda",
+        "Mastoiditis"
+      ],
+      "answer": "Otitis media crónica",
+      "feedback": "La otitis media crónica se caracteriza por otorrea y perforación timpánica, que requiere tratamiento prolongado."
+    },
+    {
+      "question": "Paciente con antecedentes de mastoiditis, presenta fiebre, eritema retroauricular y proptosis. ¿Qué complicación se debe sospechar?",
+      "options": [
+        "Absceso cerebral",
+        "Otitis externa",
+        "Sinusitis crónica",
+        "Perforación timpánica"
+      ],
+      "answer": "Absceso cerebral",
+      "feedback": "El absceso cerebral es una complicación grave de la mastoiditis no tratada, caracterizada por fiebre y síntomas neurológicos."
+    },
+    {
+      "question": "Un niño presenta hipoacusia progresiva y al examen se observa un tímpano retraído con burbujas en el oído medio. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Otitis media con efusión",
+        "Otitis externa",
+        "Mastoiditis",
+        "Otitis media aguda"
+      ],
+      "answer": "Otitis media con efusión",
+      "feedback": "La otitis media con efusión se presenta con hipoacusia progresiva y acumulación de líquido en el oído medio."
+    },
+    {
+      "question": "Paciente de 60 años con antecedentes de tabaquismo presenta epistaxis recurrente y obstrucción nasal. Al examen se observa una masa en la cavidad nasal. ¿Qué diagnóstico se debe sospechar?",
+      "options": [
+        "Cáncer de cavidad nasal",
+        "Rinitis vasomotora",
+        "Sinusitis crónica",
+        "Rinitis alérgica"
+      ],
+      "answer": "Cáncer de cavidad nasal",
+      "feedback": "El cáncer de cavidad nasal es más frecuente en fumadores y se manifiesta con epistaxis recurrente y obstrucción nasal."
+    },
+    {
+      "question": "Un niño de 5 años con antecedentes de infecciones respiratorias frecuentes presenta hipoacusia y ronquidos. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Hipertrofia adenoidea",
+        "Rinitis alérgica",
+        "Sinusitis aguda",
+        "Amigdalitis crónica"
+      ],
+      "answer": "Hipertrofia adenoidea",
+      "feedback": "La hipertrofia adenoidea es una causa común de hipoacusia y ronquidos en niños con infecciones respiratorias frecuentes."
+    },
+    {
+      "question": "Paciente de 45 años con dolor facial crónico y obstrucción nasal. El TAC muestra engrosamiento mucoso en los senos maxilares. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Sinusitis crónica",
+        "Rinitis vasomotora",
+        "Rinitis alérgica",
+        "Desviación del tabique nasal"
+      ],
+      "answer": "Sinusitis crónica",
+      "feedback": "La sinusitis crónica se manifiesta con dolor facial crónico, obstrucción nasal y engrosamiento mucoso en los senos paranasales."
+    },
+    {
+      "question": "Un niño de 3 años presenta fiebre alta, dolor de garganta y trismus. Al examen se observa un pilar amigdalino abombado. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Absceso periamigdalino",
+        "Faringitis viral",
+        "Epiglotitis",
+        "Laringitis"
+      ],
+      "answer": "Absceso periamigdalino",
+      "feedback": "El absceso periamigdalino se manifiesta con fiebre alta, odinofagia y trismus, y requiere drenaje quirúrgico y tratamiento antibiótico."
+    },
+    {
+      "question": "Paciente de 50 años con antecedentes de sinusitis crónica presenta fiebre, dolor ocular y proptosis. ¿Cuál es la complicación más probable?",
+      "options": [
+        "Celulitis orbitaria",
+        "Rinitis alérgica",
+        "Epiglotitis",
+        "Faringitis bacteriana"
+      ],
+      "answer": "Celulitis orbitaria",
+      "feedback": "La celulitis orbitaria es una complicación seria de la sinusitis crónica, que puede comprometer la visión si no se trata adecuadamente."
+    },
+    {
+      "question": "Paciente de 45 años fumador presenta disfonía persistente de 3 meses. Al examen se observa una lesión blanquecina en las cuerdas vocales. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Leucoplaquia",
+        "Laringitis crónica",
+        "Pólipo vocal",
+        "Nódulos vocales"
+      ],
+      "answer": "Leucoplaquia",
+      "feedback": "La leucoplaquia en las cuerdas vocales puede ser una lesión precancerosa, y se requiere una biopsia para determinar su naturaleza."
+    },
+    {
+      "question": "Un paciente con antecedentes de otitis media crónica presenta otorrea y pérdida auditiva progresiva. Al examen se observa una perforación del tímpano. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Otitis media crónica",
+        "Otitis externa",
+        "Mastoiditis",
+        "Otitis media aguda"
+      ],
+      "answer": "Otitis media crónica",
+      "feedback": "La otitis media crónica puede causar perforación timpánica y pérdida auditiva si no se trata adecuadamente."
+    },
+    {
+      "question": "Un paciente diabético presenta otalgia intensa y fiebre. Al examen se observa una secreción purulenta y eritema en el conducto auditivo externo. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Otitis externa maligna",
+        "Otitis media aguda",
+        "Mastoiditis",
+        "Otitis media crónica"
+      ],
+      "answer": "Otitis externa maligna",
+      "feedback": "La otitis externa maligna es una infección grave que requiere tratamiento antibiótico agresivo, especialmente en pacientes inmunocomprometidos."
+    },
+    {
+      "question": "Paciente de 30 años presenta una lesión ulcerada en el labio inferior que no cicatriza después de varias semanas. Al examen se palpan adenopatías cervicales. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Carcinoma de células escamosas",
+        "Úlcera aftosa",
+        "Herpes labial",
+        "Estomatitis"
+      ],
+      "answer": "Carcinoma de células escamosas",
+      "feedback": "El carcinoma de células escamosas es un cáncer común en el labio, especialmente en pacientes con exposición prolongada al sol o tabaco."
+    },
+    {
+      "question": "Paciente de 55 años con historia de sinusitis crónica presenta cefalea y fiebre persistente. El TAC muestra opacificación de los senos maxilares. ¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        "Antibióticos",
+        "Corticosteroides",
+        "Cirugía endoscópica",
+        "Lavado sinusal"
+      ],
+      "answer": "Antibióticos",
+      "feedback": "El tratamiento de la sinusitis crónica que persiste con fiebre y cefalea incluye antibióticos de amplio espectro y seguimiento estrecho."
+    },
+    {
+      "question": "Paciente de 20 años consulta por hipoacusia unilateral y acúfenos. Al examen se observa pérdida auditiva neurosensorial en un oído. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Neurinoma del acústico",
+        "Otitis media crónica",
+        "Otitis externa",
+        "Otosclerosis"
+      ],
+      "answer": "Neurinoma del acústico",
+      "feedback": "El neurinoma del acústico es un tumor benigno que puede causar hipoacusia unilateral y acúfenos, y debe diagnosticarse con una RMN."
+    },
+    {
+      "question": "Paciente de 60 años presenta pérdida progresiva de la visión central. Al examen se observan drusas en la mácula. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Degeneración macular relacionada con la edad",
+        "Retinopatía diabética",
+        "Oclusión de la vena central de la retina",
+        "Glaucoma"
+      ],
+      "answer": "Degeneración macular relacionada con la edad",
+      "feedback": "La degeneración macular relacionada con la edad es la principal causa de pérdida de visión central en pacientes ancianos."
+    },
+    {
+      "question": "Un paciente con antecedentes de vértigo presenta episodios recurrentes de pérdida auditiva, tinnitus y sensación de presión en el oído. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Enfermedad de Ménière",
+        "Otitis media",
+        "Otitis externa",
+        "Neuronitis vestibular"
+      ],
+      "answer": "Enfermedad de Ménière",
+      "feedback": "La enfermedad de Ménière se caracteriza por episodios de vértigo, pérdida auditiva fluctuante y tinnitus, y se maneja con cambios dietéticos y medicamentos."
+    },
+    {
+      "question": "Paciente de 70 años con fiebre alta y dolor en la cara presenta proptosis ocular y disminución de la movilidad ocular. El TAC revela opacificación de los senos etmoidales. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Celulitis orbitaria",
+        "Celulitis preseptal",
+        "Sinusitis aguda",
+        "Sinusitis crónica"
+      ],
+      "answer": "Celulitis orbitaria",
+      "feedback": "La celulitis orbitaria es una infección grave que puede complicarse con pérdida de visión y requiere tratamiento inmediato con antibióticos intravenosos."
+    },
+    {
+      "question": "Un paciente presenta un bulto doloroso en la glándula parótida. Al examen, la masa es firme y no se mueve. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Tumor de glándula parótida",
+        "Sialolitiasis",
+        "Infección viral",
+        "Linfoma"
+      ],
+      "answer": "Tumor de glándula parótida",
+      "feedback": "Los tumores de la glándula parótida pueden ser malignos y requieren evaluación mediante biopsia o imagenología."
+    },
+    {
+      "question": "Un paciente consulta por disfonía y dolor de garganta que persisten por más de 3 semanas. ¿Cuál es el examen más adecuado para el diagnóstico?",
+      "options": [
+        "Nasofibroscopía",
+        "Tomografía computarizada",
+        "Radiografía de cuello",
+        "Ecografía de cuello"
+      ],
+      "answer": "Nasofibroscopía",
+      "feedback": "La nasofibroscopía es esencial para evaluar la laringe y las cuerdas vocales en pacientes con disfonía persistente."
+    },
+    {
+      "question": "Un paciente con vértigo posicional recurrente presenta nistagmo al realizar la maniobra de Dix-Hallpike. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        "Vértigo posicional paroxístico benigno",
+        "Neuronitis vestibular",
+        "Enfermedad de Ménière",
+        "Otitis media"
+      ],
+      "answer": "Vértigo posicional paroxístico benigno",
+      "feedback": "El vértigo posicional paroxístico benigno se diagnostica mediante la maniobra de Dix-Hallpike y se trata con maniobras de reposicionamiento."
+    }
+  ]
+}

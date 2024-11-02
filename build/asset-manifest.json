@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef94f724.css",
+    "main.js": "/static/js/main.ee38ddab.js",
+    "static/js/845.f3b97d02.chunk.js": "/static/js/845.f3b97d02.chunk.js",
+    "static/media/banner.png": "/static/media/banner.3e6a611c19932f306dad.png",
+    "static/media/simulacion.png": "/static/media/simulacion.c1ba9bf71ff9f9b27c6d.png",
+    "static/media/examen180.png": "/static/media/examen180.b48b32a015427bbdad9e.png",
+    "static/media/trivia.png": "/static/media/trivia.6e514eddbc4ad356dcd1.png",
+    "static/media/logo.png": "/static/media/logo.555e240b9d55a44abad4.png",
+    "static/media/history.png": "/static/media/history.41d69485c3d4d0b0abf9.png",
+    "static/media/specialty_exams.png": "/static/media/specialty_exams.c4472c80d9d29bccbe97.png",
+    "static/media/eunacom-background.jpg": "/static/media/eunacom-background.78771ac62215f54fa023.jpg",
+    "index.html": "/index.html",
+    "main.ef94f724.css.map": "/static/css/main.ef94f724.css.map",
+    "main.ee38ddab.js.map": "/static/js/main.ee38ddab.js.map",
+    "845.f3b97d02.chunk.js.map": "/static/js/845.f3b97d02.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef94f724.css",
+    "static/js/main.ee38ddab.js"
+  ]
+}
