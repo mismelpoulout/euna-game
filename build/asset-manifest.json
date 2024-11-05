@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ef94f724.css",
-    "main.js": "/static/js/main.ee38ddab.js",
+    "main.js": "/static/js/main.831a482f.js",
     "static/js/845.f3b97d02.chunk.js": "/static/js/845.f3b97d02.chunk.js",
     "static/media/banner.png": "/static/media/banner.3e6a611c19932f306dad.png",
     "static/media/simulacion.png": "/static/media/simulacion.c1ba9bf71ff9f9b27c6d.png",
@@ -13,11 +13,11 @@
     "static/media/eunacom-background.jpg": "/static/media/eunacom-background.78771ac62215f54fa023.jpg",
     "index.html": "/index.html",
     "main.ef94f724.css.map": "/static/css/main.ef94f724.css.map",
-    "main.ee38ddab.js.map": "/static/js/main.ee38ddab.js.map",
+    "main.831a482f.js.map": "/static/js/main.831a482f.js.map",
     "845.f3b97d02.chunk.js.map": "/static/js/845.f3b97d02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef94f724.css",
-    "static/js/main.ee38ddab.js"
+    "static/js/main.831a482f.js"
   ]
 }

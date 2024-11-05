@@ -159,7 +159,6 @@ const Exam = () => {
           </Button>
         </Form>
 
-        <AdComponent />
 
       </Container>
     );

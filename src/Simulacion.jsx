@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Container, Row, Col, Card, Form, Image, Modal } from 'react-bootstrap';
 import Timer from './components/Timer';
-import AdComponent from './components/AdComponent';
 
 
 const Simulacion180 = () => {
@@ -241,7 +240,6 @@ const Simulacion180 = () => {
                 </Modal.Body>
               </Modal>
 
-              <AdComponent />
 
             </div>
           )}

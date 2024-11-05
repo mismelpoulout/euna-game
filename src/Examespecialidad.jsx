@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { db } from './firebase/firebaseConfig'; // Importa tu configuración de Firebase
 import { addDoc, collection } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth'; // Para obtener usuario autenticado
-import AdComponent from './components/AdComponent';
 import './style.css'; // Archivo CSS con los nuevos estilos
 
 const shuffleArray = (array) => {
@@ -219,7 +218,6 @@ const ExamenPorEspecialidad = () => {
               {/* Agregar más especialidades según sea necesario */}
             </select>
 
-            <AdComponent />
 
           </div>
 

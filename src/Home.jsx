@@ -151,8 +151,7 @@ const Home = ({ isAuthenticated }) => {
               <Button variant="primary" type="submit">Enviar comentario</Button>
             </Form>
 
-            <AdComponent />
-            
+            <AdComponent/>
             <div className="mt-5 text-black text-center">
               <h3>Comentarios</h3>
               {comments.length > 0 ? (

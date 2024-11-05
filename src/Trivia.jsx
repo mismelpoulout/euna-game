@@ -3,7 +3,6 @@ import { Button, Container, Row, Col, Card, Form, Modal } from 'react-bootstrap'
 import { addDoc, collection } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import { db } from './firebase/firebaseConfig';
-import AdComponent from './components/AdComponent';
 
 // Función IRT para calcular la probabilidad de respuesta correcta
 const calculateIRTProbability = (discrimination, difficulty, guessing, userAbility = 1) => {
@@ -159,7 +158,6 @@ const Trivia = () => {
               Comenzar Trivia
             </Button>
           </Form>
-          <AdComponent />
 
         </div>
       ) : finished ? (

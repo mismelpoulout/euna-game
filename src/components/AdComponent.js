@@ -1,31 +1,22 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 
 const AdComponent = () => {
-  const adRef = useRef(null);
-  const isAdLoaded = useRef(false);
-
   useEffect(() => {
-    // Asegurarse de que el anuncio no se cargue en localhost para evitar errores en pruebas locales
-    if (window.location.hostname !== 'localhost' && window.adsbygoogle && adRef.current && !isAdLoaded.current) {
-      try {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-        isAdLoaded.current = true; // Marcar como cargado para evitar recargas
-      } catch (e) {
-        console.error("Error al cargar el anuncio:", e);
-      }
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense error: ", e.message);
     }
-  }, []);
+  }, []); // Ejecutar solo una vez al montar el componente
 
   return (
-    <div ref={adRef} style={{ textAlign: 'center', margin: '20px 0' }}>
-      <ins className="adsbygoogle"
-           style={{ display: 'block' }} // Cambiado a un objeto para React
-           data-ad-client="ca-pub-2272121820065150"
-           data-ad-slot="4551469230"
-           data-ad-format="auto"
-           data-full-width-responsive="true">
-      </ins>
-    </div>
+    <ins
+      className="adsbygoogle"
+      style={{ display: 'block' }}
+      data-ad-client="ca-pub-2272121820065150"
+      data-ad-slot="1234567890"
+      data-ad-format="auto"
+    ></ins>
   );
 };
 
